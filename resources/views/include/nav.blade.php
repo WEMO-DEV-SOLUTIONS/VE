@@ -6,7 +6,7 @@
         <span></span>
         <span></span>
       </button>
-      <a class="navbar-brand text-brand" href="index.html">Estate<span class="color-b">Agency</span></a>
+      <a class="navbar-brand text-brand" href="index.html">Valeurs<span class="color-b">Eternelles</span></a>
       <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
         data-target="#navbarTogglerDemo01" aria-expanded="false">
         <span class="fa fa-search" aria-hidden="true"></span>
@@ -14,13 +14,13 @@
       <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" href="index.html">Acceuil</a>
+            <a class="nav-link active" href="{{'home'}}">Acceuil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">A propos de nous</a>
+            <a class="nav-link" href="{{'about'}}">A propos de nous</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="property-grid.html">Evenements</a>
+            <a class="nav-link" href="{{'events'}}">Evenements</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="blog-grid.html">Forum</a>
@@ -31,13 +31,13 @@
               Autres
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="property-single.html">Notre Selection</a>
-              <a class="dropdown-item" href="blog-single.html">Foi</a>
-              <a class="dropdown-item" href="agents-grid.html">Solidaires</a>
+              <a class="dropdown-item" href="{{'selection'}}">Notre Selection</a>
+              <a class="dropdown-item" href="{{'foi'}}">Foi</a>
+              <a class="dropdown-item" href="{{'solidarity'}}">Solidaires</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="{{'contact'}}">Contact</a>
           </li>
         </ul>
       </div>
