@@ -46,5 +46,12 @@ Route::get('/solidarity', function () {
 
 Route::get('/don', function () {
     return view('don');
-})->name('solidarity');
+})->name('don');
 
+Route::get('/subscribeToceremonie', function () {
+    return view('form.inscriptionCC');
+})->name('ceremoniSubscribe');
+
+Route::get('/createCommity', function () {
+    return view('form.creationCS');
+})->name('createCommity');

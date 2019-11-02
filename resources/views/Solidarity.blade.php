@@ -11,7 +11,7 @@
         <div class="col-md-12 col-lg-8">
           <div class="title-single-box">
             <h1 class="title-single">Devenez Parains et Marainnes de l'esperance</h1>
-            <span class="color-text-a">**</span>
+            en cliquant <strong>ici</strong><span class="color-text-a"> <strong><a href="#">Devenir parains et marainnes</a></strong> </span>
           </div>
         </div>
         
