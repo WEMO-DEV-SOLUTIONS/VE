@@ -44,3 +44,7 @@ Route::get('/solidarity', function () {
     return view('solidarity');
 })->name('solidarity');
 
+Route::get('/don', function () {
+    return view('don');
+})->name('solidarity');
+

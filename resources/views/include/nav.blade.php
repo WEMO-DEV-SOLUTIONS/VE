@@ -22,9 +22,7 @@
           <li class="nav-item">
             <a class="nav-link" href="{{'events'}}">Evenements</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="blog-grid.html">Forum</a>
-          </li>
+          
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">

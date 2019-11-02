@@ -32,33 +32,54 @@
                         <div class="quotes">
                            
 
-EZoroastre veut tout savoir : d'où vient la méchanceté, ce qui est juste, et aussi la cause des phases de la lune ou la marche des astres au firmament. C'est ainsi que Zoroastre, au cours de longues méditations, conçut une nouvelle religion, le zoroastrisme, que nous allons maintenant décrire et illustrer par des extraits de l'Avesta.
+<strong> EZoroastre veut tout savoir :</strong> <br> d'où vient la méchanceté, ce qui est juste, et
+ aussi la cause des phases de la lune ou la marche des astres au firmament. C'est ainsi que Zoroastre, 
+ au cours de longues méditations, conçut une nouvelle religion, le zoroastrisme, que nous allons 
+ maintenant décrire et illustrer par des extraits de l'Avesta. <br>
 
-Monothéisme moral et universel : " Tu es le Premier et le Dernier, O Mazda, Toi, Père de la pensée bonne, Toi, le véritable instructeur de l'Ordre et de la Droiture, le Maître des manifestations de la Vie."
+<strong>Monothéisme moral et universel :</strong> <br> " Tu es le Premier et le Dernier, O Mazda,
+ Toi, Père de la pensée bonne, Toi, le véritable instructeur de l'Ordre et de la Droiture, le Maître 
+ des manifestations de la Vie." <br>
 
-Pacifisme et Altruisme : "Je loue la bonne religion de Mazda, qui repousse les querelles et fait déposer les armes ... Il fait régner le Seigneur, celui qui secourt les pauvres."
+<strong>Pacifisme et Altruisme : </strong> <br>  "Je loue la bonne religion de Mazda, qui repousse 
+les querelles et fait déposer les armes ... Il fait régner le Seigneur, celui qui secourt les pauvres." <br>
 
-Primat de l'activité agricole : (Ahoura Mazda répondit :) "Celui qui veut du bien au juste, au parent, au confrère et au serviteur, et qui veille activement sur le bien du troupeau, celui_là prend parti pour le Bien. Il est un collaborateur de la Bonne Pensée." (...) L'homme qui réjouit la Terre, c'est celui qui sème le plus de blé, de légumes et d'arbres fruitiers, O Zaratoustra, également celui qui irrigue ou qui draine, selon les cas."
+<strong>Primat de l'activité agricole : </strong> <br> (Ahoura Mazda répondit :) "Celui qui veut du bien au
+ juste, au parent, au confrère et au serviteur, et qui veille activement sur le bien du troupeau, celui_là 
+ prend parti pour le Bien. Il est un collaborateur de la Bonne Pensée." (...) L'homme qui réjouit la Terre,
+  c'est celui qui sème le plus de blé, de légumes et d'arbres fruitiers, O Zaratoustra, également celui qui
+   irrigue ou qui draine, selon les cas." <br>
 
- <br>
 
-Abolition du sacrifice des animaux : Zoroastre demande aussi l'interdiction de la chasse pour le seul plaisir. Il préconise le végétarisme.
+ <strong>Abolition du sacrifice des animaux : </strong> <br> Zoroastre demande aussi l'interdiction de la chasse pour 
+ le seul plaisir. Il préconise le végétarisme. <br>
 
-Abolition de la magie et des idoles : Magie et rites des Mages sont illusoire une exploitation de la crédulité populaire. En outre, Mazda Ahoura ne peut être représenté par une idole, car il est le Seigneur du Ciel. Son seul symbole est le feu, que les zoroastriens entretiennent dans les sanctuaires - les pyrées.
+ <strong>Abolition de la magie et des idoles :</strong> <br> Magie et rites des Mages sont illusoire une exploitation 
+ de la crédulité populaire. En outre, Mazda Ahoura ne peut être représenté par une idole, car il est le Seigneur du Ciel.
+  Son seul symbole est le feu, que les zoroastriens entretiennent dans les sanctuaires - les pyrées. <br>
 
-Victoire finale du Bien : Dans le monde créé par Ahoura Mazda, deux énergies antagonistes sont à l'oeuvre : le Saint Esprit (Spenta Maniou) aidé des anges_gardiens, contre le Mauvais Esprit (Ara Maniou, plus connu sous le nom d'Ahriman), chef des démons hostiles aux humains. Tous les maux dérivent de cette lutte.
+ <strong>Victoire finale du Bien : </strong> <br> Dans le monde créé par Ahoura Mazda, deux énergies antagonistes
+  sont à l'oeuvre : le Saint Esprit (Spenta Maniou) aidé des anges_gardiens, contre le Mauvais Esprit (Ara Maniou, 
+  plus connu sous le nom d'Ahriman), chef des démons hostiles aux humains. Tous les maux dérivent de cette lutte. <br>
 
-Mais Zoroastre annonce une bonne nouvelle : Ahoura Mazda veut et obtiendra la victoire du Bien sur le Mal. En conséquence, chaque être humain aurait intérêt a bien choisir son camp. Le Prophète appelle donc les "mal partis" à se convertir. Écoutons-le :
+ <strong>Mais Zoroastre annonce une bonne nouvelle : </strong> <br> Ahoura Mazda veut et obtiendra la victoire 
+ du Bien sur le Mal. En conséquence, chaque être humain aurait intérêt a bien choisir son camp. Le Prophète 
+ appelle donc les "mal partis" à se convertir. Écoutons-le :
 
-" Que le pécheur s'amende. Qu'il craigne la redoutable gloire victorieuse engendrée par Mazda, gloire qui accompagnera le Sauveur _ le Sochiante - et ses compagnons, lorsqu'il fera un monde nouveau ou l'on ne connaîtra ni la viellesse ni la mort ..."
+" Que le pécheur s'amende. Qu'il craigne la redoutable gloire victorieuse engendrée par Mazda, gloire qui
+ accompagnera le Sauveur _ le Sochiante - et ses compagnons, lorsqu'il fera un monde nouveau ou l'on ne 
+ connaîtra ni la viellesse ni la mort ..."
 
 ​<br>
 
-Une véritable révolution : une vie heureuse après la mort.
+<strong>Une véritable révolution : </strong> une vie heureuse après la mort. <br>
 
-Résurrection des morts et jugement : "Alors, les morts se lèveront et l'immortalité leur sera donnée. Le monde se renouvellera à souhait. Les créatures bénies du Bien seront soustraites à la mort. Quant au Trompeur (Ahriman), il tombera et sera détruit."
+<strong>Résurrection des morts et jugement : </strong> <br> "Alors, les morts se lèveront et l'immortalité
+ leur sera donnée. Le monde se renouvellera à souhait. Les créatures bénies du Bien seront soustraites à 
+ la mort. Quant au Trompeur (Ahriman), il tombera et sera détruit." <br>
 
-Par ce sens donné à l'histoire, avec cette perspective d'une vie heureuse possible après la mort, Zoroastre lançait une véritable révolution religieuse.
+Par ce sens donné à l'histoire, avec cette perspective d'une vie heureuse possible après la mort,
+ Zoroastre lançait une véritable révolution religieuse. <br>
 
                         </div>
                         
@@ -137,14 +158,16 @@ Par ce sens donné à l'histoire, avec cette perspective d'une vie heureuse poss
                     <aside class="single_sidebar_widget ads_widget">
                        <br>
                       <h5> ARCHIVES<br></h5>
+                      <ul>
+                          <li><a href=""> De Zoroastre à Jésus ( 1ere Partie) 12/01/2019 Ciel et enfer </a> </li>
+                          <li><a href="">Pasteur Park, Yong Gyu (10/12/2018) </a> </li>
+                          <li><a href="">A propos des témoignages sur le ciel et l'enfer (18/12/2018) </a> </li>
+                      </ul>
+                              <br>
 
-                      - De Zoroastre à Jésus ( 1ere Partie) 12/01/2019
-                      
-                      Ciel et enfer
-                      - Pasteur Park, Yong Gyu (10/12/2018)
-                      - A propos des témoignages sur le ciel et l'enfer (18/12/2018)
-                      Jacques 4:6 Dieu résiste aux orgueilleux, mais il fait grâce aux humbles.
-                      Zacharie 3:3-4  Or Josué était couvert de vêtements sales, et il se tenait debout devant l'ange.L'ange, prenant la parole dit à ceux qui étaient devant lui: Ôtez- lui les vêtements sales ! Puis il dit à Josué: Vois je t'enlève ton iniquité et je te revêts d'habits de fête.
+                      <strong>Jacques 4:6</strong>  Dieu résiste aux orgueilleux, mais il fait grâce aux humbles.
+                      <br>
+                      <strong>Zacharie 3:3-4</strong>   Or Josué était couvert de vêtements sales, et il se tenait debout devant l'ange.L'ange, prenant la parole dit à ceux qui étaient devant lui: Ôtez- lui les vêtements sales ! Puis il dit à Josué: Vois je t'enlève ton iniquité et je te revêts d'habits de fête.
 
                     </aside>
                     <aside class="single_sidebar_widget post_category_widget">
@@ -160,11 +183,46 @@ Par ce sens donné à l'histoire, avec cette perspective d'une vie heureuse poss
                           
                     </aside>
                     <aside class="single-sidebar-widget newsletter_widget">
-                       
+                      <br>
+                        <h3>CIEL ET ENFER </h3> <br>
+
+    <h4>ANGELICA ZAMBRANO 1 - Equateur (AMERIQUE LATINE)</h4>
+                      <br>
+Angelica Zambrano est une jeune fille  à qui le Seigneur Jésus Christ
+ a fait visiter le ciel et l'enfer trois fois. Elle fut préparée à ces 
+ "voyages" , par des visites angéliques. Elle reçut au cours de ces expériences
+  une multitude de révélations sur les choses à venir, telles qu'annoncées dans 
+  les écritures, et des enseignements pour mieux comprendre la parole.<br> <a href="">lire plus</a>
                     </aside>
                     <aside class="single-sidebar-widget tag_cloud_widget">
-                        
+                      <br>
+                        <h3>CIEL ET ENFER</h3>
+<br>
+                  <h4>VICTORIA NAHALE - Namibie (AFRIQUE)</h4>
+<br>
+Je suis née en Namibie. J’ai donné ma vie au Seigneur 
+le 6 Février 2005. Le Seigneur Jésus Christ m’a amenée en
+ enfer deux fois. Il m’a commandée de partager mes expériences 
+ avec les gens sans rien ajouter ni retirer de ce qu’Il  m’a montré ou 
+ dit. Au moment où j'écris ce livre, fin 2006, j’ai été visitée 33 fois
+  par le Seigneur Jésus-Christ. A chaque visitation, avant de me quitter 
+  le Seigneur  m'a dit ceci: LE TEMPS PASSE TRÈS VITE.<br> <a href="">lire plus</a>
                     </aside>
+
+                    <aside class="single-sidebar-widget tag_cloud_widget">
+                      <br>
+                        <h3>CIEL ET ENFER</h3>
+                      <br>
+                        <h4>THEO NEZ - Indien ( USA)</h4>
+                        <br>
+
+                        Le témoignage de Théo Nez est le plus court des  trois textes, 
+                        mais extraordinairement riche. Il nous montre la puissance de la foi 
+                        de son épouse, qui ne cesse de prier alors qu"il est déjà mort afin qu'
+                        il soit ramené à la vie par le Seigneur. Il nous donne de mieux comprendre
+                         les écritures lorsqu'elles nous parlent du sang de l'agneau.... et bien sûr, 
+                         il nous parle du ciel et de l'enfer. <br> <a href="">lire plus</a>
+                      </aside>
                 </div>
             </div>
         </div>
