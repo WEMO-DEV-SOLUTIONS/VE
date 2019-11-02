@@ -50,7 +50,7 @@
                         <br> Message 2019</h3>
                     </div>
                   <p class="content-d color-text-a">
-                      Je suis la servante de l’Éternel Noëlle AMBATTA, appelée à participer au ministère de 
+                      Je suis la servante de l’Éternel <strong> Noëlle AMBATTA</strong>, appelée à participer au ministère de 
                       miséricorde de l’Éternel, en conduisant le peuple de Dieu à exercer la compassion de 
                       l’Éternel envers les faibles, les pauvres et les affligés. Pour l’année 2019,  et jusqu’
                       au 12 février, j’invite les personnes de bonne volonté à se joindre à moi, en apportant <br>

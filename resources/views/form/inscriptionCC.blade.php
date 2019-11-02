@@ -20,7 +20,7 @@
                     <div class="col-lg-3  col-md-3">
                         <div class="blog_info text-right">
                             
-                            
+                            @include('partials.error')
                         </div>
                     </div>
                    
