@@ -242,7 +242,8 @@ Transformer le cœur des personnes en détention, par la parole de Dieu et l’e
                             désinfectant (eau de   javel), draps, matelas.
                     </li>
                     <li>
-                            Mobiliser des médicaments et du matériel en soins  de santé suivants : <strong><a href="#meterielsSante">Consulter</a></strong> 
+                            Mobiliser des médicaments et du matériel en soins  de santé suivants : <strong>
+                                <a href="#meterielsSante" data-toggle="modal" data-target="#meterielsSante">Consulter</a></strong> 
                     </li>
                     <li>
                             Sensibiliser et mobiliser une vingtaine de professionnel(le)s des métiers suivants 
@@ -252,5 +253,239 @@ Transformer le cœur des personnes en détention, par la parole de Dieu et l’e
                 </ul>
 
                 <strong><center><a href="#EstimationModal">Voir estimations des besoins 2019</a></center> </strong> 
-          </section>
+
+                <div class="row property-grid grid">
+       
+                        <div class="col-md-4">
+                          <div class="card-box-a card-shadow">
+                            <div class="img-box-a">
+                              <img src="img/property-6.jpg" alt="" class="img-a img-fluid">
+                            </div>
+                            <div class="card-overlay">
+                              <div class="card-overlay-a-content">
+                                <div class="card-header-a">
+                                  <h2 class="card-title-a">
+                                    <a href="#">204 Mount
+                                      <br /> Olive Road Two</a>
+                                  </h2>
+                                </div>
+                                <div class="card-body-a">
+                                  <div class="price-box d-flex">
+                                    <span class="price-a">rent | $ 12.000</span>
+                                  </div>
+                                  <a href="#" class="link-a">Click here to view
+                                    <span class="ion-ios-arrow-forward"></span>
+                                  </a>
+                                </div>
+                                <div class="card-footer-a">
+                                  <ul class="card-info d-flex justify-content-around">
+                                    <li>
+                                      <h4 class="card-info-title">Area</h4>
+                                      <span>340m
+                                        <sup>2</sup>
+                                      </span>
+                                    </li>
+                                    <li>
+                                      <h4 class="card-info-title">Beds</h4>
+                                      <span>2</span>
+                                    </li>
+                                    <li>
+                                      <h4 class="card-info-title">Baths</h4>
+                                      <span>4</span>
+                                    </li>
+                                    <li>
+                                      <h4 class="card-info-title">Garages</h4>
+                                      <span>1</span>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                       
+                        <div class="col-md-4">
+                          <div class="card-box-a card-shadow">
+                            <div class="img-box-a">
+                              <img src="img/property-8.jpg" alt="" class="img-a img-fluid">
+                            </div>
+                            <div class="card-overlay">
+                              <div class="card-overlay-a-content">
+                                <div class="card-header-a">
+                                  <h2 class="card-title-a">
+                                    <a href="#">204 Mount
+                                      <br /> Olive Road Two</a>
+                                  </h2>
+                                </div>
+                                <div class="card-body-a">
+                                  <div class="price-box d-flex">
+                                    <span class="price-a">rent | $ 12.000</span>
+                                  </div>
+                                  <a href="#" class="link-a">Click here to view
+                                    <span class="ion-ios-arrow-forward"></span>
+                                  </a>
+                                </div>
+                                <div class="card-footer-a">
+                                  <ul class="card-info d-flex justify-content-around">
+                                    <li>
+                                      <h4 class="card-info-title">Area</h4>
+                                      <span>340m
+                                        <sup>2</sup>
+                                      </span>
+                                    </li>
+                                    <li>
+                                      <h4 class="card-info-title">Beds</h4>
+                                      <span>2</span>
+                                    </li>
+                                    <li>
+                                      <h4 class="card-info-title">Baths</h4>
+                                      <span>4</span>
+                                    </li>
+                                    <li>
+                                      <h4 class="card-info-title">Garages</h4>
+                                      <span>1</span>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="card-box-a card-shadow">
+                            <div class="img-box-a">
+                              <img src="img/property-10.jpg" alt="" class="img-a img-fluid">
+                            </div>
+                            <div class="card-overlay">
+                              <div class="card-overlay-a-content">
+                                <div class="card-header-a">
+                                  <h2 class="card-title-a">
+                                    <a href="#">204 Mount
+                                      <br /> Olive Road Two</a>
+                                  </h2>
+                                </div>
+                                <div class="card-body-a">
+                                  <div class="price-box d-flex">
+                                    <span class="price-a">rent | $ 12.000</span>
+                                  </div>
+                                  <a href="#" class="link-a">Click here to view
+                                    <span class="ion-ios-arrow-forward"></span>
+                                  </a>
+                                </div>
+                                <div class="card-footer-a">
+                                  <ul class="card-info d-flex justify-content-around">
+                                    <li>
+                                      <h4 class="card-info-title">Area</h4>
+                                      <span>340m
+                                        <sup>2</sup>
+                                      </span>
+                                    </li>
+                                    <li>
+                                      <h4 class="card-info-title">Beds</h4>
+                                      <span>2</span>
+                                    </li>
+                                    <li>
+                                      <h4 class="card-info-title">Baths</h4>
+                                      <span>4</span>
+                                    </li>
+                                    <li>
+                                      <h4 class="card-info-title">Garages</h4>
+                                      <span>1</span>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                <div class="modal fade" id="meterielsSante" tabindex="-1" role="dialog" aria-labelledby="meterielsSante" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="meterielsSante">Liste necessaire</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                                    <h5> Source : infirmerie de la Prison centrale de Yaoundé</h5>
+
+                                   <li>Alcool éthylique 95° , bidon de 1l </li> 
+                                
+                                   <li>Aluminium hydroxyde 500 mg comp</li> 
+                                
+                                    <li>Amoxicilline 500 mg sous blister, gélule</li> 
+                                
+                                    <li>Ampicilline PPI  1g vial</li> 
+                                
+                                    <li>Anti hémorroïdaire, suppositoires</li> 
+                                
+                                    <li>Artésunate + amodiaquine 100/270 mg, 6 comp</li> 
+                                
+                                    <li>Ceftriaxone disodique 1g, ampoule</li> 
+                                
+                                     <li>Chlorpheniramine  maléate 4 mg, sous blister, comp</li> 
+                                
+                                    <li>Ciprofloxacine 500 mg, comp.</li> 
+                                
+                                    <li>Cloxacilline 250 mg sous blister, gélules</li> 
+                                
+                                    <li>Cloxacilline PPI  500 mg, vial</li> 
+                                
+                                    <li>Cotrimoxazole 400 + 80 mg sous blister, comp.</li> 
+                                
+                                    <li>Dexamethasone 5 mg sous blister, comp.    </li>                               
+                                
+                                    <li>Dexamethasone phosphate sodique 4mg/ml 1 ml amp</li> 
+                                
+                                    <li>Diazepam 5 mg/ml , amp</li> 
+                                
+                                    <li>Doclofenac sodique 75 mg /3ml, ampoule</li> 
+                                
+                                    <li>Gaze hydrophile, compresse sterile, 4 plis ( 40x 40)  </li>    
+                                
+                                     <li>Glucose 5% 500 ml, perf.</li> 
+                                
+                                    <li>Ibuprofène, 400 mg, sous blister, comp.</li> 
+                                
+                                    <li>Lidocaïne 2%, 50 ml  1g/ 50 ml,vial</li> 
+                                
+                                     <li>Lopéramide chlorhydrate, 2mg, comp.</li> 
+                                
+                                    <li>Mébendazole 100 mg sous blister comp.</li> 
+                                
+                                    <li>Métronidazole 250 mg, sous blister, comp.</li> 
+                                
+                                    <li>Metronidazole 5 mg /ml flacon</li> 
+                                
+                                    <li>Miconazole nitrate crème 2%  30g tube</li> 
+                                 <li> Néomycine +  bacitracine 0,5% + 500 UI   15 g tube</li> 
+                                
+                                   <li> Sodium chlorure 0,9%  500 ml , perf.</li> 
+                                
+                                   <li> Sparadrap à l’oxyde de zinc, microperf. Non stérile 18cm x5m rouleau</li> 
+                                
+                                   <li> Multivitamines, sous blister, comp.</li> 
+                                
+                                  <li>  Complexe vitaminique B1, B6, B12, 10mg, injection</li> 
+                                
+                                   <li> Ascabiol</li> 
+                                
+                                   <li> Bistouri</li> 
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+
+
+               
       @endsection
