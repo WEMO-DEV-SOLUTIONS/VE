@@ -47,6 +47,11 @@
   color: #fff;
 }
 
+strong
+{
+  color:#491f05;
+}
+
 #call-to-action .cta-btn:hover {
   background: #1dc8cd;
   border: 2px solid #1dc8cd;
