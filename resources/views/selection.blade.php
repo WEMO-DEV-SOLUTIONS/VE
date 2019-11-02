@@ -1,363 +1,174 @@
+@extends('layout/appLayout')
 
-  @extends('layout/appLayout')
+@section('content')
 
-  @section('content')
-  
+
   <div class="click-closed"></div>
   <!--/ Form Search Star /-->
-  <div class="box-collapse">
-    <div class="title-box-d">
-      <h3 class="title-d">Search Property</h3>
-    </div>
-    <span class="close-box-collapse right-boxed ion-ios-close"></span>
-    <div class="box-collapse-wrap form">
-      <form class="form-a">
+  <br>
+  <br>
+  <br>
+  <br>  
+  <br>  
+  <br>
+  <section class="blog_area single-post-area section_gap">
+    <div class="container">
         <div class="row">
-          <div class="col-md-12 mb-2">
-            <div class="form-group">
-              <label for="Type">Keyword</label>
-              <input type="text" class="form-control form-control-lg form-control-a" placeholder="Keyword">
-            </div>
-          </div>
-          <div class="col-md-6 mb-2">
-            <div class="form-group">
-              <label for="Type">Type</label>
-              <select class="form-control form-control-lg form-control-a" id="Type">
-                <option>All Type</option>
-                <option>For Rent</option>
-                <option>For Sale</option>
-                <option>Open House</option>
-              </select>
-            </div>
-          </div>
-          <div class="col-md-6 mb-2">
-            <div class="form-group">
-              <label for="city">City</label>
-              <select class="form-control form-control-lg form-control-a" id="city">
-                <option>All City</option>
-                <option>Alabama</option>
-                <option>Arizona</option>
-                <option>California</option>
-                <option>Colorado</option>
-              </select>
-            </div>
-          </div>
-          <div class="col-md-6 mb-2">
-            <div class="form-group">
-              <label for="bedrooms">Bedrooms</label>
-              <select class="form-control form-control-lg form-control-a" id="bedrooms">
-                <option>Any</option>
-                <option>01</option>
-                <option>02</option>
-                <option>03</option>
-              </select>
-            </div>
-          </div>
-          <div class="col-md-6 mb-2">
-            <div class="form-group">
-              <label for="garages">Garages</label>
-              <select class="form-control form-control-lg form-control-a" id="garages">
-                <option>Any</option>
-                <option>01</option>
-                <option>02</option>
-                <option>03</option>
-                <option>04</option>
-              </select>
-            </div>
-          </div>
-          <div class="col-md-6 mb-2">
-            <div class="form-group">
-              <label for="bathrooms">Bathrooms</label>
-              <select class="form-control form-control-lg form-control-a" id="bathrooms">
-                <option>Any</option>
-                <option>01</option>
-                <option>02</option>
-                <option>03</option>
-              </select>
-            </div>
-          </div>
-          <div class="col-md-6 mb-2">
-            <div class="form-group">
-              <label for="price">Min Price</label>
-              <select class="form-control form-control-lg form-control-a" id="price">
-                <option>Unlimite</option>
-                <option>$50,000</option>
-                <option>$100,000</option>
-                <option>$150,000</option>
-                <option>$200,000</option>
-              </select>
-            </div>
-          </div>
-          <div class="col-md-12">
-            <button type="submit" class="btn btn-b">Search Property</button>
-          </div>
-        </div>
-      </form>
-    </div>
-  </div>
-  <!--/ Form Search End /-->
+            <div class="col-lg-8 posts-list">
+                <div class="single-post row">
+                    <div class="col-lg-12">
+                        <div class="feature-img">
+                            <img class="img-fluid" src="img/about-2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-md-3">
+                        <div class="blog_info text-right">
+                            
+                            
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-12">
+                        <div class="quotes">
+                           
 
-  <!--/ Nav Star /-->
-  <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
-    <div class="container">
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
-        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <a class="navbar-brand text-brand" href="index.html">Estate<span class="color-b">Agency</span></a>
-      <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
-        data-target="#navbarTogglerDemo01" aria-expanded="false">
-        <span class="fa fa-search" aria-hidden="true"></span>
-      </button>
-      <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="property-grid.html">Property</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="blog-grid.html">Blog</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Pages
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="property-single.html">Property Single</a>
-              <a class="dropdown-item active" href="blog-single.html">Blog Single</a>
-              <a class="dropdown-item" href="agents-grid.html">Agents Grid</a>
-              <a class="dropdown-item" href="agent-single.html">Agent Single</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <button type="button" class="btn btn-b-n navbar-toggle-box-collapse d-none d-md-block" data-toggle="collapse"
-        data-target="#navbarTogglerDemo01" aria-expanded="false">
-        <span class="fa fa-search" aria-hidden="true"></span>
-      </button>
-    </div>
-  </nav>
-  <!--/ Nav End /-->
+EZoroastre veut tout savoir : d'où vient la méchanceté, ce qui est juste, et aussi la cause des phases de la lune ou la marche des astres au firmament. C'est ainsi que Zoroastre, au cours de longues méditations, conçut une nouvelle religion, le zoroastrisme, que nous allons maintenant décrire et illustrer par des extraits de l'Avesta.
 
-  <!--/ Intro Single star /-->
-  <section class="intro-single">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-lg-8">
-          <div class="title-single-box">
-            <h1 class="title-single">Book Cover Deisgn</h1>
-            <span class="color-text-a">News Single.</span>
-          </div>
-        </div>
-        <div class="col-md-12 col-lg-4">
-          <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item">
-                <a href="#">Home</a>
-              </li>
-              <li class="breadcrumb-item active" aria-current="page">
-                Book Cover Deisgn
-              </li>
-            </ol>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--/ Intro Single End /-->
+Monothéisme moral et universel : " Tu es le Premier et le Dernier, O Mazda, Toi, Père de la pensée bonne, Toi, le véritable instructeur de l'Ordre et de la Droiture, le Maître des manifestations de la Vie."
 
-  <!--/ News Single Star /-->
-  <section class="news-single nav-arrow-b">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="news-img-box">
-            <img src="img/slide-3.jpg" alt="" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-          <div class="post-information">
-            <ul class="list-inline text-center color-a">
-              <li class="list-inline-item mr-2">
-                <strong>Author: </strong>
-                <span class="color-text-a">Morgan Jimenez</span>
-              </li>
-              <li class="list-inline-item mr-2">
-                <strong>Category: </strong>
-                <span class="color-text-a">Travel</span>
-              </li>
-              <li class="list-inline-item">
-                <strong>Date: </strong>
-                <span class="color-text-a">19 Apr. 2017</span>
-              </li>
-            </ul>
-          </div>
-          <div class="post-content color-text-a">
-            <p class="post-intro">
-              Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur
-              <strong>adipiscing</strong> elit. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
-              Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
-            </p>
-            <p>
-              Proin eget tortor risus. Donec sollicitudin molestie malesuada. Cras ultricies ligula sed magna dictum
-              porta. Pellentesque
-              in ipsum id orci porta dapibus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
-              dui. Lorem ipsum dolor sit amet.
-            </p>
-            <p>
-              Pellentesque in ipsum id orci porta dapibus. Curabitur non nulla sit amet nisl tempus convallis quis ac
-              lectus. Curabitur
-              non nulla sit amet nisl tempus convallis quis ac lectus. Proin eget tortor risus. Curabitur non
-              nulla sit amet nisl tempus convallis quis ac lectus. Donec rutrum congue leo eget malesuada.
-              Quisque velit nisi.
-            </p>
-            <blockquote class="blockquote">
-              <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-              <footer class="blockquote-footer">
-                <strong>Albert Vargas</strong>
-                <cite title="Source Title">Author</cite>
-              </footer>
-            </blockquote>
-            <p>
-              Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit
-              tortor eget felis
-              porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-            </p>
-          </div>
-          <div class="post-footer">
-            <div class="post-share">
-              <span>Share: </span>
-              <ul class="list-inline socials">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-10 offset-md-1 col-lg-10 offset-lg-1">
-          <div class="title-box-d">
-            <h3 class="title-d">Comments (4)</h3>
-          </div>
-          <div class="box-comments">
-            <ul class="list-comments">
-              <li>
-                <div class="comment-avatar">
-                  <img src="img/author-2.jpg" alt="">
-                </div>
-                <div class="comment-details">
-                  <h4 class="comment-author">Emma Stone</h4>
-                  <span>18 Sep 2017</span>
-                  <p class="comment-description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit, provident cumque
-                    ipsam temporibus maiores
-                    quae natus libero optio, at qui beatae ducimus placeat debitis voluptates amet corporis.
-                  </p>
-                  <a href="3">Reply</a>
-                </div>
-              </li>
-              <li class="comment-children">
-                <div class="comment-avatar">
-                  <img src="img/author-1.jpg" alt="">
-                </div>
-                <div class="comment-details">
-                  <h4 class="comment-author">Oliver Colmenares</h4>
-                  <span>18 Sep 2017</span>
-                  <p class="comment-description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit, provident cumque
-                    ipsam temporibus maiores
-                    quae.
-                  </p>
-                  <a href="3">Reply</a>
-                </div>
-              </li>
-              <li>
-                <div class="comment-avatar">
-                  <img src="img/author-2.jpg" alt="">
-                </div>
-                <div class="comment-details">
-                  <h4 class="comment-author">Emma Stone</h4>
-                  <span>18 Sep 2017</span>
-                  <p class="comment-description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit, provident cumque
-                    ipsam temporibus maiores
-                    quae natus libero optio.
-                  </p>
-                  <a href="3">Reply</a>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="form-comments">
-            <div class="title-box-d">
-              <h3 class="title-d"> Leave a Reply</h3>
-            </div>
-            <form class="form-a">
-              <div class="row">
-                <div class="col-md-6 mb-3">
-                  <div class="form-group">
-                    <label for="inputName">Enter name</label>
-                    <input type="text" class="form-control form-control-lg form-control-a" id="inputName" placeholder="Name *"
-                      required>
-                  </div>
-                </div>
-                <div class="col-md-6 mb-3">
-                  <div class="form-group">
-                    <label for="inputEmail1">Enter email</label>
-                    <input type="email" class="form-control form-control-lg form-control-a" id="inputEmail1"
-                      placeholder="Email *" required>
-                  </div>
-                </div>
-                <div class="col-md-12 mb-3">
-                  <div class="form-group">
-                    <label for="inputUrl">Enter website</label>
-                    <input type="url" class="form-control form-control-lg form-control-a" id="inputUrl" placeholder="Website">
-                  </div>
-                </div>
-                <div class="col-md-12 mb-3">
-                  <div class="form-group">
-                    <label for="textMessage">Enter message</label>
-                    <textarea id="textMessage" class="form-control" placeholder="Comment *" name="message" cols="45"
-                      rows="8" required></textarea>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <button type="submit" class="btn btn-a">Send Message</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+Pacifisme et Altruisme : "Je loue la bonne religion de Mazda, qui repousse les querelles et fait déposer les armes ... Il fait régner le Seigneur, celui qui secourt les pauvres."
 
+Primat de l'activité agricole : (Ahoura Mazda répondit :) "Celui qui veut du bien au juste, au parent, au confrère et au serviteur, et qui veille activement sur le bien du troupeau, celui_là prend parti pour le Bien. Il est un collaborateur de la Bonne Pensée." (...) L'homme qui réjouit la Terre, c'est celui qui sème le plus de blé, de légumes et d'arbres fruitiers, O Zaratoustra, également celui qui irrigue ou qui draine, selon les cas."
+
+ <br>
+
+Abolition du sacrifice des animaux : Zoroastre demande aussi l'interdiction de la chasse pour le seul plaisir. Il préconise le végétarisme.
+
+Abolition de la magie et des idoles : Magie et rites des Mages sont illusoire une exploitation de la crédulité populaire. En outre, Mazda Ahoura ne peut être représenté par une idole, car il est le Seigneur du Ciel. Son seul symbole est le feu, que les zoroastriens entretiennent dans les sanctuaires - les pyrées.
+
+Victoire finale du Bien : Dans le monde créé par Ahoura Mazda, deux énergies antagonistes sont à l'oeuvre : le Saint Esprit (Spenta Maniou) aidé des anges_gardiens, contre le Mauvais Esprit (Ara Maniou, plus connu sous le nom d'Ahriman), chef des démons hostiles aux humains. Tous les maux dérivent de cette lutte.
+
+Mais Zoroastre annonce une bonne nouvelle : Ahoura Mazda veut et obtiendra la victoire du Bien sur le Mal. En conséquence, chaque être humain aurait intérêt a bien choisir son camp. Le Prophète appelle donc les "mal partis" à se convertir. Écoutons-le :
+
+" Que le pécheur s'amende. Qu'il craigne la redoutable gloire victorieuse engendrée par Mazda, gloire qui accompagnera le Sauveur _ le Sochiante - et ses compagnons, lorsqu'il fera un monde nouveau ou l'on ne connaîtra ni la viellesse ni la mort ..."
+
+​<br>
+
+Une véritable révolution : une vie heureuse après la mort.
+
+Résurrection des morts et jugement : "Alors, les morts se lèveront et l'immortalité leur sera donnée. Le monde se renouvellera à souhait. Les créatures bénies du Bien seront soustraites à la mort. Quant au Trompeur (Ahriman), il tombera et sera détruit."
+
+Par ce sens donné à l'histoire, avec cette perspective d'une vie heureuse possible après la mort, Zoroastre lançait une véritable révolution religieuse.
+
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-lg-12">
+                      <div class="quotes">
+                        <br>
+
+                          <h4>A PROPOS DES TÉMOIGNAGES SUR LE CIEL ET L'ENFER</h4>
+
+                          <br>
+
+                          Une grande diversité de chrétiens, hommes, femmes, jeunes de toutes les races et de tous les continents, ont témoigné sur leurs expériences du ciel et de l’enfer.
+
+   Certains ont dû y arriver en passant par l’expérience de la mort quelques heures. D’autres ont été directement enlevés et transportés dans ces plans  par une expérience extra corporelle ou en vision (comme l’apôtre Paul, dans 2 Corinthiens  12 :2 ou Jean dans l’Apocalypse). La bible ne dit t-elle pas que Dieu parle cependant, tantôt d’une manière tantôt d’une autre ? Job 33 : 14- 15.
+
+   Il apparaît de manière générale sur la description qui en est faite :
+
+   Que celui qui fait cette expérience, quitte son corps physique qu’il peut apercevoir et il sait qu’il est vivant, tout comme ceux qu’il aura rencontré en enfer sont vivants dans leurs âmes, et subissent douloureusement l’horreur éternelle (sans fin) du châtiment du péché, quoique dépourvus de chair Luc 16:19-31.
+
+   Ceux qui vont en enfer y vont sans exception de situation ou de condition, parce que ayant péchés, ils n’ont pas cru à l’existence de l’enfer, ou plus généralement, ils n’ont pas voulu se repentir pour ces péchés.
+
+   Certains ont expérimenté personnellement dans leur âme pendant ce séjour, le drame éternel (sans fin) de la destruction de l’âme du pêcheur, par la volonté de Jésus Christ qui les y a conduit librement et les en a fait sortir librement, afin que leur témoignage soit leur vécu.
+
+   Leur expérience avec Jésus atteste la parole des saintes écritures dans Phillipiens 2: 9-10, "Dieu l'a souverainement élevé et lui a donné le nom qui est au dessus de tout nom, afin qu'au nom de Jésus, tout genou fléchisse dans les cieux, sur la terre et sous la terre".
+
+   L’enfer est situé au centre de la terre et il existe des tunnels (spirituels), qui affleurent à la surface de la terre, par lesquels les démons vont et viennent pour perdre les humains, et  par lesquels ils retournent pour persécuter ceux qui ont été perdus et condamnés à la damnation éternelle.
+
+   Ceux qui vont visiter l'enfer peuvent témoigner facilement, car  chacun pour l'essentiel vit l'expérience à travers des  proches ou des figures sociales qu'il connaissait et qui s'y trouvent.
+                        <br>
+                        
+                        <br>
+    Le Seigneur Jésus Christ révèle à l’une de ces personnes, qu’au commencement l’enfer n’a pas été conçu pour les humains, mais bien pour le diable et ses démons. Le paradis en ce temps-là se trouvait également sur la terre. En dehors de la bible, beaucoup d’autres écrits apocryphes tels que le livre d’Enoch en parlent,qui s’attardent sur d’autres détails, qui sont mal compris par des chrétiens qui ne sont pas enseignés, ou qui n’interrogent pas le Saint Esprit par des prières et le jeûne.
+
+   Le Seigneur Jésus Christ révèle aussi que nous sommes entrés dans l’apocalypse à deux « visiteurs «  appartenant à deux continents différents et en des époques différentes. L’humanité n’étant pas prête pour le jugement  au temps prévu, et le nombre de personnes allant en enfer s'étant multiplié, l’Éternel dans sa grande bonté a reculé l’heure de la fin et augmenté le nombre de personnes  sur la terre, auxquelles l’enfer et le ciel sont révélés.
+
+   Malheureusement , et malgré cela « le temps passe très vite », ainsi que Jésus Christ l’a dit à une namibienne. Nous sommes déjà arrivés à l’heure du « 666 »,  nombre dont la bible dit qu’il est le signe sur celui qui le portera, de l’appartenance au diable, et représente l'un des événements annonçant la fin des temps. Il est écrit, qu’outre le blasphème contre le nom de Dieu, ce péché-là ne sera pas effacé par le sang de l’agneau. Que ceux qui ont des oreilles pour entendre, entendent !
+
+   Le ciel n’est pas situé sur la terre et constitue une réalité, qui a donnée à tous ceux qui l’ont expérimentée le désir d’y rester définitivement (au contraire de l’enfer, dont chacun voulait s’enfuir).
+
+   Nul ne va au ciel avec des vêtements du péché, même s'il a fait de bonnes œuvres (le pêcheur apparaît toujours vêtu de vêtements sales). Zacharie 3: 3-4 Les bonnes œuvres ne sont prises en compte que si auparavant, le pêcheur s’est repenti et a abandonné le péché, pour obéir à Dieu.
+
+    Ceux qui entrent au ciel sont revêtus de vêtements blancs.
+                        </div>
+                      </div>
+
+
+                </div>
+                
+               
+                
+            </div>
+            <div class="col-lg-4">
+                <div class="blog_right_sidebar">
+                    <aside class="single_sidebar_widget search_widget">
+                        
+                        <div class="br"></div>
+                    </aside>
+                    <aside class="single_sidebar_widget author_widget">
+                        <img class="author_img rounded-circle" src="img/blog/author.png" alt="">
+                        <h4>RP.  Noëlle AMBATTA</h4>
+                        <p>Auteur</p>
+                        <div class="br"></div>
+                    </aside>
+                    <aside class="single_sidebar_widget popular_post_widget">
+                      <h4>ENRICHIR SA CONNAISSANCE
+                        DE LA PAROLE DE DIEU</h4> <br>
+                    
+   La religion chrétienne n'est pas homogène. Elle a subi et continue à subir une grande variété d'influences ,
+   qui façonnent son identité. Nous vous présenterons ici quelques unes de celles ci. Le but poursuivi, est d
+   'enrichir les connaissances des vrais croyants et de fortifier leur foi ,afin  de les  éloigner des intégrismes 
+   de toute nature.
+                    </aside>
+                    
+                    <aside class="single_sidebar_widget ads_widget">
+                       <br>
+                      <h5> ARCHIVES<br></h5>
+
+                      - De Zoroastre à Jésus ( 1ere Partie) 12/01/2019
+                      
+                      Ciel et enfer
+                      - Pasteur Park, Yong Gyu (10/12/2018)
+                      - A propos des témoignages sur le ciel et l'enfer (18/12/2018)
+                      Jacques 4:6 Dieu résiste aux orgueilleux, mais il fait grâce aux humbles.
+                      Zacharie 3:3-4  Or Josué était couvert de vêtements sales, et il se tenait debout devant l'ange.L'ange, prenant la parole dit à ceux qui étaient devant lui: Ôtez- lui les vêtements sales ! Puis il dit à Josué: Vois je t'enlève ton iniquité et je te revêts d'habits de fête.
+
+                    </aside>
+                    <aside class="single_sidebar_widget post_category_widget">
+                      <br>
+                        <h4>A LIRE</h4>
+                          <ul>
+                            <li><a href="">La nouvelle naissance vient du cœur </a> </li>
+                            <li><a href="">Pas de bons fruits sans une bonne terre  </a> </li>
+                            <li> <a href=""> Les noces de cana ou l'apprentissage d'une foi féconde </a> </li>
+                            <li><a href="">Etre délivré ou vivre éternellement ? </a> </li>
+                            <li> <a href="">L'aveuglement empêche la transformation spirituelle </a> </li>
+                          </ul>  
+                          
+                    </aside>
+                    <aside class="single-sidebar-widget newsletter_widget">
+                       
+                    </aside>
+                    <aside class="single-sidebar-widget tag_cloud_widget">
+                        
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  
   @endsection
