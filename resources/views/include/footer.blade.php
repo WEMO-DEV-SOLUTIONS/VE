@@ -35,7 +35,7 @@
         <div class="col-sm-12 col-md-4 section-md-t3">
           <div class="widget-a">
             <div class="w-header-a">
-              <h3 class="w-title-a text-brand">Inscivez vous a notre newsletter</h3>
+              <h3 class="w-title-a text-brand">Inscivez vous sur notre site</h3>
             </div>
             <div class="w-body-a">
               <ul class="list-unstyled">
@@ -46,7 +46,13 @@
                         
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
-                            <input name="email" type="email" class="form-control form-control-lg form-control-a" placeholder="votre Email" data-rule="email" data-msg="Please enter a valid email">
+                            <input name="email" type="email" class="form-control form-control-lg form-control-a"
+                             placeholder="votre Email" data-rule="email" data-msg="Please enter a valid email">
+                            <div class="validation"></div>
+                          </div>
+                          <div class="form-group">
+                            <input name="phone" type="email" class="form-control form-control-lg form-control-a"
+                             placeholder="votre numero de telephone">
                             <div class="validation"></div>
                           </div>
                         </div>
@@ -71,7 +77,7 @@
           <div class="socials-a">
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https">
                   <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
               </li>
