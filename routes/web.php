@@ -52,6 +52,11 @@ Route::get('/subscribeToceremonie', function () {
     return view('form.inscriptionCC');
 })->name('ceremoniSubscribe');
 
+
+Route::get('/subscribeTocomity', function () {
+    return view('form.inscriptionCS');
+})->name('comitySubscribe');
+
 Route::get('/createCommity', function () {
     return view('form.creationCS');
 })->name('createCommity');

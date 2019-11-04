@@ -5,29 +5,29 @@
 <br>
   <div class="click-closed"></div>
   
-  
-
-  
-
-  <!--/ Services Star /-->
-  <section class="section-services section-t8">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="title-wrap d-flex justify-content-between">
-            <div class="title-box">
-              <h2 class="title-a">Bienvenue sur VALEURS ETERNELLES</h2>
+  <section id="affiche">
+      <section class="section-services section-t8">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="title-wrap d-flex justify-content-between">
+                  <div class="title-box">
+                    <h2 class="cta-title">Bienvenue sur VALEURS ETERNELLES</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cta-title" id="verse">
+              
+              Jean 8: 32 "Vous connaîtrez la vérité et <br>  la vérité vous affranchira"
+      
             </div>
           </div>
-        </div>
-      </div>
-      <div class="row" id="verse">
-        
-        <h2>Jean 8: 32 "Vous connaîtrez la vérité et <br>  la vérité vous affranchira"</h2>  
-
-      </div>
-    </div>
+        </section>
   </section>
+
+  <!--/ Services Star /-->
+  
 
 
   <!--/ Agents Star /-->

@@ -17,11 +17,13 @@
             <a class="nav-link active" href="{{'home'}}">Acceuil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{'about'}}">A propos de nous</a>
+            <a class="nav-link" href="{{'about'}}">A propos</a>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link" href="{{'events'}}">Evenements</a>
-          </li>
+              <a class="nav-link" href="{{'events'}}">Ceremonie de Consecration</a>
+            </li>
+         
           
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"

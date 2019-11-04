@@ -129,16 +129,30 @@
 
                     <div class="col-lg-12">
                       <div class="quotes">
-                        <br>
-
-                        <div class="title-2" style="margin-top:11%">
-                                <center><h1 class="title-single">Inscrivez vous dans un comité de soutien afin de mieu vous 
-                                    preparer a la ceremonie de consecration.
-                                </h1></center>  
+                        
+                        <div class="title-2" style="margin-top:5%">
+                                <center><h4 class="title-single">Afin de mieux vous preparer,Incrivez vous <br>
+                                dans un comite de soutien  </h4></center>  <br>
+                                <center>
+                                      <a href="{{route('comitySubscribe')}}">
+                                            <button   class="btn btn-primary">
+                                                    S'inscrire
+                                                </button> 
+                                      </a>  
+                                      <center><h2>OU</h2></center>
+                                </center>
+                               
+                               <center>
+                                  <h4>Creez votre comite de soutien et preparez vous <br> avec d'autres participants</h4>
+                                  <a href="{{route('createCommity')}}">
+                                        <button   class="btn btn-primary">
+                                                Creer
+                                            </button> 
+                                  </a>  
+                            </center>
                     </div>
                           <br>
 
-                         ******
                         </div>
                       </div>
 
