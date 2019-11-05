@@ -57,7 +57,7 @@
                                             ---****----
                                         </div>
                                         <br>
-                                    <button type="submit" class="btn btn-primary">S'inscrire </button>
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block">S'inscrire </button>
                                   </form>
 
                         </div>

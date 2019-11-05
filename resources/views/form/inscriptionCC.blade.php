@@ -25,13 +25,13 @@
                     </div>
                    
                     <div class="col-lg-12">
-                        <div class="quotes">
+                        <div class="quotes" >
                            
                                 <div class="title-2" style="margin-top:11%">
                                         <center><h1 class="title-single">Inscrivez vous a la ceremonie de consecration</h1></center>  
                             </div>
 
-                            <form  style="margin-top:5%">
+                            <form  style="margin-top:5%" action="">
                                     <div class="form-row">
                                       <div class="form-group col-md-6">
                                         <label for="inputEmail4">Nom</label>
@@ -120,7 +120,7 @@
                                                                 </label>
                                                               </div>
                                     </div>
-                                    <button type="submit" class="btn btn-primary">S'inscrire </button>
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block">S'inscrire </button>
                                   </form>
 
                         </div>

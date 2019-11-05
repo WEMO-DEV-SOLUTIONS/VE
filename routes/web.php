@@ -60,3 +60,8 @@ Route::get('/subscribeTocomity', function () {
 Route::get('/createCommity', function () {
     return view('form.creationCS');
 })->name('createCommity');
+
+
+/************Route Traitements formulaires*****************/
+
+Route::get('user/profile', 'UserProfileController@show')->name('profile');
