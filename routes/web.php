@@ -31,14 +31,6 @@ Route::get('/events', function () {
     return view('events');
 })->name('events');
 
-Route::get('/foi', function () {
-    return view('foi');
-})->name('foi');
-
-
-Route::get('/selection', function () {
-    return view('selection');
-})->name('selection');
 
 Route::get('/solidarity', function () {
     return view('solidarity');

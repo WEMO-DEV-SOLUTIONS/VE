@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  sam. 02 nov. 2019 à 15:29
+-- Généré le :  mer. 06 nov. 2019 à 14:36
 -- Version du serveur :  5.7.19
 -- Version de PHP :  7.2.23
 
@@ -73,6 +73,20 @@ INSERT INTO `comite_soutien` (`idComite_soutien`, `Intitulé`, `Date_creation`, 
 -- --------------------------------------------------------
 
 --
+-- Structure de la table `migrations`
+--
+
+DROP TABLE IF EXISTS `migrations`;
+CREATE TABLE IF NOT EXISTS `migrations` (
+  `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `migration` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `batch` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Structure de la table `paiement`
 --
 
@@ -97,35 +111,27 @@ INSERT INTO `paiement` (`idPaiement`, `Mode_paiement`, `Date_paiement`, `Montant
 -- --------------------------------------------------------
 
 --
--- Structure de la table `participant`
+-- Structure de la table `participants`
 --
 
-DROP TABLE IF EXISTS `participant`;
-CREATE TABLE IF NOT EXISTS `participant` (
+DROP TABLE IF EXISTS `participants`;
+CREATE TABLE IF NOT EXISTS `participants` (
   `idParticipant` int(11) NOT NULL AUTO_INCREMENT,
   `Nom` varchar(45) DEFAULT NULL,
   `prenom` varchar(45) DEFAULT NULL,
-  `E-mail` varchar(45) DEFAULT NULL,
+  `email` varchar(45) DEFAULT NULL,
   `Pays` varchar(45) DEFAULT NULL,
   `Ville` varchar(45) DEFAULT NULL,
-  `Numero telephone` int(9) DEFAULT NULL,
+  `telephone` int(9) DEFAULT NULL,
   `Profession` varchar(100) DEFAULT NULL,
-  `Categorie` enum('Famille','Jeunes','Leader','Serviteur de Dieu','Femmes') DEFAULT NULL,
-  `Date d'enregistrement` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  `Comite_soutien_idComite_soutien` int(11) NOT NULL,
+  `Categorie` varchar(45) DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `Comite_soutien_idComite_soutien` int(11) NOT NULL DEFAULT '1',
   PRIMARY KEY (`idParticipant`,`Comite_soutien_idComite_soutien`),
   UNIQUE KEY `idParticipant_UNIQUE` (`idParticipant`),
   KEY `fk_Participant_Comite_soutien_idx` (`Comite_soutien_idComite_soutien`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
-
---
--- Déchargement des données de la table `participant`
---
-
-INSERT INTO `participant` (`idParticipant`, `Nom`, `prenom`, `E-mail`, `Pays`, `Ville`, `Numero telephone`, `Profession`, `Categorie`, `Date d'enregistrement`, `Comite_soutien_idComite_soutien`) VALUES
-(5, 'Ekangoh', 'steve', 'cheikhaziz67@gmail.com', 'Cameroun', 'Younde', 695383980, 'Etudiant', 'Jeunes', '2019-10-30 21:57:22', 1),
-(6, 'Endamane', 'stevy', 'stevy@gmail.com', 'Cameroun', 'yaounde', 698568452, 'Etudiant', 'Jeunes', '2019-10-30 21:57:22', 1),
-(7, 'Mbea', 'ivan', 'navi@gmail.com', 'Cameroun', 'Yaounde', 145963258, 'Etudiant', 'Serviteur de Dieu', '2019-10-31 18:48:14', 2);
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -143,22 +149,33 @@ CREATE TABLE IF NOT EXISTS `participant_has_paiement` (
   KEY `fk_Participant_has_Paiement_Participant1_idx` (`Participant_idParticipant`,`Participant_Comite_soutien_idComite_soutien`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+-- --------------------------------------------------------
+
 --
--- Déchargement des données de la table `participant_has_paiement`
+-- Structure de la table `users`
 --
 
-INSERT INTO `participant_has_paiement` (`Participant_idParticipant`, `Participant_Comite_soutien_idComite_soutien`, `Paiement_idPaiement`) VALUES
-(6, 1, 1),
-(7, 2, 2);
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email_verified_at` timestamp NULL DEFAULT NULL,
+  `password` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `remember_token` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Contraintes pour les tables déchargées
 --
 
 --
--- Contraintes pour la table `participant`
+-- Contraintes pour la table `participants`
 --
-ALTER TABLE `participant`
+ALTER TABLE `participants`
   ADD CONSTRAINT `fk_Participant_Comite_soutien` FOREIGN KEY (`Comite_soutien_idComite_soutien`) REFERENCES `comite_soutien` (`idComite_soutien`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
@@ -166,7 +183,7 @@ ALTER TABLE `participant`
 --
 ALTER TABLE `participant_has_paiement`
   ADD CONSTRAINT `fk_Participant_has_Paiement_Paiement1` FOREIGN KEY (`Paiement_idPaiement`) REFERENCES `paiement` (`idPaiement`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `fk_Participant_has_Paiement_Participant1` FOREIGN KEY (`Participant_idParticipant`,`Participant_Comite_soutien_idComite_soutien`) REFERENCES `participant` (`idParticipant`, `Comite_soutien_idComite_soutien`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+  ADD CONSTRAINT `fk_Participant_has_Paiement_Participant1` FOREIGN KEY (`Participant_idParticipant`,`Participant_Comite_soutien_idComite_soutien`) REFERENCES `participants` (`idParticipant`, `Comite_soutien_idComite_soutien`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

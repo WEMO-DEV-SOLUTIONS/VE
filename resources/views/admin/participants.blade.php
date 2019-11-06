@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layout/adminLayout')
 
-<?php  require ('include/head.php');  ?>
-
-<body>
+@section('content')
 	<!-- begin #page-loader -->
 	<div id="page-loader" class="fade show"><span class="spinner"></span></div>
 	<!-- end #page-loader -->
@@ -11,10 +8,6 @@
 	<!-- begin #page-container -->
 	<div id="page-container" class="fade in page-sidebar-fixed page-header-fixed">
 
-    <?php  require ('include/header.php');  ?>
-		
-    <?php  require ('include/nav.php');  ?>
-		
 		<!-- begin #content -->
 		<div id="content" class="content">
 			<!-- begin breadcrumb -->
@@ -129,46 +122,7 @@
 		
 	</div>
 	<!-- end page container -->
-
-	<!-- ================== BEGIN BASE JS ================== -->
-	<script src="assets/js/app.min.js"></script>
-	<script src="assets/js/theme/default.min.js"></script>
-	<!-- ================== END BASE JS ================== -->
+->
 	
-	<!-- ================== BEGIN PAGE LEVEL JS ================== -->
-	<script src="assets/plugins/datatables.net/js/jquery.dataTables.min.js"></script>
-	<script src="assets/plugins/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
-	<script src="assets/plugins/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
-	<script src="assets/plugins/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
-	<script src="assets/plugins/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
-	<script src="assets/plugins/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js"></script>
-	<script src="assets/plugins/datatables.net-buttons/js/buttons.colVis.min.js"></script>
-	<script src="assets/plugins/datatables.net-buttons/js/buttons.flash.min.js"></script>
-	<script src="assets/plugins/datatables.net-buttons/js/buttons.html5.min.js"></script>
-	<script src="assets/plugins/datatables.net-buttons/js/buttons.print.min.js"></script>
-	<script src="assets/plugins/pdfmake/build/pdfmake.min.js"></script>
-	<script src="assets/plugins/pdfmake/build/vfs_fonts.js"></script>
-	<script src="assets/plugins/jszip/dist/jszip.min.js"></script>
-	<script src="assets/js/demo/table-manage-buttons.demo.js"></script>
-	<!-- ================== END PAGE LEVEL JS ================== -->
+	
 
-	<!-- ================== BEGIN PAGE LEVEL JS ================== -->
-	<script src="assets/plugins/gritter/js/jquery.gritter.js"></script>
-	<script src="assets/plugins/sweetalert/dist/sweetalert.min.js"></script>
-	<script src="assets/js/demo/ui-modal-notification.demo.js"></script>
-	<!-- ================== END PAGE LEVEL JS ================== -->
-
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','../../../../www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-53034621-1', 'auto');
-	  ga('send', 'pageview');
-
-	</script>
-</body>
-
-<!-- Mirrored from seantheme.com/color-admin/admin/html/table_manage_buttons.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Oct 2019 15:08:17 GMT -->
-</html>
