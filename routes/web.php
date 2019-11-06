@@ -73,3 +73,8 @@ Route::get('/connexion', function () {
 Route::get('/dashboard', function () {
     return view('admin.dashboard');
 })->name('dashboard');
+
+
+Route::get('/participants', function () {
+    return view('admin.participants');
+})->name('participants');

@@ -8,13 +8,7 @@
             </div>
             <div class="w-body-a">
               <p class="w-text-a color-text-a">
-                Dans un monde de plus en plus tourmenté, Valeurs Éternelles  est un espace dédié à l’urgence  
-                de revitaliser nos valeurs de foi, de solidarité humaine, d’engagement, 
-                et de toutes ces références qui ne passeront pas sous l’effet des modes.
-                <br>
-                Il vivra aussi longtemps que vous saurez en apprécier le contenu,  le développer à nos côtés, 
-                pour vous- mêmes et pour « l’humanité », autour des orientations que nous proposons.
-
+                D
               </p>
             </div>
             <div class="w-footer-a">

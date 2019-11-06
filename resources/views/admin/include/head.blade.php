@@ -12,11 +12,11 @@
 	<!-- ================== END BASE CSS STYLE ================== -->
 	
 	<!-- ================== BEGIN PAGE LEVEL CSS STYLE ================== -->
-	<link href="plugins2/jvectormap-next/jquery-jvectormap.css" rel="stylesheet" />
-	<link href="plugins2/font-awesome/css/all.min.css" rel="stylesheet" />
-	<link href="plugins2/bootstrap-calendar/css/bootstrap_calendar.css" rel="stylesheet" />
-	<link href="plugins2/gritter/css/jquery.gritter.css" rel="stylesheet" />
-	<link href="plugins2/nvd3/build/nv.d3.css" rel="stylesheet" />
+	<link href="assets/plugins/jvectormap-next/jquery-jvectormap.css" rel="stylesheet" />
+	<link href="assets/plugins/font-awesome/css/all.min.css" rel="stylesheet" />
+	<link href="assets/plugins/bootstrap-calendar/css/bootstrap_calendar.css" rel="stylesheet" />
+	<link href="assets/plugins/gritter/css/jquery.gritter.css" rel="stylesheet" />
+	<link href="assets/plugins/nvd3/build/nv.d3.css" rel="stylesheet" />
 	<!-- ================== END PAGE LEVEL CSS STYLE ================== -->
 	
 	<!-- ================== BEGIN PAGE LEVEL STYLE ================== -->
@@ -26,23 +26,28 @@
 	<!-- ================== END PAGE LEVEL STYLE ================== -->
 
 	<!-- ================== BEGIN PAGE LEVEL STYLE ================== -->
-	<link href="plugins2/smartwizard/dist/css/smart_wizard.css" rel="stylesheet" />
+	<link href="assets/plugins/smartwizard/dist/css/smart_wizard.css" rel="stylesheet" />
 	<!-- ================== END PAGE LEVEL STYLE ================== -->
 	
 	<!-- ================== BEGIN PAGE LEVEL CSS STYLE ================== -->
-	<link href="plugins2/superbox/superbox.min.css" rel="stylesheet" />
-	<link href="plugins2/lity/dist/lity.min.css" rel="stylesheet" />
+	<link href="assets/plugins/superbox/superbox.min.css" rel="stylesheet" />
+	<link href="assets/plugins/lity/dist/lity.min.css" rel="stylesheet" />
 	<!-- ================== END PAGE LEVEL CSS STYLE ================== -->
 
 	<!-- ================== BEGIN PAGE LEVEL CSS STYLE ================== -->
-	<link href="plugins2/superbox/superbox.min.css" rel="stylesheet" />
+	<link href="assets/plugins/superbox/superbox.min.css" rel="stylesheet" />
 	<!-- ================== END PAGE LEVEL CSS STYLE ================== -->
 
 	<!-- ================== BEGIN PAGE LEVEL CSS STYLE ================== -->
-	<link href="css2/default/invoice-print.min.css" rel="stylesheet" />
+	<link href="assets/css/default/invoice-print.min.css" rel="stylesheet" />
 	<!-- ================== END PAGE LEVEL CSS STYLE ================== -->
 
 
+
+	<script src="js/app.min.js"></script>
+	<script src="js/theme/default.min.js"></script>
+	<!-- ================== END BASE JS ================== -->
+	
 	<!-- ================== BEGIN PAGE LEVEL JS ================== -->
 	<script src="assets/js/demo/login-v2.demo.js"></script>
 	<!-- ================== END PAGE LEVEL JS ================== -->
@@ -61,39 +66,39 @@
 
 
 
-<script src="plugins2/d3/d3.min.js"></script>
-<script src="plugins2/nvd3/build/nv.d3.min.js"></script>
-<script src="plugins2/jvectormap-next/jquery-jvectormap.min.js"></script>
-<script src="plugins2/jvectormap-next/jquery-jvectormap-world-mill.js"></script>
-<script src="plugins2/bootstrap-calendar/js/bootstrap_calendar.min.js"></script>
-<script src="plugins2/gritter/js/jquery.gritter.js"></script>
-<script src="js/demo/dashboard-v2.js"></script>
-
-
-
-
-<!-- ================== BEGIN PAGE LEVEL JS ================== -->
-<script src="plugins2/datatables.net/js/jquery.dataTables.min.js"></script>
-<script src="plugins2/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
-<script src="plugins2/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
-<script src="plugins2/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
-<script src="plugins2/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
-<script src="plugins2/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js"></script>
-<script src="plugins2/datatables.net-buttons/js/buttons.colVis.min.js"></script>
-<script src="plugins2/datatables.net-buttons/js/buttons.flash.min.js"></script>
-<script src="plugins2/datatables.net-buttons/js/buttons.html5.min.js"></script>
-<script src="plugins2/datatables.net-buttons/js/buttons.print.min.js"></script>
-<script src="plugins2/pdfmake/build/pdfmake.min.js"></script>
-<script src="plugins2/pdfmake/build/vfs_fonts.js"></script>
-<script src="plugins2/jszip/dist/jszip.min.js"></script>
-<script src="js/demo/table-manage-buttons.demo.js"></script>
-<!-- ================== END PAGE LEVEL JS ================== -->
-
-<!-- ================== BEGIN PAGE LEVEL JS ================== -->
+<script src="assets/plugins/d3/d3.min.js"></script>
+<script src="assets/plugins/nvd3/build/nv.d3.min.js"></script>
+<script src="assets/plugins/jvectormap-next/jquery-jvectormap.min.js"></script>
+<script src="assets/plugins/jvectormap-next/jquery-jvectormap-world-mill.js"></script>
+<script src="assets/plugins/bootstrap-calendar/js/bootstrap_calendar.min.js"></script>
 <script src="assets/plugins/gritter/js/jquery.gritter.js"></script>
-<script src="assets/plugins/sweetalert/dist/sweetalert.min.js"></script>
-<script src="assets/js/demo/ui-modal-notification.demo.js"></script>
-<!-- ================== END PAGE LEVEL JS ================== -->
+<script src="assets/js/demo/dashboard-v2.js"></script>
+
+
+
+
+<!-- ================== BEGIN PAGE LEVEL JS ================== -->
+	<script src="plugins2/datatables.net/js/jquery.dataTables.min.js"></script>
+	<script src="plugins2/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
+	<script src="plugins2/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+	<script src="plugins2/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
+	<script src="plugins2/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+	<script src="plugins2/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js"></script>
+	<script src="plugins2/datatables.net-buttons/js/buttons.colVis.min.js"></script>
+	<script src="plugins2/datatables.net-buttons/js/buttons.flash.min.js"></script>
+	<script src="plugins2/datatables.net-buttons/js/buttons.html5.min.js"></script>
+	<script src="plugins2/datatables.net-buttons/js/buttons.print.min.js"></script>
+	<script src="plugins2/pdfmake/build/pdfmake.min.js"></script>
+	<script src="plugins2/pdfmake/build/vfs_fonts.js"></script>
+	<script src="plugins2/jszip/dist/jszip.min.js"></script>
+	<script src="js/demo/table-manage-buttons.demo.js"></script>
+	<!-- ================== END PAGE LEVEL JS ================== -->
+
+	<!-- ================== BEGIN PAGE LEVEL JS ================== -->
+	<script src="plugins2/gritter/js/jquery.gritter.js"></script>
+	<script src="plugins2/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="js/demo/ui-modal-notification.demo.js"></script>
+	<!-- ================== END PAGE LEVEL JS ================== -->
 
 
 

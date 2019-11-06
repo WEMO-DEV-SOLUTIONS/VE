@@ -28,7 +28,7 @@
 							<p>0</p>	
 						</div>
 						<div class="stats-link">
-							<a href="participants.php">Voir les Détails <i class="fa fa-arrow-alt-circle-right"></i></a>
+							<a href="{{route('participants')}}">Voir les Détails <i class="fa fa-arrow-alt-circle-right"></i></a>
 						</div>
 					</div>
 				</div>
