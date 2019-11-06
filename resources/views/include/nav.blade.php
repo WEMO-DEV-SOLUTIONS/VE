@@ -39,8 +39,10 @@
           </li>
         </ul>
       </div>
+      <a href="{{route('login')}}">
       <button type="button" class="btn btn-b-n navbar-toggle-box-collapse d-none d-md-block">
-        <span class="fa fa-user" aria-hidden="true"></span> Se connecter
+       <span class="fa fa-user" aria-hidden="true"></span> Se connecter
       </button>
+    </a>
     </div>
   </nav>

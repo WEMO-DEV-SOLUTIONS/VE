@@ -64,4 +64,20 @@ Route::get('/createCommity', function () {
 
 /************Route Traitements formulaires*****************/
 
-Route::get('user/profile', 'UserProfileController@show')->name('profile');
+Route::get('inscription', 'inscriptionController@inscription')->name('inscriptionConsecration');
+
+
+
+
+/****************** Login routes ************************************/
+
+Route::get('/connexion', function () {
+    return view('admin.login');
+})->name('login');
+
+
+
+/****************************Admin routes *******************/
+Route::get('/dashboard', function () {
+    return view('admin.dashboard');
+})->name('dashboard');

@@ -16,11 +16,13 @@
         <div class="row">
             <div class="col-lg-8 posts-list">
                 <div class="single-post row">
-                    
+
+                  @include('partials.error')
+
                     <div class="col-lg-3  col-md-3">
                         <div class="blog_info text-right">
                             
-                            @include('partials.error')
+                           
                         </div>
                     </div>
                    
@@ -31,15 +33,15 @@
                                         <center><h1 class="title-single">Inscrivez vous a la ceremonie de consecration</h1></center>  
                             </div>
 
-                            <form  style="margin-top:5%" action="">
+                            <form  style="margin-top:5%" method="GET" action="{{route('inscriptionConsecration')}}">
                                     <div class="form-row">
                                       <div class="form-group col-md-6">
                                         <label for="inputEmail4">Nom</label>
-                                        <input type="email" class="form-control" name="nom" placeholder="votre nom">
+                                        <input type="text" class="form-control" name="nom" placeholder="votre nom">
                                       </div>
                                       <div class="form-group col-md-6">
                                         <label for="inputPassword4">Prenom</label>
-                                        <input type="password" class="form-control" name="prenom" placeholder="votre prenom">
+                                        <input type="tect" class="form-control" name="prenom" placeholder="votre prenom">
                                       </div>
                                     </div>
                                     <div class="form-group">
@@ -80,45 +82,22 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="">Choisissez  une categorie </label>
-                                            <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="gridRadios" name="categorie" value=" Un Jeune" checked>
-                                                    <label class="form-check-label" for="gridRadios1">
-                                                      Jeune consacrées à l'Eternel
-                                                    </label>
-                                            </div>
-        
-                                            <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="gridRadios" name="categorie" value=" Un Serviteur de Dieu" checked>
-                                                    <label class="form-check-label" for="gridRadios1">
-                                                      Serviteurs de Dieu pour des Nations consacrées
-                                                    </label>
-                                                  </div>
-        
-                                                  <div class="form-check">
-                                                        <input class="form-check-input" type="radio" name="gridRadios" name="categorie" value=" Une Famille" checked>
-                                                        <label class="form-check-label" for="gridRadios1">
-                                                          Familles consacrées à l'Eternel
-                                                        </label>
-                                                      </div>
-        
+                                        <div class="form-group col-md-4">
+                                            <select name="categorie" class="form-control">
+                                              <option selected>Choose...</option>
+                                              <option value="Jeune consacrées à l'Eternel">Jeune consacrées à l'Eternel</option>
+                                              <option value="Serviteurs de Dieu pour des Nations consacrées"> Serviteurs de Dieu pour des Nations consacrées</option>
+                                              <option value="Familles consacrées à l'Eterne"> Familles consacrées à l'Eternel</option>
+                                              <option value="Leaders consacrés à l'Eternel<">Leaders consacrés à l'Eternel</option>
+                                              <option value="Décennie d'impact spirituel des femmes">Décennie d'impact spirituel des femmes </option>
+                                            </select>
+                                          </div>
+                                            
                                                       <div class="form-group col-md-10">
                                                             <label for="inputZip">Combien de membre de votre famille prendront part </label>
                                                             <input type="number" class="form-control" name="familyNumber">
                                                           </div>
-        
-                                                      <div class="form-check">
-                                                            <input class="form-check-input" type="radio" name="gridRadios" name="categorie" value="  Un Leader " checked>
-                                                            <label class="form-check-label" for="gridRadios1">
-                                                                Leaders consacrés à l'Eternel
-                                                            </label>
-                                                          </div>
-        
-                                                          <div class="form-check">
-                                                                <input class="form-check-input" type="radio" name="gridRadios" name="categrie" value="Une Femme" checked>
-                                                                <label class="form-check-label" for="gridRadios1">
-                                                                Décennie d'impact spirituel des femmes 
-                                                                </label>
-                                                              </div>
+                
                                     </div>
                                     <button type="submit" class="btn btn-primary btn-lg btn-block">S'inscrire </button>
                                   </form>
