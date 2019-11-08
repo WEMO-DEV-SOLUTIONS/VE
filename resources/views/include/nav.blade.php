@@ -7,20 +7,30 @@
         <span></span>
       </button>
       <a class="navbar-brand text-brand" href="{{'home'}}">Ceremonie de consecration</span></a>
-      <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
-        data-target="#navbarTogglerDemo01" aria-expanded="false">
-        <span class="fa fa-search" aria-hidden="true"></span>
-      </button>
+     
       <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" href="{{'home'}}">Acceuil</a>
+            <a class="nav-link active" href="{{'home'}}">Accueil</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{'events'}}">A propos</a>
           </li>
 
-         
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                La ceremonie
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="{{'funds'}}">Soutien financier</a>
+                <a class="dropdown-item" href="{{'subscribeToceremonie'}}">Inscription a la ceremonie</a>
+                <a class="dropdown-item" href="{{'createCommity'}}">comites de soutiens</a>
+                <a class="dropdown-item" href="{{'subscribeTocomity'}}">Inscription dans un comite de soutien</a>
+              </div>
+            </li>
+
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -31,15 +41,17 @@
               <a class="dropdown-item" href="{{'don'}}">Faire un don</a>
             </div>
           </li>
+
+        
           <li class="nav-item">
             <a class="nav-link" href="{{'contact'}}">Contact</a>
           </li>
         </ul>
       </div>
-      <a href="{{route('login')}}">
-      <button type="button" class="btn btn-b-n navbar-toggle-box-collapse d-none d-md-block">
-       <span class="fa fa-user" aria-hidden="true"></span> Se connecter
-      </button>
-    </a>
     </div>
+    <a href="{{route('login')}}">
+        <button type="button" class="pull-right btn btn-outline-dark">
+         <span class="fa fa-user" aria-hidden="true"></span> Se connecter
+        </button>
+      </a>
   </nav>

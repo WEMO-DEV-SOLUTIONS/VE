@@ -12,7 +12,8 @@
               <div class="col-md-12">
                 <div class="title-wrap d-flex justify-content-between">
                   <div class="title-box">
-                    <h2 class="cta-title">Bienvenue sur VALEURS ETERNELLES</h2>
+                    <h2 class="cta-title">Ceremonie de conecration des nations a l'eternelles <br>
+                    cameroun 2019</h2>
                   </div>
                 </div>
               </div>
@@ -44,14 +45,14 @@
         <div class="col-md-4">
           <div class="card-box-b card-shadow news-box">
             <div class="img-box-b">
-              <img src="img/post-3.jpg" alt="" class="img-b img-fluid">
+              <img src="img/books.jpeg" alt="" class="img-b img-fluid">
             </div>
             <div class="card-overlay">
               <div class="card-header-b">
                
                 <div class="card-title-b">
                   <h2 class="title-2">
-                    <a href="blog-single.html">LA PARABOLE DES 10 LÉPREUX
+                    <a href="#">LA PARABOLE DES 10 LÉPREUX
                         ET LES CHRÉTIENS D’AUJOURD’HUI
                       <br> </a>
                   </h2>
@@ -74,14 +75,14 @@
         <div class="col-md-4">
             <div class="card-box-b card-shadow news-box">
               <div class="img-box-b">
-                <img src="img/post-3.jpg" alt="" class="img-b img-fluid">
+                <img src="img/home2.jpg" alt="" class="img-b img-fluid">
               </div>
               <div class="card-overlay">
                 <div class="card-header-b">
                  
                   <div class="card-title-b">
                     <h2 class="title-2">
-                      <a href="blog-single.html">L'AVENIR SPIRITUEL DES HANDICAPES
+                      <a href="#">L'AVENIR SPIRITUEL DES HANDICAPES
                           MENTAUX ET DES AUTISTES
                         <br> </a>
                     </h2>
@@ -98,14 +99,14 @@
           <div class="col-md-4">
               <div class="card-box-b card-shadow news-box">
                 <div class="img-box-b">
-                  <img src="img/post-3.jpg" alt="" class="img-b img-fluid">
+                  <img src="img/home3.jpg" alt="" class="img-b img-fluid">
                 </div>
                 <div class="card-overlay">
                   <div class="card-header-b">
                    
                     <div class="card-title-b">
                       <h2 class="title-2">
-                        <a href="blog-single.html">IMPLIQUEZ VOUS
+                        <a href="#">IMPLIQUEZ VOUS
                           <br> </a>
                       </h2>
                     </div>
@@ -115,8 +116,7 @@
               </div>
               <div id="description">
                   
-                  IMPLIQUEZ VOUS
-
+                 Impliquez vous
                   Ne nous lassons pas de faire le bien;  car nous moissonnerons au temps convenable, 
                   si nous ne relâchons pas. Ainsi donc, pendant que nous en avons l'occasion, pratiquons le bien 
                   envers tous(...). Galates 6:9-10
@@ -135,7 +135,7 @@
         <div class="col-md-12">
           <div class="title-wrap d-flex justify-content-between">
             <div class="title-box">
-              <h2 class="title-a"> <center>A Venir </center> <br> <a href="{{'events'}}">CEREMONIE DE CONSÉCRATION
+              <h2 class="title-a"> <center>Rejoignez nous et prennez part a la</center> <br> <a href="{{'events'}}">CEREMONIE DE CONSÉCRATION
                      DES NATIONS <center>A L’ÉTERNEL​</center></a></h2>
             </div>
           </div>

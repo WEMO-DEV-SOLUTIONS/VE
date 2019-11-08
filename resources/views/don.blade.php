@@ -8,9 +8,9 @@
  <br>
  <br>
 
-        <div class="title-box-d">
-          <h3 class="title-d"> DONNONS !!!!
-            <br> </h3>
+        <div class="title-box">
+           <center><h3 class="title-d"> DONNONS !!!!
+            <br> </h3></center> 
         </div>
         <center><strong>1 Jean 3:17</strong> Si quelqu'un possède les biens du monde et que <br>
             voyant son frère dans le besoin , il lui ferme ses entrailles, comment 

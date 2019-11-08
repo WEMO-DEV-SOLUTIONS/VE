@@ -93,10 +93,6 @@
                                             </select>
                                           </div>
                                             
-                                                      <div class="form-group col-md-10">
-                                                            <label for="inputZip">Combien de membre de votre famille prendront part </label>
-                                                            <input type="number" class="form-control" name="familyNumber">
-                                                          </div>
                 
                                     </div>
                                     <button type="submit" class="btn btn-primary btn-lg btn-block">S'inscrire </button>
@@ -183,6 +179,9 @@
                    
                 </div>
             </div>
+
+            
+
         </div>
     </div>
 </section>

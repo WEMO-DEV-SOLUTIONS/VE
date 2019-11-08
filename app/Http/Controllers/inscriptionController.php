@@ -4,6 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\model\participants;
+use App\model\comiteSoutien;
+
+
 class inscriptionController extends Controller
 {
     public function inscription(Request $request)
@@ -43,9 +47,145 @@ class inscriptionController extends Controller
     }
 
 
-    public function inscriptionComite(Request $request)
+    public function inscriptionComite(Request $request)/***** incomplet 2010502000 */
     {
+        $request->validate([
+            'email' => 'required',
+            'comite' => 'required',
+           
+        ]);
+        
+        $email = $request->input('email');
+        
+        $comite = $request->input('comite');
+        
+        $Oldparticipant = participants::where('email' , $email )->first();
+        $Comite  = comiteSoutien::where('nom_comite', $comite)->first();
 
+        $id = $Comite->idComite_soutien;
+
+        $effectif = comiteSoutien::where('nom_comite', $comite)->first()->count();
+
+        if($effectif != 25)
+        {
+            if($Oldparticipant)
+            {
+                $participant =  participants::where('email' , $email )->first();
+
+                $participant->idComite_soutien = $id;
+
+                    if($participant->save())
+                    {   
+                        return redirect()->back()->with('success',"Votre inscription
+                        au comite de soutien a ete bien enregistré.Un mail vous a ete envoyé 
+                        avec les details sur votre comite de soutien.Bien vouloir le consulter"
+                        );
+                    }
+      
+            }
+            else
+            {  
+            return redirect()->back()->with('danger',"Vous devez vous inscire a la ceremonie avant de 
+            rejoindre un comité"); 
+            }
+        }
+        else
+        {
+            return redirect()->back()->with('danger',"Oups.Desole vous ne pouvez plus rejoindre ce comite l'effectif
+            maximum est atteint"); 
+        
+        }
+
+           
+            
+           
     }
+
+
+    
+
+    public function creationCS(Request $request)
+    {
+          $request->validate([
+            'email' => 'required',
+            'nameCS' => 'required',
+            'lieu' => 'required',
+            'heure' => 'required',
+            'jour' => 'required',
+            'categorie' => 'required',
+            'debut' => 'required',
+        ]);
+
+        $email = $request->input('email');
+
+        $creator =  participants::where('email' , $email )->first();
+
+        if($creator)
+        {
+            $comiteSoutien = new \App\model\comiteSoutien;
+
+            $old = comiteSoutien::where('chef_groupe', $email)->first();
+        
+            $comiteSoutien->nom_comite = $request->input('nameCS');
+            $comiteSoutien->lieu = $request->input('lieu');
+            $comiteSoutien->heure = $request->input('heure');
+            $comiteSoutien->jour_rencontre = $request->input('jouR');
+            $comiteSoutien->categorie = $request->input('categorie');
+            $comiteSoutien->Date_debut = $request->input('debut');
+            $comiteSoutien->code_comite = "CS_$comiteSoutien->nom_comite";
+            $comiteSoutien->chef_groupe = $request->input('email');
+
+           
+
+            if(!$old)
+            {
+
+                $exist = participants::where('email' , $email )->first();
+                if($exist->idComite_soutien == 0)
+                {
+                    $comiteSoutien->save();
+                    return redirect()->back()->with('success','Votre comite de soutien
+                      a ete bien enregistré veuillez confirmer sa creation');
+                }
+                else{
+                    return redirect()->back()->with('danger','Desole vous etes deja inscrit dans un comite 
+                    par consequent vous ne pouvez plus en creer un');
+                }
+               
+            }
+               
+            else
+            {
+                return redirect()->back()->with('danger',' Desolé 
+                vous avez deja creer un comite de soutien');
+            }
+        }
+            else
+            {
+                return redirect()->back()->with('danger',' Desolé une erreur est survenue:
+                Vous devez vous inscire a la ceremonie avant de pouvoir creer un comite de soutien');
+            }
+
+          
+    }
+
+
+    public function id(Request $request)
+    {
+        $email = $request->input('email');
+        $user = participants::where('email' , $email )->first();
+        $comiteSoutien = comiteSoutien::where('chef_groupe' , $email )->first(); 
+        $user->idComite_soutien = $comiteSoutien->idComite_soutien;
+
+        if(  $user->save())
+        {
+            return redirect()->back()->with('info','Confirmation reussi');
+        }
+      
+    }
+
+
+
+
     
 }

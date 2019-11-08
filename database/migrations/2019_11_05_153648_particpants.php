@@ -25,6 +25,7 @@ class Particpants extends Migration
             $table->string('categorie');
             $table->timestamps('created_at');
             $table->timestamps('updated_at');
+            $table->int('idComite_soutien');
         });
     }
 

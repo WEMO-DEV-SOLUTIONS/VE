@@ -45,21 +45,26 @@ Route::get('/subscribeToceremonie', function () {
 })->name('ceremoniSubscribe');
 
 
-Route::get('/subscribeTocomity', function () {
-    return view('form.inscriptionCS');
-})->name('comitySubscribe');
+Route::get('subscribeTocomity', 'indexController@index')->name('comitySubscribe');
 
 Route::get('/createCommity', function () {
     return view('form.creationCS');
 })->name('createCommity');
+
+Route::get('/funds', function () {
+    return view('funds');
+})->name('soutienFinancier');
 
 
 /************Route Traitements formulaires*****************/
 
 Route::get('inscription', 'inscriptionController@inscription')->name('inscriptionConsecration');
 
+Route::get('inscriptionCS', 'inscriptionController@inscriptionComite')->name('inscriptionComite');
 
+Route::get('creationCS', 'inscriptionController@creationCS')->name('creationComite');
 
+Route::get('id', 'inscriptionController@id')->name('addId');
 
 /****************** Login routes ************************************/
 

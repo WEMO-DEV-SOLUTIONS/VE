@@ -16,11 +16,13 @@
         <div class="row">
             <div class="col-lg-6 posts-list">
                 <div class="single-post row">
-                    
+
+                        @include('partials.error')
+
                     <div class="col-lg-3  col-md-3">
                         <div class="blog_info text-right">
                             
-                            @include('partials.error')
+                           
                         </div>
                     </div>
                    
@@ -31,39 +33,76 @@
                                         <center><h1 class="title-single">Inscription a un comite de soutien</h1></center>  
                             </div>
 
-                            <form  style="margin-top:5%">
+                        <form  style="margin-top:5%" method="GET" action="{{route('inscriptionComite')}}">
                                     <div class="form-row">
                                       <div class="form-group col-md-6">
-                                        <label for="inputEmail4">Nom</label>
-                                        <input type="email" class="form-control" name="nom" placeholder="votre nom">
-                                      </div>
-                                      <div class="form-group col-md-6">
-                                        <label for="inputPassword4">Prenom</label>
-                                        <input type="password" class="form-control" name="prenom" placeholder="votre prenom">
+                                        <label for="inputPassword4"> <strong>Adresse Mail</strong> </label>
+                                        <input type="email" class="form-control" name="email" placeholder="votre adresse mail">
                                       </div>
                                     </div>
                                    
                                     <div class="form-row">
-                                            <div class="form-group col-md-4">
-                                                    <label for="inputState">Pays</label>
-                                                    <select name="pays" class="form-control">
-                                                      <option selected>Choose...</option>
-                                                      <option>...</option>
+                                            <div class="form-group col-md-8">
+                                                    <label for="inputState"> <strong>Choisissez le comite de soutien que vous voulez rejoindre</strong> </label>
+                                                    <select name="comite" class="form-control">
+                                                    
+                                                        @foreach($comites as $comite)
+                                                            <option  value="{{$comite->nom_comite}}">{{$comite->nom_comite}}</option>
+                                                        @endforeach
+                                                     
                                                     </select>
+                                                  </div>
+                                                  <br>
+                                                  <div id="infos-comite" class="col-lg-8">
+                                                       <h5>Listes et Informtions sur les comités</h5>
+                                                            <ul>
+                                                                @foreach($comites as $comite)
+                                                                <li> <strong>Nom du comite </strong> : {{$comite->nom_comite}}</li>
+                                                                <li> <strong>Type de comite</strong>  : {{$comite->categorie}}</li>
+                                                                <li> <strong>Lieu de rencontre </strong> :{{$comite->Lieu}}</li>
+                                                                <li> <strong>Heure de rencontre</strong>  :{{$comite->Heure}}</li>
+                                                                <li> <strong>Jour de rencontre</strong>  :{{$comite->Jour_rencontre}}</li>
+                                                                <li> <strong>Date de debut</strong>  :{{$comite->Date_debut}}</li>
+                                                                <br>
+                                                                @endforeach
+                                                            </ul>
+                                                   
                                                   </div>
                                       
                                     </div>
-                                    <div id="infos-comite">
-                                            ---****----
+
+                                    {{-- <h5>En vous inscrivant dans un comite de soutien afin de vous preparer et aider la preparation spirituel
+                                       de la ceremonie de consecration,vous pouvez egalment le faire en apportant votre soutient
+                                        financier.
+                                    </h5>
+
+                                    <div class="form-row">
+                                            
+                                        <div lass="form-group col-md-6">
+
+                                            checkbox
+
                                         </div>
-                                        <br>
+
+                                            <div class="form-group col-md-6">
+                                                    <label for="inputPassword4">Montant</label>
+                                                    <input type="date" class="form-control" name="amount2" placeholder="le montant de votre participation">
+                                                  </div>
+
+                                            <div class="form-group col-md-6">
+                                              <label for="inputPassword4">Date</label>
+                                              <input type="date" class="form-control" name="datePay" placeholder="date de versement au plus tard">
+                                            </div>
+                                          </div> --}}
+
+                                   
+                                    <br>
                                     <button type="submit" class="btn btn-primary btn-lg btn-block">S'inscrire </button>
                                   </form>
 
                         </div>
                         
                     </div>
-
                    
                 </div>
                 
@@ -120,7 +159,7 @@
                              Contacts Infos de la coordination :
                         </strong> <br>
                          237 691 433 761
-                         Whatsapp : 682 374 500
+                         Whatsapp : 682 374 500 /
                          237 695 178 659
                      
                 </aside>

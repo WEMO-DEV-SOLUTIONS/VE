@@ -13,7 +13,20 @@ class ComiteSoutien extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('comite_soutien', function (Blueprint $table) {
+            $table->bigIncrements('idComite_soutien');
+            $table->string('nom_comite');
+            $table->string('categorie');
+            $table->string('lieu');
+            $table->string('ville');
+            $table->time('heure');
+            $table->string('rencontre');
+            $table->date('date_debut');
+            $table->timestamps('created_at');
+            $table->string('code_comité'); 
+            $table->string('chef_groupe');   
+            $table->timestamps('updated_at');   
+        });
     }
 
     /**

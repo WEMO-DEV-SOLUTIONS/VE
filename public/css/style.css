@@ -13,7 +13,7 @@
 {
   width: 100%;
   height: 85vh;
-  background:  url("/img/plan2.jpg") center top no-repeat;
+  background:  url("/img/coeur de soleil.jpg") center top no-repeat;
   opacity: 0.8;
   background-size: cover;
   position: relative;
@@ -35,7 +35,7 @@
 
 #call-to-action {
   overflow: hidden;
-  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(/img/about-2.jpg) fixed center center;
+  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(/img/calltoactionbg.jpg) fixed center center;
   background-size: cover;
   padding: 70px 0;
 }
@@ -74,12 +74,12 @@
 
 strong
 {
-  color:#491f05;
+  color:#31baf0ee;
 }
 
 #call-to-action .cta-btn:hover {
-  background: #491f05;
-  border: 2px solid #491f05;
+  background: #31baf0ee;
+  border: 2px solid #31baf0ee;
 }
 
 body {
@@ -93,7 +93,7 @@ h3,
 h4,
 h5,
 h6 {
-  color:#491f05;
+  color:#31baf0ee;
 }
 
 a {
@@ -102,7 +102,7 @@ a {
 }
 
 a:hover {
-  color: #491f05;
+  color: #31baf0ee;
   text-decoration: none;
 }
 
@@ -164,7 +164,7 @@ a:hover {
 }
 
 .color-b {
-  color: #491f05;
+  color: #31baf0ee;
 }
 
 .color-d {
@@ -198,7 +198,7 @@ a:hover {
   bottom: -1px;
   width: 100%;
   height: 2px;
-  background-color: #491f05;
+  background-color: #31baf0ee;
   z-index: 2;
 }
 
@@ -250,7 +250,7 @@ a:hover {
 .pagination-a .pagination .page-link:hover,
 .pagination-a .pagination .page-link:active,
 .pagination-a .pagination .page-link:focus {
-  background-color: #491f05;
+  background-color: #31baf0ee;
 }
 
 .pagination-a .pagination .page-link span {
@@ -277,11 +277,11 @@ a:hover {
 }
 
 .pagination-a .pagination .page-item.active .page-link {
-  background-color: #491f05;
+  background-color: #31baf0ee;
 }
 
 .a {
-  color: #491f05;
+  color: #31baf0ee;
   font-size: 1.3rem;
 }
 
@@ -365,7 +365,7 @@ a:hover {
   position: absolute;
   width: 70px;
   height: 4px;
-  background-color: #491f05;
+  background-color: #31baf0ee;
   bottom: 20px;
   left: 0;
 }
@@ -432,11 +432,11 @@ a:hover {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #491f05;
+  background-color: #31baf0ee;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #491f05;
+  background-color: #31baf0ee;
   width: 35px;
 }
 
@@ -486,7 +486,7 @@ a:hover {
   display: inline-block;
   transition: all 0.6s ease-in-out;
   color: #ffffff;
-  background-color: #491f05;
+  background-color: #31baf0ee;
   opacity: .9;
 }
 
@@ -516,7 +516,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #491f05;
+  background: #31baf0ee;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -554,7 +554,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #491f05;
+  border-top: 6px solid #31baf0ee;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -592,7 +592,7 @@ a:hover {
 
 .navbar-default {
   transition: all .5s ease-in-out;
-  background-color: #00535f;
+  background-color: #31baf0ee;
   padding-top: 28px;
   padding-bottom: 28px;
   -webkit-backface-visibility: hidden;
@@ -645,7 +645,7 @@ a:hover {
   width: 100%;
   height: 2px;
   z-index: 0;
-  background-color: #491f05;
+  background-color: #31baf0ee;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: right;
@@ -681,7 +681,7 @@ a:hover {
 }
 
 .navbar-default.navbar-trans .nav-link:before {
-  background-color: #491f05;
+  background-color: #ffffff;
 }
 
 .navbar-default.navbar-trans .nav-link:hover {
@@ -692,7 +692,7 @@ a:hover {
 .navbar-default.navbar-trans .active > .nav-link,
 .navbar-default.navbar-trans .nav-link.show,
 .navbar-default.navbar-trans .nav-link.active {
-  color: #491f05;
+  color: #ffffff;
 }
 
 .navbar-default.navbar-reduce {
@@ -706,7 +706,7 @@ a:hover {
 }
 
 .navbar-default.navbar-reduce .nav-link:before {
-  background-color: #491f05;
+  background-color: #ffffff;
 }
 
 .navbar-default.navbar-reduce .nav-link:hover {
@@ -726,7 +726,7 @@ a:hover {
 
 .navbar-default .dropdown .dropdown-menu {
   border-top: 0;
-  border-left: 4px solid #491f05;
+  border-left: 6px solid #31baf0ee;
   border-right: 0;
   border-bottom: 0;
   -webkit-transform: translate3d(0px, -40px, 0px);
@@ -749,13 +749,13 @@ a:hover {
 
 .navbar-default .dropdown .dropdown-menu .dropdown-item:hover {
   background-color: #ffffff;
-  color: #491f05;
+  color: #31baf0ee;
   transition: all 500ms ease;
 }
 
 .navbar-default .dropdown .dropdown-menu .dropdown-item.active {
   background-color: #ffffff;
-  color: #491f05;
+  color: #31baf0ee;
 }
 
 .navbar-default .dropdown:hover .dropdown-menu {
@@ -951,11 +951,11 @@ a:hover {
 }
 
 .intro .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #491f05;
+  background-color: #31baf0ee;
 }
 
 .intro .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #491f05;
+  background-color: #31baf0ee;
 }
 
 .intro .intro-item {
@@ -982,7 +982,7 @@ a:hover {
 .intro .intro-body .price-a {
   color: #ffffff;
   padding: 1rem 1.5rem;
-  border: 2px solid #491f05;
+  border: 2px solid #31baf0ee;
   border-radius: 50px;
   text-transform: uppercase;
   letter-spacing: 0.030em;
@@ -1032,7 +1032,7 @@ a:hover {
 }
 
 .intro-single .title-single-box {
-  border-left: 3px solid #491f05;
+  border-left: 3px solid #31baf0ee;
 }
 
 .intro-single .title-single-box .title-single {
@@ -1134,7 +1134,7 @@ a:hover {
 .price-a {
   color: #ffffff;
   padding: .6rem .8rem;
-  border: 2px solid #491f05;
+  border: 2px solid #31baf0ee;
   border-radius: 50px;
   text-transform: uppercase;
   letter-spacing: 0.030em;
@@ -1144,7 +1144,7 @@ a:hover {
   width: 100%;
   position: absolute;
   z-index: 2;
-  background-color: #491f05;
+  background-color: #31baf0ee;
 }
 
 .card-info {
@@ -1241,7 +1241,7 @@ a:hover {
 
 .card-header-b .category-b {
   font-size: .9rem;
-  background-color: #491f05;
+  background-color: #31baf0ee;
   padding: .3rem .7rem;
   color: #313131;
   letter-spacing: 0.030em;
@@ -1292,7 +1292,7 @@ a:hover {
 
 .post-content .blockquote {
   padding: 1rem 3rem 1.7rem 3rem;
-  border-left: 3px solid #491f05;
+  border-left: 3px solid #31baf0ee;
   color: #000000;
 }
 
@@ -1379,7 +1379,7 @@ a:hover {
 
 .card-box-ico {
   padding: 1rem 3rem 1rem 2.5rem;
-  border: 5px solid #491f05;
+  border: 5px solid #31baf0ee;
 }
 
 .card-box-ico span {
@@ -1440,7 +1440,7 @@ a:hover {
 }
 
 .card-box-d:hover .card-overlay-hover {
-  background-color: #491f05;
+  background-color: #31baf0ee;
   opacity: .9;
 }
 
@@ -1486,7 +1486,7 @@ a:hover {
 }
 
 .sinse-box {
-  background-color: #491f05;
+  background-color: #31baf0ee;
   padding: 1rem 2rem;
   position: absolute;
   left: 15px;
@@ -1540,7 +1540,7 @@ a:hover {
 
 .testimonial-ico span {
   font-size: 1.8rem;
-  background-color: #491f05;
+  background-color: #31baf0ee;
   color: #ffffff;
   padding: .4rem 1rem;
   border-radius: 50px;
@@ -1597,7 +1597,7 @@ a:hover {
 .section-footer .item-list-a i {
   font-size: 18px;
   padding-right: 4px;
-  color: #491f05;
+  color: #31baf0ee;
 }
 
 .section-footer .widget-a .w-title-a {
@@ -1624,7 +1624,7 @@ footer .credits {
 ======================================*/
 
 .form-a #sendmessage {
-  color: #491f05;
+  color: #31baf0ee;
   border: 1px solid #26a356;
   display: none;
   text-align: center;
@@ -1678,7 +1678,7 @@ footer .credits {
 
 .form-a .form-control:focus {
   box-shadow: none;
-  border-color: #491f05;
+  border-color: #31baf0ee;
 }
 
 /*======================================
@@ -1702,12 +1702,12 @@ footer .credits {
 }
 
 .btn.btn-a:hover {
-  background-color: #491f05;
+  background-color: #31baf0ee;
   color: #000000;
 }
 
 .btn.btn-b {
-  background-color: #491f05;
+  background-color: #31baf0ee;
   color: #000000;
 }
 
@@ -1717,7 +1717,7 @@ footer .credits {
 }
 
 .btn.btn-b-n {
-  background-color: #491f05;
+  background-color: #31baf0ee;
   color: #ffffff;
   border-radius: 0;
 }
@@ -1773,7 +1773,7 @@ footer .credits {
   }
 
   .navbar-default .dropdown .dropdown-menu {
-    border-top: 4px solid #491f05;
+    border-top: 4px solid #31baf0ee;
     border-left: 0;
     display: block;
     position: absolute;

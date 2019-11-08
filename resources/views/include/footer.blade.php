@@ -4,11 +4,12 @@
         <div class="col-sm-12 col-md-4">
           <div class="widget-a">
             <div class="w-header-a">
-              <h3 class="w-title-a text-brand">Ceremonie de consecration</h3>
+              <h3 class="w-title-a text-brand">Ceremonie de consecration des a l'eternel <br>
+              CAMEROUN 2019</h3>
             </div>
             <div class="w-body-a">
               <p class="w-text-a color-text-a">
-                D
+                *******
               </p>
             </div>
             <div class="w-footer-a">
@@ -24,7 +25,7 @@
           </div>
         </div>
         <div class="col-sm-12 col-md-4 section-md-t3">
-          
+         **
         </div>
         <div class="col-sm-12 col-md-4 section-md-t3">
           <div class="widget-a">
@@ -34,8 +35,7 @@
             <div class="w-body-a">
               <ul class="list-unstyled">
                   <form class="form-a contactForm" action="" method="post" role="form">
-                      <div id="sendmessage">Your message has been sent. Thank you!</div>
-                      <div id="errormessage"></div>
+                     
                       <div class="row">
                         
                         <div class="col-md-12 mb-3">
@@ -67,14 +67,29 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          Suivez nous sur 
+          <h4>Suivez nous sur </h4> 
           <div class="socials-a">
             <ul class="list-inline">
+
               <li class="list-inline-item">
                 <a href="https">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
                 </a>
               </li>
+
+              <li class="list-inline-item">
+                  <a href="https">
+                    <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                  </a>
+                </li>
+
+                
+              <li class="list-inline-item">
+                  <a href="https">
+                    <i class="fa fa-youtube fa-2x" aria-hidden="true"></i>
+                  </a>
+                </li>
+                
               
             </ul>
           </div>
