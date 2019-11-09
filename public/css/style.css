@@ -3,6 +3,15 @@
 /*======================================
 //--//-->   STYLES GENERALES
 ======================================*/
+#don
+{
+  overflow: hidden;
+  background:  url(/img/don2.jpg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+
 .bg-video
 {
   margin-top:-50px;

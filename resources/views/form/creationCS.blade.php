@@ -88,13 +88,14 @@
                                     <button type="submit" class="btn btn-primary btn-lg btn-block">Creer comité </button>
                                   </form>
 
-                                 
+                                 <br>
+                                 <br>
 
                         </div>
                         
                     </div>
 
-                   
+                        
                 </div>
               
             </div>

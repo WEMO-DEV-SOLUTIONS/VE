@@ -6,16 +6,16 @@
  <br>
  <br>
  <br>
- <br>
-
-        <div class="title-box">
-           <center><h3 class="title-d"> DONNONS !!!!
-            <br> </h3></center> 
-        </div>
+                                        <div id="don"></div>
+        
         <center><strong>1 Jean 3:17</strong> Si quelqu'un possède les biens du monde et que <br>
             voyant son frère dans le besoin , il lui ferme ses entrailles, comment 
             l'amour de Dieu demeure t-il en lui ?</center> 
-    
+<br>
+            <div class="title-box">
+                <center><h3 class="title-d"> DONNONS !!!!
+                 </h3></center> 
+             </div>
 <section class="section-footer">
         <div class="container">
           <div class="row">
@@ -54,7 +54,7 @@
                   <h3 class="w-title-a text-brand">MARRAINES ET PARRAINS DE L'ESPERANCE</h3>
                 </div>
                 <div class="w-body-a">
-                        'ASPAC dans le cadre de son programme WOLICA (Women Leaders in Central africa) 
+                        L'ASPAC dans le cadre de son programme WOLICA (Women Leaders in Central africa) 
                         en son volet solidarité des femmes pour la paix, appelle des  femmes et des hommes
                          de bonne volonté, à apporter de l'espérance dans le cœur d'un détenu ou d'un orphelin. <br>
                          <strong><a href="">lire plus</a></strong>    
@@ -64,14 +64,14 @@
           </div>
         </div>
       </section>
-<br>
+
 
 <div class="row property-grid grid">
        
         <div class="col-md-4">
           <div class="card-box-a card-shadow">
-            <div class="img-box-a">
-              <img src="img/property-6.jpg" alt="" class="img-a img-fluid">
+            <div class="img-box">
+              <img src="img/orphelinat.jpg" alt="" class="img-a img-fluid">
             </div>
             <div class="card-overlay">
               <div class="card-overlay-a-content">
@@ -92,8 +92,8 @@
        
         <div class="col-md-4">
           <div class="card-box-a card-shadow">
-            <div class="img-box-a">
-              <img src="img/property-8.jpg" alt="" class="img-a img-fluid">
+            <div class="img-box">
+              <img src="img/don2.jpg" alt="" class="img-a img-fluid">
             </div>
             <div class="card-overlay">
               <div class="card-overlay-a-content">
@@ -113,8 +113,8 @@
         </div>
         <div class="col-md-4">
           <div class="card-box-a card-shadow">
-            <div class="img-box-a">
-              <img src="img/property-10.jpg" alt="" class="img-a img-fluid">
+            <div class="img-box">
+              <img src="img/association.jpg" alt="" class="img-a img-fluid">
             </div>
             <div class="card-overlay">
               <div class="card-overlay-a-content">
@@ -182,8 +182,8 @@ Transformer le cœur des personnes en détention, par la parole de Dieu et l’e
        
                         <div class="col-md-4">
                           <div class="card-box-a card-shadow">
-                            <div class="img-box-a">
-                              <img src="img/property-6.jpg" alt="" class="img-a img-fluid">
+                            <div class="img-box">
+                              <img src="img/benevole.jpg" alt="" class="img-a img-fluid">
                             </div>
                             <div class="card-overlay">
                               <div class="card-overlay-a-content">
@@ -205,7 +205,7 @@ Transformer le cœur des personnes en détention, par la parole de Dieu et l’e
                         <div class="col-md-4">
                           <div class="card-box-a card-shadow">
                             <div class="img-box-a">
-                              <img src="img/property-8.jpg" alt="" class="img-a img-fluid">
+                              <img src="img/humanitaire.jpg" alt="" class="img-a img-fluid">
                             </div>
                             <div class="card-overlay">
                               <div class="card-overlay-a-content">

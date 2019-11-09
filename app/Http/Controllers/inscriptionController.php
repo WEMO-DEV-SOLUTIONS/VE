@@ -23,7 +23,11 @@ class inscriptionController extends Controller
             'categorie' => 'required'
         ]);
 
-        $participant = new \App\model\participants;
+        $doublon = participants::where('email',$request->input('email'))->first();
+
+        if(!$doublon)
+        {
+            $participant = new \App\model\participants;
         
             $participant->nom = $request->input('nom');
             $participant->prenom = $request->input('prenom');
@@ -34,20 +38,32 @@ class inscriptionController extends Controller
             $participant->profession = $request->input('profession');
             $participant->categorie = $request->input('categorie');
 
-            if($participant->save())
-            {
-                return redirect()->back()->with('success','Votre inscription
-                 a la ceremonie de consecration 2019 a ete bien enregistré');
-            }
+            
+                    if($participant->save())
+                    {
+                        
+                        return redirect()->back()->with('success','Votre inscription
+                        a la ceremonie de consecration 2019 a ete bien enregistré'); 
+                    }
+                        else
+                        {
+                            return redirect()->back()->withErrors($request)->withInput();
+                        }
+                    
+
+        }
+
             else
             {
-                return redirect()->back()->withErrors($request)->withInput();
+                return redirect()->back()->with('danger','Desole vous ete deja inscrit');
             }
+       
+       
            
     }
 
 
-    public function inscriptionComite(Request $request)/***** incomplet 2010502000 */
+    public function inscriptionComite(Request $request)
     {
         $request->validate([
             'email' => 'required',

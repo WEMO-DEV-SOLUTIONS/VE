@@ -33,7 +33,7 @@
                                         <center><h1 class="title-single">Inscrivez vous a la ceremonie de consecration</h1></center>  
                             </div>
 
-                            <form  style="margin-top:5%" method="GET" action="{{route('inscriptionConsecration')}}">
+                            <form  style="margin-top:5%" method="GET" action="{{route('inscriptionConsecration')}}" >
                                     <div class="form-row">
                                       <div class="form-group col-md-6">
                                         <label for="inputEmail4">Nom</label>

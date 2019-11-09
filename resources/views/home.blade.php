@@ -28,18 +28,13 @@
   </section>
 
   <!--/ Services Star /-->
-  
+
+                  
 
 
   <!--/ Agents Star /-->
   <section class="section-agents section-t8">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="title-wrap d-flex justify-content-between">
-          </div>
-        </div>
-      </div>
       <div class="row">
 
         <div class="col-md-4">
@@ -128,8 +123,10 @@
     </div>
   </section>
 
+  
+  <center><img src="img/logo.png" alt=""></center> 
 
-<section class="section-services section-t8">
+<section class="section-services section-t8" id="announce">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -144,7 +141,8 @@
     </div>
   </section>
 
-
+  <br>
+  
   <section id="call-to-action">
       <div class="container">
         <div class="row">
