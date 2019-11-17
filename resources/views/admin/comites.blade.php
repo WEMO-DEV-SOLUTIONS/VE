@@ -1,4 +1,7 @@
 
+@extends('layout/adminLayout')
+@section('content')
+
 	<!-- begin #page-loader -->
 	<div id="page-loader" class="fade show"><span class="spinner"></span></div>
 	<!-- end #page-loader -->
@@ -45,16 +48,15 @@
 								<thead>
 									<tr>
 										<th width="1%"></th>
-										<th class="text-nowrap">Intitulé</th>
+										<th class="text-nowrap">Nom comite</th>
 										<th class="text-nowrap">Date création</th>
                                         <th class="text-nowrap">Catégorie</th>
                                         <th class="text-nowrap">Lieu</th>
                                         <th class="text-nowrap">Heure</th>
                                         <th class="text-nowrap">Jour rencontre</th>
                                         <th class="text-nowrap">Date début</th>
-                                        <th class="text-nowrap">Date fin</th>
                                         <th class="text-nowrap">Code</th>
-                                        <th class="text-nowrap">Chef</th>
+                                        <th class="text-nowrap">Administrateur</th>
 										<th class="text-nowrap"></th>
 										
 									</tr>
@@ -63,20 +65,20 @@
 								
 								<tbody>
 
-								<?php for($i=1;$i<=5;$i++) { ?>
-
+								@foreach ($listeCS as $key => $comite)
+									
+								
 									<tr class="gradeA">
-										<td width="1%" class="f-s-600 text-inverse"><?php echo $i; ?></td>
-										<td>Aide</td>
-										<td>05/11/2018</td>
-										<td>Info</td>
-										<td>CAMEROUN</td>
-										<td>12:00:00</td>
-                                        <td>Lundi</td>
-										<td>05/11/2019</td>
-										<td>06/12/2019</td>
-										<td>A00YD</td>
-										<td>KAMZOK</td>
+										<td width="1%" class="f-s-600 text-inverse">{{$key+1}}</td>
+										<td>{{$comite->nom_comite}}</td>
+										<td>{{$comite->created_at}}</td>
+										<td>{{$comite->categorie}}</td>
+										<td>{{$comite->Lieu}}</td>
+										<td>{{$comite->Heure}}</td>
+                                        <td>{{$comite->Jour_rencontre}}</td>
+										<td>{{$comite->Date_debut}}</td>
+										<td>{{$comite->Code_comite}}</td>
+										<td>{{$comite->chef_groupe}}</td>
                                         <td>
 											<a href="#modal-alert" class="btn btn-sm btn-danger" data-toggle="modal"><i class="fa fa-trash"></i></a>
 										</td>
@@ -104,7 +106,7 @@
 										</div>
 									</tr>
 
-								<?php } ?>
+								@endforeach
 
 
 								</tbody>
@@ -127,45 +129,6 @@
 	</div>
 	<!-- end page container -->
 
-	<!-- ================== BEGIN BASE JS ================== -->
-	<script src="assets/js/app.min.js"></script>
-	<script src="assets/js/theme/default.min.js"></script>
-	<!-- ================== END BASE JS ================== -->
 	
-	<!-- ================== BEGIN PAGE LEVEL JS ================== -->
-	<script src="assets/plugins/datatables.net/js/jquery.dataTables.min.js"></script>
-	<script src="assets/plugins/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
-	<script src="assets/plugins/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
-	<script src="assets/plugins/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
-	<script src="assets/plugins/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
-	<script src="assets/plugins/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js"></script>
-	<script src="assets/plugins/datatables.net-buttons/js/buttons.colVis.min.js"></script>
-	<script src="assets/plugins/datatables.net-buttons/js/buttons.flash.min.js"></script>
-	<script src="assets/plugins/datatables.net-buttons/js/buttons.html5.min.js"></script>
-	<script src="assets/plugins/datatables.net-buttons/js/buttons.print.min.js"></script>
-	<script src="assets/plugins/pdfmake/build/pdfmake.min.js"></script>
-	<script src="assets/plugins/pdfmake/build/vfs_fonts.js"></script>
-	<script src="assets/plugins/jszip/dist/jszip.min.js"></script>
-	<script src="assets/js/demo/table-manage-buttons.demo.js"></script>
-	<!-- ================== END PAGE LEVEL JS ================== -->
-
-	<!-- ================== BEGIN PAGE LEVEL JS ================== -->
-	<script src="assets/plugins/gritter/js/jquery.gritter.js"></script>
-	<script src="assets/plugins/sweetalert/dist/sweetalert.min.js"></script>
-	<script src="assets/js/demo/ui-modal-notification.demo.js"></script>
-	<!-- ================== END PAGE LEVEL JS ================== -->
-
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','../../../../www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-53034621-1', 'auto');
-	  ga('send', 'pageview');
-
-	</script>
-</body>
-
-<!-- Mirrored from seantheme.com/color-admin/admin/html/table_manage_buttons.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Oct 2019 15:08:17 GMT -->
-</html>
+	
+@endsection

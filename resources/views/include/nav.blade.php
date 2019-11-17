@@ -14,7 +14,7 @@
             <a class="nav-link active" href="{{'home'}}">Accueil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{'events'}}">A propos</a>
+            <a class="nav-link" href="{{'about'}}">A propos</a>
           </li>
 
           <li class="nav-item dropdown">
@@ -23,15 +23,18 @@
                 La ceremonie
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="{{'funds'}}">Soutien financier</a>
                 <a class="dropdown-item" href="{{'subscribeToceremonie'}}">Inscription a la ceremonie</a>
-                <a class="dropdown-item" href="{{'createCommity'}}">comites de soutiens</a>
                 <a class="dropdown-item" href="{{'subscribeTocomity'}}">Inscription dans un comite de soutien</a>
+                <a class="dropdown-item" href="{{'createCommity'}}">Creer un comité de soutien</a>
+                <a class="dropdown-item" href="{{'funds'}}">Soutien financier</a>
               </div>
             </li>
 
+            <li class="nav-item">
+                <a class="nav-link" href="{{'contact'}}">Forum</a>
+              </li>
 
-          <li class="nav-item dropdown">
+          {{-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               Autres
@@ -40,7 +43,7 @@
               <a class="dropdown-item" href="{{'solidarity'}}">Solidaires</a>
               <a class="dropdown-item" href="{{'don'}}">Faire un don</a>
             </div>
-          </li>
+          </li> --}}
 
         
           <li class="nav-item">
@@ -49,7 +52,7 @@
         </ul>
       </div>
     </div>
-    <a href="{{route('login')}}">
+    <a href="{{route('connexion')}}">
         <button type="button" class="pull-right btn btn-outline-dark">
          <span class="fa fa-user" aria-hidden="true"></span> Se connecter
         </button>

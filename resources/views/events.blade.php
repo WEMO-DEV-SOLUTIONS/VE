@@ -1,182 +1,166 @@
 @extends('layout/appLayout')
-@section('content')
 
+@section('content')
+<br>
+<br>
   <div class="click-closed"></div>
   
-  <!--/ Property Single Star /-->
-  <section class="property-single nav-arrow-b">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-            <br>
-                <div class="col-sm-12">
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <div class="title-box-d">
-                    <h2 class="title-d"> 
-                    <center>Cérémonie de consécration des nations <br>
-                      A  L'ETERNEL <br>
-                        Cameroon- 2019</center>  </h2>
+  <section id="affiche">
+      <section class="section-services section-t8">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="title-wrap d-flex justify-content-between">
+                  <div class="title-box">
+                    <h2 class="cta-title">Ceremonie de consecration des nations à l'eternelles <br>
+                    cameroun 2019</h2>
                   </div>
                 </div>
               </div>
-        </div>
-       
-           
-  
-  
-  <section class="section-agents section-t8">
-
-    <div class="container">
-
-      <div class="row">
-
-      <div class="row">
-        <div class="col-sm-6"  >
-          <div>
-            <h4>L'APPEL DE L’ÉTERNEL</h4>
-            <hr>
-            <h5><i>Comprendre ce plan de Dieu</i></h5>
-            <div class="card-img-d">
-              <p>
-                  La cérémonie de consécration des nations à l’Eternel comme nations éthiques, 
-                   est une requête du Dieu vivant, qui s’inscrit dans un plan global de l’Eternel 
-                   pour toutes les nations de la terre...
-                </p>
+            </div>
+            <div class="cta-title" id="verse">
+              
+              Jean 8: 32 "Vous connaîtrez la vérité et <br>  la vérité vous affranchira"
+      
             </div>
           </div>
-        </div>
-       
-        <div class="col-sm-6">
-          <div>
-             <h4>CE QU'IL FAUT RETENIR</h4>
-            <hr>
-            <h5><i>Aide mémoire pour participer</i></h5>
-                    <div class="card-img-d">
-              <p>
-                 L'Éternel appelle toutes les nations de la terre à s’établir dans sa 
-                 lumière afin de devenir des nations éthiques. Il appelle les femmes et
-                  les hommes de toutes les nations...
-                </p>
+        </section>
+  </section>
+
+  <!--/ Services Star /-->
+
+                  
+
+
+  <!--/ Agents Star /-->
+  <section class="section-agents section-t8">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="card-box-b card-shadow news-box">
+            <div class="img-box-b">
+              <img src="img/books.jpeg" alt="" class="img-b img-fluid">
             </div>
-           
+            <div class="card-overlay">
+              <div class="card-header-b">
+               
+                <div class="card-title-b">
+                  <h2 class="title-2">
+                    <a href="#">LA PARABOLE DES 10 LÉPREUX
+                        ET LES CHRÉTIENS D’AUJOURD’HUI
+                      <br> </a>
+                  </h2>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div id="description">
+              
+                Une allégorie forte de la conception que de nombreux croyants se font de la relation avec Dieu.
+              
+                Voilà 10 hommes  dont 9 pourraient être considérés comme ceux avec  lesquels personne  n’aimerait se voir  
+                 assimilé pourtant, 
+                combien d’entre nous vont se reconnaître sincèrement  dans ceux-ci après cette lecture ?
+             <br> <a href="">Lire plus</a></div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="card-box-b card-shadow news-box">
+              <div class="img-box-b">
+                <img src="img/home2.jpg" alt="" class="img-b img-fluid">
+              </div>
+              <div class="card-overlay">
+                <div class="card-header-b">
+                 
+                  <div class="card-title-b">
+                    <h2 class="title-2">
+                      <a href="#">L'AVENIR SPIRITUEL DES HANDICAPES
+                          MENTAUX ET DES AUTISTES
+                        <br> </a>
+                    </h2>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div id="description">
+                
+                  </div>
+          </div>
+
+          <div class="col-md-4">
+              <div class="card-box-b card-shadow news-box">
+                <div class="img-box-b">
+                  <img src="img/home3.jpg" alt="" class="img-b img-fluid">
+                </div>
+                <div class="card-overlay">
+                  <div class="card-header-b">
+                   
+                    <div class="card-title-b">
+                      <h2 class="title-2">
+                        <a href="#">IMPLIQUEZ VOUS
+                          <br> </a>
+                      </h2>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div id="description">
+                  
+                 Impliquez vous
+                  Ne nous lassons pas de faire le bien;  car nous moissonnerons au temps convenable, 
+                  si nous ne relâchons pas. Ainsi donc, pendant que nous en avons l'occasion, pratiquons le bien 
+                  envers tous(...). Galates 6:9-10
+                  <br>  <a href="">Lire plus</a>
+                </div>
+            </div>
+
+      </div>
+    </div>
+  </section>
+
+  
+ 
+
+<section class="section-services section-t8" id="announce">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              <h2 class="title-a"> <center>Rejoignez nous et prennez part a la</center> <br> <a href="{{'events'}}">CEREMONIE DE CONSÉCRATION
+                     DES NATIONS <center>A L’ÉTERNEL​</center></a></h2>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="section-agents section-t8">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-7">
-            <div class="card-img">
-              <img src="img/compo de visuels.jpg" alt="" height="400" width="800">
-            </div>
-        </div>
-       
-      </div>
-      
-  </section>
 
-  <section class="section-agents section-t8">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <div>
-            <h4>LES COMMUNAUTÉS APPELÉES</h4>
-            <hr>
-            <h5><i>Les groupes avec lesquels l’éternel bâtit des nations éthiques</i></h5>
-            <div class="card-img">
-              <p>
-                  Les familles  - Les jeunes   - Les leaders  - Les femmes 
-                  (dans LA DÉCENNIE D'IMPACT SPIRITUEL DES FEMMES)  - Les serviteurs de Dieu...
-                </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="card-img">
-              <img src="img/repentance jeunes nations.png" alt="" height="400">
-            </div>
-        </div>
-       
-      </div>
-  </section>
-
-  <section class="section-agents section-t8">
+  <br>
+  
+  <section id="call-to-action">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6">
-            <center><div>
-              <h4>PARTICIPER AU PLAN DE L’ÉTERNEL</h4>
-              <hr>
-              <h5><i>Un ensemble d'informations pour faciliter votre implication</i></h5>
-              </div></center>
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">AIDEZ NOUS A REDONNER DE L'ESPERANCE A DES DETENUS</h3>
+            <p class="cta-text"> </p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">En savoir plus</a>
           </div>
         </div>
-      </section>
 
-
-  <section class="section-agents section-t8">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-            <div class="card-img">
-              <img src="img/femme decennie.jpg" alt="" height="600">
-            </div>
-        </div>
-        
       </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
+ 
 
-    
-      <section class="section-agents section-t8">
-    <div class="container">
-      <div class="row">
-      
-        <div class="col-sm-3 ">
-          <div >
-            <div class="card-img-d">
-               <strong><a href="{{route('ceremoniSubscribe')}}">Prendre part à la cérémonie </a></strong>  
-            </div>
-            
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div >
-            <div class="card-img-d">
-              <strong><a href="{{route('comitySubscribe')}}">Participer à la préparation spirituelle et matérielle </a></strong> 
-            </div>
-        
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div >
-            <div class="card-img-d">
-             <strong><a href="{{route('createCommity')}}">Organiser des activités de soutien </a></strong> 
-
-            </div>
-          
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div >
-            <div class="card-img-d">
-            <strong><a href="">Participer au débat  </a>
-             </strong> 
-          </div>
-      
-          </div>
-        </div>
-       
-      </div>
-     
-  </section>
+  
 
   @endsection
+  
+  

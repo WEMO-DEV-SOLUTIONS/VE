@@ -29,11 +29,12 @@
                     <div class="col-lg-12">
                         <div class="quotes" >
                            
-                                <div class="title-2" style="margin-top:11%">
+                                <div class="title-2" style="margin-top:-2px">
                                         <center><h1 class="title-single">Inscrivez vous a la ceremonie de consecration</h1></center>  
                             </div>
 
-                            <form  style="margin-top:5%" method="GET" action="{{route('inscriptionConsecration')}}" >
+                            <form  style="margin-top:5%" method="post" action="{{route('inscriptionConsecration')}}" >
+                              @csrf
                                     <div class="form-row">
                                       <div class="form-group col-md-6">
                                         <label for="inputEmail4">Nom</label>
@@ -85,18 +86,28 @@
                                         <div class="form-group col-md-4">
                                             <select name="categorie" class="form-control">
                                               <option selected>Choose...</option>
-                                              <option value="Jeune consacrées à l'Eternel">Jeune consacrées à l'Eternel</option>
-                                              <option value="Serviteurs de Dieu pour des Nations consacrées"> Serviteurs de Dieu pour des Nations consacrées</option>
-                                              <option value="Familles consacrées à l'Eterne"> Familles consacrées à l'Eternel</option>
-                                              <option value="Leaders consacrés à l'Eternel<">Leaders consacrés à l'Eternel</option>
-                                              <option value="Décennie d'impact spirituel des femmes">Décennie d'impact spirituel des femmes </option>
+                                              <option value="Jeune consacrées à l'Eternel" data-toggle="tooltip" data-placement="top" title="je suis en haut">
+                                                Jeune consacrées à l'Eternel</option>
+
+                                              <option value="Serviteurs de Dieu pour des Nations consacrées" data-toggle="tooltip" data-placement="top" title="je suis en haut">
+                                                 Serviteurs de Dieu pour des Nations consacrées</option>
+
+                                              <option value="Familles consacrées à l'Eterne" data-toggle="tooltip" data-placement="top" title="je suis en haut"> 
+                                                Familles consacrées à l'Eternel</option>
+
+                                              <option value="Leaders consacrés à l'Eternel" data-toggle="tooltip" data-placement="top" title="je suis en haut">
+                                                Leaders consacrés à l'Eternel</option>
+
+                                              <option value="Décennie d'impact spirituel des femmes" data-toggle="tooltip" data-placement="top" title="je suis en haut">
+                                                Décennie d'impact spirituel des femmes </option>
                                             </select>
                                           </div>
                                             
                 
                                     </div>
-                                    <button type="submit" class="btn btn-primary btn-lg btn-block">S'inscrire </button>
+                                    <button type="submit" class="btn btn-primary btn-md btn-block">S'inscrire </button>
                                   </form>
+                                  <br>
 
                         </div>
                         
@@ -104,24 +115,32 @@
 
                     <div class="col-lg-12">
                       <div class="quotes">
-                        
-                        <div class="title-2" style="margin-top:5%">
-                                <center><h4 class="title-single">Afin de mieux vous preparer,Incrivez vous <br>
-                                dans un comite de soutien  </h4></center>  <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="title-2" style="margin-top:-5px">
+                                <center><em class="title-single" style="font-size: 14pt">Afin de mieux vous preparer à la cerémonie de 
+                                  consécration  </em></center>
+                                  <center> <h1 styl="margin-top:-10px">inscrivez vous dans un comité de soutien</h1></center> 
+                                
                                 <center>
                                       <a href="{{route('comitySubscribe')}}">
-                                            <button   class="btn btn-primary">
+                                            <button   class="btn btn-primary btn-md btn-block">
                                                     S'inscrire
                                                 </button> 
                                       </a>  
+                                  </center>
+                                  <br>
                                       <center><h2>OU</h2></center>
                                 </center>
-                               
+                                <br>
+                                <br>
                                <center>
-                                  <h4>Creez votre comite de soutien et preparez vous <br> avec d'autres participants</h4>
+                                  <h1>Creez votre comité de soutien </h1>
+                                  <em style="font-size:14pt">et preparez vous à la cerémonie de connsécration avec d'autres participants</em> 
                                   <a href="{{route('createCommity')}}">
-                                        <button   class="btn btn-primary">
-                                                Creer
+                                        <button   class="btn btn-primary btn-md btn-block">
+                                                Creer un comité
                                             </button> 
                                   </a>  
                             </center>
@@ -134,44 +153,47 @@
 
                 </div>
                 
-               
+                <img src="img/visuel ce qu'il ft retenir.png" alt="" height="250" width="730">
                 
             </div>
+
+
             <div class="col-lg-4">
                 <div class="blog_right_sidebar">
                     <aside class="single_sidebar_widget search_widget">
                         
                         <div class="br"></div>
+
+                        <img src="img/visuel ce qu'il ft retenir.png" alt="" height="" width="450">
                     </aside>
                    
                     <aside class="single_sidebar_widget popular_post_widget">
-                      <h4>CE QU’IL FAUT RETENIR :</h4> <br>
+                      <br>
+                      <center><h3 style="margin-left:83px">CE QU’IL FAUT RETENIR </h3></center>   <br>
                     
                         <strong>Quelle en est la finalité?</strong> <br> Faciliter la naissance de la nation éthique au Cameroun et dans toutes les
                          nations du monde, selon l’étape actuelle du plan de l’Eternel. <br>
                         
-                        <strong>Par quel moyen cette finalité sera-t-elle réalisée par la cérémonie ? </strong> En donnant aux familles,
+                        <strong>Par quel moyen cette finalité sera-t-elle réalisée par la cérémonie ? </strong> <br> En donnant aux familles,
                          aux communautés et aux peuples, qui s’engagent à vivre une vie fondée sur les valeurs morales
                           enseignées par toutes les religions venant de l’Eternel, le revêtement spirituel de l’Alliance 
                           de miséricorde de l’Eternel. <br>
                        
-                        <strong>Quelles en seront les conséquences ? </strong>Les familles, les communautés, les peuples et les personnes,
+                        <strong>Quelles en seront les conséquences ? </strong> <br> Les familles, les communautés, les peuples et les personnes,
                          deviendront capables de sortir des ténèbres responsables de la destruction spirituelle, morale et
                           sociale actuelle et pourront amener à la vie la nation éthique. <br>
                      
-                        <strong>Qui est concerné (e) ? </strong> Les personnes ayant adhéré aux mouvements et groupes associés à ce plan 
+                        <strong>Qui est concerné (e) ? </strong> <br> Les personnes ayant adhéré aux mouvements et groupes associés à ce plan 
                         de l’Eternel en tant que : « Serviteurs et Servantes de Dieu pour nations consacrées », Femmes 
                         mobilisées au sein de « La Décennie d’impact spirituel des femmes », « Jeunes consacrés à l’Eternel »
                          pour la paix et le progrès des nations , « Familles consacrées à l’Eternel », ou « Leaders consacrés
                           à L’Eternel » pour des nations éthiques. <br>
                         
-                        <strong>Au final qui en profitera ? :</strong>Toutes les nations ; des hommes et femmes du Cameroun, de tous les
+                        <strong>Au final qui en profitera ? :</strong> <br> Toutes les nations ; des hommes et femmes du Cameroun, de tous les
                          pays et de toutes les nations ; des jeunes filles et des jeunes gens, qui auront entendu cet appel
                           de l’Eternel <br>
                        
-                        <strong>Dans le cadre de cet événement,</strong>  des groupes Facebook ont été crées. Nous vous invitons à les
-                         consulter ou consulter .  Une fois que vous vous enregistrerez  dans l'un des groupes selon votre 
-                         ..., vous aurez la possibilité de créer un comité de soutien. <br><strong></strong>
+                       
                 </aside>
                     </aside>
                     

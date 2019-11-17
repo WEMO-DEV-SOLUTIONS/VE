@@ -29,17 +29,59 @@
                     <div class="col-lg-12">
                         <div class="quotes">
 
-                                <div class="title-2" style="margin-top:11%">
-                                        <center><h1 class="title-single">Inscription a un comite de soutien</h1></center>  
+                            <img src="img/coeur de soleil.jpg" alt="" height="" width="550">
+
+                                <div class="title-2" style="margin-top:1%">
+                                        <center><h1 class="title-single">Inscription dans un comite de soutien</h1></center>  
                             </div>
 
-                        <form  style="margin-top:5%" method="GET" action="{{route('inscriptionComite')}}">
+                            <p>
+                                L'inscription dans un comite soutien a deux objectifs: <br>
+                                le premier est de preparer spirituellement le participant a la ceremonie de consecration. <br>
+                                le deuxieme est de permettre aux participants de contribuer a la preparation materiel et ou financiere
+                                de la ceremonie car c'est lui qui est au centre de la ceremonie,par consequent c'est lui qui la prepare. <br>
+                                 
+                                pour cela il suffit de: <br>
+
+                                <span class="fa fa-hand-o-right" style="color: green"></span>   Remplir le formulaire ci dessous et m'inscrire dans un comité <br>
+                                <span class="fa fa-hand-o-right" style="color: green"></span>   Apres l'inscription dans le comité de soutien
+
+                                <a href="#previsionForm" data-toggle="modal" data-target="#previsionForm">
+                                       <strong>cliquez ici</strong>  </a>   pour indiquer la valeur de votre participation financiere.
+                               
+                                
+                            </p>
+
+                        <form  style="margin-top:5%" method="post" action="{{route('inscriptionComite')}}">
+                            @csrf
                                     <div class="form-row">
-                                      <div class="form-group col-md-6">
+                                      <div class="form-group col-md-8">
                                         <label for="inputPassword4"> <strong>Adresse Mail</strong> </label>
                                         <input type="email" class="form-control" name="email" placeholder="votre adresse mail">
                                       </div>
                                     </div>
+
+                                    <div id="infos-comite" class="col-lg-8">
+                                            <span class="fa fa-arrow-circle-right"></span>  
+<a  href="#infosComite"  data-toggle="collapse" role="button" aria-expanded="false" aria-controls="infosComite">
+                                          Consulter les Informtions sur les comités et Choisissez celui qui vous correspond le mieux
+                                        </a>
+
+                                           <div id="infosComite" class="collapse">
+                                                <ul>
+                                                    @foreach($comites as $comite)
+                                                    <li> <strong>Nom du comite </strong> : {{$comite->nom_comite}}</li>
+                                                    <li> <strong>Type de comite</strong>  : {{$comite->categorie}}</li>
+                                                    <li> <strong>Lieu de rencontre </strong> :{{$comite->Lieu}}</li>
+                                                    <li> <strong>Heure de rencontre</strong>  :{{$comite->Heure}}</li>
+                                                    <li> <strong>Jour de rencontre</strong>  :{{$comite->Jour_rencontre}}</li>
+                                                    <li> <strong>Date de debut</strong>  :{{$comite->Date_debut}}</li>
+                                                    <br>
+                                                    @endforeach
+                                                </ul>
+                                            </div>
+                                      </div>
+                                      <br>
                                    
                                     <div class="form-row">
                                             <div class="form-group col-md-8">
@@ -53,47 +95,9 @@
                                                     </select>
                                                   </div>
                                                   <br>
-                                                  <div id="infos-comite" class="col-lg-8">
-                                                       <h5>Listes et Informtions sur les comités</h5>
-                                                            <ul>
-                                                                @foreach($comites as $comite)
-                                                                <li> <strong>Nom du comite </strong> : {{$comite->nom_comite}}</li>
-                                                                <li> <strong>Type de comite</strong>  : {{$comite->categorie}}</li>
-                                                                <li> <strong>Lieu de rencontre </strong> :{{$comite->Lieu}}</li>
-                                                                <li> <strong>Heure de rencontre</strong>  :{{$comite->Heure}}</li>
-                                                                <li> <strong>Jour de rencontre</strong>  :{{$comite->Jour_rencontre}}</li>
-                                                                <li> <strong>Date de debut</strong>  :{{$comite->Date_debut}}</li>
-                                                                <br>
-                                                                @endforeach
-                                                            </ul>
-                                                   
-                                                  </div>
+                                                  
                                       
                                     </div>
-
-                                    {{-- <h5>En vous inscrivant dans un comite de soutien afin de vous preparer et aider la preparation spirituel
-                                       de la ceremonie de consecration,vous pouvez egalment le faire en apportant votre soutient
-                                        financier.
-                                    </h5>
-
-                                    <div class="form-row">
-                                            
-                                        <div lass="form-group col-md-6">
-
-                                            checkbox
-
-                                        </div>
-
-                                            <div class="form-group col-md-6">
-                                                    <label for="inputPassword4">Montant</label>
-                                                    <input type="date" class="form-control" name="amount2" placeholder="le montant de votre participation">
-                                                  </div>
-
-                                            <div class="form-group col-md-6">
-                                              <label for="inputPassword4">Date</label>
-                                              <input type="date" class="form-control" name="datePay" placeholder="date de versement au plus tard">
-                                            </div>
-                                          </div> --}}
 
                                    
                                     <br>
@@ -105,10 +109,12 @@
                     </div>
                    
                 </div>
-                
-               
-                
+              
+
+                                            
             </div>
+
+
             <div class="col-lg-6">
                 <div class="blog_right_sidebar">
                     <aside class="single_sidebar_widget search_widget">
@@ -117,7 +123,10 @@
                     </aside>
                    
                     <aside class="single_sidebar_widget popular_post_widget">
-                      <h4>C’EST QUOI UN COMITE DE SOUTIEN ?</h4> <br>
+
+                        <h3></h3>
+
+                      <center> <h3 style="margin-left: 50px">C’EST QUOI UN COMITE DE SOUTIEN ?</h3></center> <br>
                     
                       C’est un groupe de personnes qui se mettent ensemble au Cameroun ou bien à l’étranger, pour préparer
                        spirituellement… et soutenir financièrement la réussite de la cérémonie de consécration du Cameroun 
@@ -158,8 +167,8 @@
                          <strong>
                              Contacts Infos de la coordination :
                         </strong> <br>
-                         237 691 433 761
-                         Whatsapp : 682 374 500 /
+                         237 691 433 761 <br>
+                        <span class="fa fa-whatsapp" style="color:green"></span> Whatsapp : 682 374 500 /
                          237 695 178 659
                      
                 </aside>
@@ -171,6 +180,62 @@
             </div>
         </div>
     </div>
+    <br>
 </section>
+
+
+
+
+
+
+
+
+<div class="modal fade" id="previsionForm" tabindex="-1" role="dialog" aria-labelledby="previsionForm" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <center><h5 class="modal-title" id="previsionForm">Contribuer à l'organisation de la Ceremonie</h5></center> 
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                  <form action="">
+
+                            <div class="form-row">
+
+                            <p>Choisissez le montant de votre participation</p> 
+                     
+               
+                                    <div class="form-group col-lg-10">
+                                            <label for="inputPassword4">Montant</label>
+                                            <input type="tel" class="form-control" name="amount2" placeholder="le montant de votre participation">
+                                          </div>
+                            </div> 
+
+                            <div class="form-row">
+                                
+                                    <div class="form-group col-lg-10">
+                                            <label for="inputPassword4">Date <em>(la date avant ou à laquelle vous comptez effectuer le versement)</em></label> <br>
+                                            <input type="date" class="form-control" name="datePay" placeholder="date de versement au plus tard">
+                                          </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-lg btn-block">Envoyer </button>
+                            
+                  </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
   
   @endsection

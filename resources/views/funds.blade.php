@@ -20,7 +20,7 @@
                     <div class="col-lg-12">
                         <div class="quotes">
                            
-                            <h4>Vous souhaiter apporter votre soutien a l'organisation de la ceremonie</h4>
+                            <h4>souhaitez-vous  apporter votre soutien a l'organisation de la ceremonie ?</h4>
                             <br>
                             <strong>Vous pouvez le faire a travers :</strong>
                             <br>
@@ -36,8 +36,8 @@
                                 (réf du compte à ajouter ) (lorsqu’ils sont domiciliés au Cameroun 
                                 ou dans un pays du réseau MTN). <br>
                             <br>
-                                Ceux qui possèdent  une carte bancaire électronique :<br>
-                                 Visa, Mastercard, etc.,
+                            <strong>Pour ceux qui possèdent  une carte bancaire électronique vous pouvez le faire via:<br>
+                                Visa, Mastercard, etc.,</strong> 
                             </p>
                         </div>
 

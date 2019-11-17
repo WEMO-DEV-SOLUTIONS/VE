@@ -1,8 +1,13 @@
 
-
 /*======================================
 //--//-->   STYLES GENERALES
 ======================================*/
+#announce
+{
+  margin-top:-100px;
+}
+
+
 #don
 {
   overflow: hidden;
@@ -15,7 +20,7 @@
 .bg-video
 {
   margin-top:-50px;
-  margin-left:-60px;
+  margin-left:-15px;
   opacity: 0.7;
 }
 #affiche
@@ -92,8 +97,10 @@ strong
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  color: #555555;
+  font-family: 'calibri';
+  color: #000000;
+  text-align: justify;
+ font-size: 14pt;
 }
 
 h1,
@@ -602,11 +609,14 @@ a:hover {
 .navbar-default {
   transition: all .5s ease-in-out;
   background-color: #31baf0ee;
-  padding-top: 28px;
-  padding-bottom: 28px;
+  padding-top: -18px;
+  padding-bottom: -18px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   box-shadow: 1px 2px 15px rgba(100, 100, 100, 0.3);
+  margin-top:40px;
+  margin-left:40px;
+  margin-right: 40px;
 
 }
 

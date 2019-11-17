@@ -12,11 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('home');
-});
+    return view('accueil');
+})->name('home');
 
 Route::get('/home', function () {
-    return view('home');
+    return view('accueil');
 });
 
 Route::get('/about', function () {
@@ -58,28 +58,47 @@ Route::get('/funds', function () {
 
 /************Route Traitements formulaires*****************/
 
-Route::get('inscription', 'inscriptionController@inscription')->name('inscriptionConsecration');
+Route::post('inscription', 'inscriptionController@inscription')->name('inscriptionConsecration');
 
-Route::get('inscriptionCS', 'inscriptionController@inscriptionComite')->name('inscriptionComite');
+Route::post('inscriptionCS', 'inscriptionController@inscriptionComite')->name('inscriptionComite');
 
-Route::get('creationCS', 'inscriptionController@creationCS')->name('creationComite');
+Route::post('creationCS', 'inscriptionController@creationCS')->name('creationComite');
 
-Route::get('id', 'inscriptionController@id')->name('addId');
+Route::post('id', 'inscriptionController@id')->name('addId');
 
 /****************** Login routes ************************************/
 
 Route::get('/connexion', function () {
     return view('admin.login');
-})->name('login');
+})->name('connexion');
 
 
 
 /****************************Admin routes *******************/
-Route::get('/dashboard', function () {
-    return view('admin.dashboard');
-})->name('dashboard');
+// Route::get('/dashboard', function () {
+//     return view('admin.dashboard');
+// })->name('dashboard');
 
 
-Route::get('/participants', function () {
-    return view('admin.participants');
-})->name('participants');
+// Route::get('/participants', function () {
+//     return view('admin.participants');
+// })->name('participants');
+
+ Route::get('dashboard', 'AdminController@index')->name('dashboard')->middleware('auth');
+
+ Route::get('participants', 'AdminController@getParticipants')->name('participants');
+
+ Route::get('comite soutien', 'AdminController@comiteSoutien')->name('comiteSoutien');
+
+ Route::get('paiement', 'AdminController@payment')->name('payment');
+
+ 
+
+/*************************  Auth Routes ********************************************/
+
+
+Route::post('login', 'authController@Login')->name('login');
+
+Route::get('logout', 'authController@logout')->name('logout');
+
+
