@@ -5,7 +5,7 @@
 			<!-- begin navbar-header -->
 			<div class="navbar-header">
 
-				<h3 style="margin-top:12px; margin-left:20px;"><b>Nom de l'apllication</b></h3>	
+				<h3 style="margin-top:12px; margin-left:2px;"><b>Nations pour l'eternel</b></h3>	
 
 			</div>
 			<!-- end navbar-header -->
@@ -26,7 +26,7 @@
 						<span class="d-none d-md-inline">Nom de l'admin</span> <b class="caret"></b>
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
-						<a href="index.php" class="dropdown-item">Log Out</a>
+						<a href="{{route('logout')}}" class="dropdown-item">Deconnexion</a>
 						<div class="dropdown-divider"></div>
 					</div>
 				</li>

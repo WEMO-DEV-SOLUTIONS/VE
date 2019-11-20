@@ -1,6 +1,6 @@
 @extends('layout/adminLayout')
-
 @section('content')
+
 	<!-- begin #page-loader -->
 	<div id="page-loader" class="fade show"><span class="spinner"></span></div>
 	<!-- end #page-loader -->
@@ -10,11 +10,7 @@
 
 		<!-- begin #content -->
 		<div id="content" class="content">
-			<!-- begin breadcrumb -->
-			<ol class="breadcrumb float-xl-right">
-				<li class="breadcrumb-item"><a href="javascript:;">Participants</a></li>
-			</ol>
-			<!-- end breadcrumb -->
+			
 			<!-- begin page-header -->
 			<h2 class="page-header">Liste des Participants</h2>
 			<!-- end page-header -->
@@ -52,7 +48,8 @@
                                         <th class="text-nowrap">VILLE</th>
                                         <th class="text-nowrap">TEL</th>
                                         <th class="text-nowrap">PROFESSION</th>
-                                        <th class="text-nowrap">CATHEGORIE</th>
+										<th class="text-nowrap">CATEGORIE</th>
+										<th class="text-nowrap">Date d'inscription</th>
 										<th class="text-nowrap"></th>
 										
 									</tr>
@@ -61,22 +58,27 @@
 								
 								<tbody>
 
-								<?php for($i=1;$i<=5;$i++) { ?>
+							@foreach ($listeP as $key => $participant)
+								
+							
 
 									<tr class="gradeA">
-										<td width="1%" class="f-s-600 text-inverse"><?php echo $i; ?></td>
-										<td>KAMZOK</td>
-										<td>Joseph Junior</td>
-										<td>kamzokjunior17@gmail.com</td>
-										<td>CAMEROUN</td>
-										<td>Yaoundé</td>
-										<td>698310165</td>
-										<td>Chargé de la Communication</td>
-										<td>Poids lourd</td>
+										<td width="1%" class="f-s-600 text-inverse">{{$key + 1}}</td>
+										<td>{{$participant->Nom}}</td>
+										<td>{{$participant->prenom}}</td>
+										<td>{{$participant->email}}</td>
+										<td>{{$participant->Pays}}</td>
+										<td>{{$participant->Ville}}</td>
+										<td>{{$participant->telephone}}</td>
+										<td>{{$participant->Profession}}</td>
+										<td>{{$participant->Categorie}}</td>
+										<td>{{$participant->created_at}}</td>
                                         <td>
 											<a href="#modal-alert" class="btn btn-sm btn-danger" data-toggle="modal"><i class="fa fa-trash"></i></a>
 										</td>
+
 										
+
 										<div class="modal fade" id="modal-alert">
 											<div class="modal-dialog">
 												<div class="modal-content">
@@ -100,7 +102,7 @@
 										</div>
 									</tr>
 
-								<?php } ?>
+									@endforeach
 
 
 								</tbody>

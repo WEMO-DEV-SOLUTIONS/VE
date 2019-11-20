@@ -141,6 +141,8 @@ class inscriptionController extends Controller
             $comiteSoutien = new \App\model\comiteSoutien;
 
             $old = comiteSoutien::where('chef_groupe', $email)->first();
+
+            $alpha = rand(1,5000);
         
             $comiteSoutien->nom_comite = $request->input('nameCS');
             $comiteSoutien->lieu = $request->input('lieu');
@@ -148,7 +150,7 @@ class inscriptionController extends Controller
             $comiteSoutien->jour_rencontre = $request->input('jouR');
             $comiteSoutien->categorie = $request->input('categorie');
             $comiteSoutien->Date_debut = $request->input('debut');
-            $comiteSoutien->code_comite = "CS_$comiteSoutien->nom_comite";
+            $comiteSoutien->code_comite = "CS$alpha-$comiteSoutien->nom_comite";
             $comiteSoutien->chef_groupe = $request->input('email');
 
            
@@ -195,7 +197,9 @@ class inscriptionController extends Controller
 
         if(  $user->save())
         {
-            return redirect()->back()->with('info','Confirmation reussi');
+            return redirect()->back()->with('info','Confirmation reussie.Veuillez consulter votre boite mail 
+            afin de prendre connaissance des documents de gestion de votre comité');
+            
         }
       
     }

@@ -20,93 +20,14 @@
                     <div class="col-lg-12">
                        
                         <div class="quotes">
-                           
-                                <div class="title-2" style="margin-top:11%">
-                                        <center><h1 class="title-single">Creation d'un comite de soutien</h1></center>  
-                            </div>
-                            @include('partials.error') 
+                          <br>
+                          <br>
 
-                            @if(Session::has('success'))
-                            <form method="GET" action="{{route('addId')}}">
-                              <label for="">Entrez a nouveau votre email et 
-                                Cochez ici pour confirmer que vous voulez creer ce comite</label> <br>
-                                <input type="email" name="email" class="form-control">
-                              <input type="checkbox" name="confirmation" id="" class="form-control">
-                              <button class="btn btn-outline-primary" type="submit">Confirmer</button>
-                            </form>
-                            @endif
-
-                          <form  style="margin-top:5%" method="GET" action="{{route('creationComite')}}">
-                                    <div class="form-row">
-                                      <div class="form-group col-md-6">
-                                        <label for="nom">Adresse email</label>
-                                        <input type="email" class="form-control" name="email" placeholder="votre adresse mail">
-                                      </div>
-                                      
-                                      <div class="form-group col-md-6">
-                                        <label for="comiteS">Nom du comite de soutien</label>
-                                        <input type="text" class="form-control" name="nameCS" placeholder=" Le nom de votre comite de soutien">
-                                      </div>
-                                      <div class="form-group col-md-6">
-                                        <label for="comiteS">Lieu</label>
-                                        <input type="text" class="form-control" name="lieu" placeholder=" Le lieu de rencontre">
-                                      </div>
-                                      <div class="form-group col-md-6">
-                                        <label for="heure">Heure</label>
-                                        <input type="time" class="form-control" name="heure" placeholder=" L'heure ">
-                                      </div>
-                                      <div class="form-group col-md-6">
-                                        <label for="jourR">Jour de Rencontre</label>
-                                        <select name="jour" class="form-control">
-                                                      <option selected value="Lundi"> Lundi</option>
-                                                      <option value="Mardi">Mardi </option>
-                                                      <option value="Mercredi">Mercredi </option>
-                                                      <option value="Jeudi">Jeudi </option>
-                                                      <option value="Vendredi">Vendredi </option>
-                                                      <option value="Samedi">Samedi </option>
-                                                      <option value="Dimanche">Dimanche </option>
-                                                    </select>
-                                        
-                                      </div>
-                                      <div class="form-group col-md-6">
-                                          <label for="heure">Dtae de debut des activitées</label>
-                                          <input type="date" class="form-control" name="debut" placeholder=" la date debut du comite ">
-                                        </div>
-                                    </div>
-                                   
-                                    <div class="form-row">
-                                            <div class="form-group col-md-4">
-                                                    <label for="inputState">categorie</label>
-                                                    <select name="categorie" class="form-control">
-                                                      <option selected> Physique</option>
-                                                      <option>Virtuel </option>
-                                                    </select>
-                                                  </div>
-                                      
-                                    </div>
-                                        <br>
-                                    <button type="submit" class="btn btn-primary btn-lg btn-block">Creer comité </button>
-                                  </form>
-
-                                 <br>
-                                 <br>
-
-                        </div>
-                        
-                    </div>
-
-                        
-                </div>
-              
-            </div>
-
-
-            <div class="col-lg-6">
-                <div class="blog_right_sidebar">
-                   <br>
-                   <br>
-                    <aside class="single_sidebar_widget popular_post_widget">
-                      <h4>C’EST QUOI UN COMITE DE SOUTIEN ?</h4> <br>
+                            <img src="img/coeur de soleil.jpg" alt="" height="" width="550">
+                         {{-- changer limage --}}
+                      <br>
+                      <br>
+                        <center> <h3 style="margin-left: 50px">C’EST QUOI UN COMITE DE SOUTIEN ?</h3></center> <br>
                     
                       C’est un groupe de personnes qui se mettent ensemble au Cameroun ou bien à l’étranger, pour préparer
                        spirituellement… et soutenir financièrement la réussite de la cérémonie de consécration du Cameroun 
@@ -125,8 +46,98 @@
                           consécration à l’Eternel et afin de mettre en commun leurs efforts, pour participer financièrement 
                           à l’organisation de l’événement.<br>
                        
-                        <br>
-                          <h4>QUI PEUT CRÉER UN COMITE DE SOUTIEN ? </h4>
+                          
+                         
+
+                        </div>
+                        
+                    </div>
+                   
+                   
+                        
+                </div>
+              
+            </div>
+
+
+            <div class="col-lg-6">
+                <div class="blog_right_sidebar">
+                   <br>
+                   <br>
+                    <aside class="single_sidebar_widget popular_post_widget">
+
+                        
+                        <div class="title-2" style="margin-top:-15px;margin-left:80px">
+                            <center><h2 class="title-single">Creation d'un comite de soutien</h2></center>  
+                      </div>
+                      @include('partials.error') 
+                      
+                      @if(Session::has('success'))
+                      <form method="post" action="{{route('addId')}}">
+                      @csrf
+                      <label for="">Entrez a nouveau votre email et 
+                      Cochez ici pour confirmer que vous voulez creer ce comite</label> <br>
+                      <input type="email" name="email" class="form-control">
+                      <input type="checkbox" name="confirmation" id="" class="form-control">
+                      <button class="btn btn-outline-primary" type="submit">Confirmer</button>
+                      </form>
+                      @endif
+                      
+                      <form  style="margin-top:5%;margin-left:80px" method="post" action="{{route('creationComite')}}">
+                      @csrf
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="nom">Adresse email</label>
+                            <input type="email" class="form-control" name="email" placeholder="votre adresse mail">
+                          </div>
+                          
+                          <div class="form-group col-md-6">
+                            <label for="comiteS">Nom du comite de soutien</label>
+                            <input type="text" class="form-control" name="nameCS" placeholder=" Le nom de votre comite de soutien">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="comiteS">Lieu</label>
+                            <input type="text" class="form-control" name="lieu" placeholder=" Le lieu de rencontre">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="heure">Heure de regroupement</label>
+                            <input type="time" class="form-control" name="heure" placeholder=" L'heure ">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="jourR">Jour de rencontre</label>
+                            <select name="jour" class="form-control">
+                                          <option selected value="Lundi"> Lundi</option>
+                                          <option value="Mardi">Mardi </option>
+                                          <option value="Mercredi">Mercredi </option>
+                                          <option value="Jeudi">Jeudi </option>
+                                          <option value="Vendredi">Vendredi </option>
+                                          <option value="Samedi">Samedi </option>
+                                          <option value="Dimanche">Dimanche </option>
+                                        </select>
+                            
+                          </div>
+                          <div class="form-group col-md-6">
+                              <label for="heure">Date de debut des activitées</label>
+                              <input type="date" class="form-control" name="debut" placeholder=" la date debut du comite ">
+                            </div>
+                        </div>
+                       
+                        <div class="form-row">
+                                <div class="form-group col-md-4">
+                                        <label for="inputState">categorie</label>
+                                        <select name="categorie" class="form-control">
+                                          <option selected> Physique</option>
+                                          <option>Virtuel </option>
+                                        </select>
+                                      </div>
+                          
+                        </div>
+                            <br>
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">Creer comité </button>
+                      </form>
+                      
+                      <br>
+                      <h4>QUI PEUT CRÉER UN COMITE DE SOUTIEN ? </h4>
                           <br>
                       
                           Toute personne qui a le désir de servir Dieu dans le cadre de la préparation, de l’organisation 
@@ -136,20 +147,21 @@
                           cinq groupes/ 5 catégories énumérées ci-dessus, il ne lui reste plus qu’à remplir le formulaire 
                           ci apres ou bien prendre contact avec la coordination de l’organisation, pour recevoir toutes 
                           les informations complémentaires utiles à son travail. <br>
-                         
+      
+                          
                      
-                        <h4>OU PEUT-ON CRÉER UN COMITE DE SOUTIEN ?</h4> 
-                        Il n’y a pas de lieu exigé pour la création d’un comité de soutien. Il doit simplement s’agir
-                         d’un lieu de rencontre entre tous ceux qui participent ensemble à la préparation et à 
-                         l’organisation de la cérémonie de consécration à cause de leurs liens ou parce qu’ils 
-                         sont proches. <br>
-                        <br>
-                         <strong>
-                             Contacts Infos de la coordination :
-                        </strong> <br>
-                         237 691 433 761
-                         Whatsapp : 682 374 500 /
-                         237 695 178 659
+                      <h4>OU PEUT-ON CRÉER UN COMITE DE SOUTIEN ?</h4> 
+                          Il n’y a pas de lieu exigé pour la création d’un comité de soutien. Il doit simplement s’agir
+                           d’un lieu de rencontre entre tous ceux qui participent ensemble à la préparation et à 
+                           l’organisation de la cérémonie de consécration à cause de leurs liens ou parce qu’ils 
+                           sont proches. <br>
+                          <br>
+                           <strong>
+                               Contacts Infos de la coordination :
+                          </strong> <br>
+                           237 691 433 761
+                           Whatsapp : 682 374 500 /
+                           237 695 178 659
                      
                 </aside>
                     </aside>
@@ -164,3 +176,8 @@
 </section>
   
   @endsection 
+
+
+  
+                           
+ 

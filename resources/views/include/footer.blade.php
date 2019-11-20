@@ -1,15 +1,15 @@
-<section class="section-footer">
+{{-- <section class="section-footer">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-4">
           <div class="widget-a">
             <div class="w-header-a">
-              <h3 class="w-title-a text-brand">Ceremonie de consecration des a l'eternel <br>
+              <h3 class="w-title-a text-brand">Ceremonie de consecration des Nations à l'eternel <br>
               CAMEROUN 2019</h3>
             </div>
             <div class="w-body-a">
               <p class="w-text-a color-text-a">
-                *******
+              
               </p>
             </div>
             <div class="w-footer-a">
@@ -62,7 +62,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> --}}
 <footer>
     <div class="container">
       <div class="row">
@@ -89,6 +89,16 @@
                     <i class="fa fa-youtube fa-2x" aria-hidden="true"></i>
                   </a>
                 </li>
+
+                <li class="list-inline-item">
+                    
+                  <a href="https://valeurseternele.org">
+
+                    <span>valeurseternelles.org</span>
+                  </a>
+                </li>
+
+               
                 
               
             </ul>
@@ -96,7 +106,7 @@
           <div class="copyright-footer">
             <p class="copyright color-text-a">
               &copy; Copyright
-              <span class="color-a">Valeurs Eternelles</span> Tous droits resrvé.
+              <span class="color-a">   Nations pour l'Éternel</span> - Tous droits réservés.
             </p>
           </div>
           <div class="credits">
