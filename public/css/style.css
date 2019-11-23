@@ -101,6 +101,7 @@ body {
   color: #000000;
   text-align: justify;
  font-size: 14pt;
+ /* background-color: rgba(221, 216, 194)  */
 }
 
 h1,
@@ -174,6 +175,11 @@ a:hover {
   font-size: 2rem;
   font-weight: 600;
 }
+
+a.text-brand:hover
+{
+ color:#ffffff;
+} 
 
 .color-a {
   color: #000000;

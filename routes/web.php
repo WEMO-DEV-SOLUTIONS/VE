@@ -66,6 +66,8 @@ Route::post('creationCS', 'inscriptionController@creationCS')->name('creationCom
 
 Route::post('id', 'inscriptionController@id')->name('addId');
 
+Route::post('pay', 'inscriptionController@Makepayment')->name('Makepayment');
+
 /****************** Login routes ************************************/
 
 Route::get('/connexion', function () {
@@ -86,11 +88,11 @@ Route::get('/connexion', function () {
 
  Route::get('dashboard', 'AdminController@index')->name('dashboard')->middleware('auth');
 
- Route::get('participants', 'AdminController@getParticipants')->name('participants');
+ Route::get('participants', 'AdminController@getParticipants')->name('participants')->middleware('auth');
 
- Route::get('comite soutien', 'AdminController@comiteSoutien')->name('comiteSoutien');
+ Route::get('comite soutien', 'AdminController@comiteSoutien')->name('comiteSoutien')->middleware('auth');
 
- Route::get('paiement', 'AdminController@payment')->name('payment');
+ Route::get('paiement', 'AdminController@payment')->name('payment')->middleware('auth');
 
  
 

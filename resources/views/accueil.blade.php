@@ -12,7 +12,6 @@
                 <div class="col-sm-12">
                   <br>
                   <br>
-                  <br>
                 
                   <div class="title-box-d">
                     <h3 class="title"> 
@@ -26,12 +25,16 @@
                 </div>
               </div>
         </div>
-        
-        <div class="bg-video">
-          <video src="video/video.mp4" height="450" width="1300"  style="margin-left: -80px"  controls autoplay></video>
+
+        <br>
+
+        <div class="col-lg-12">
+          <video src="video/video.mp4" height="450" width="1300"  style="margin-left: -60px"  controls autoplay></video>
         </div>
+
+      
     
-        
+
         <div class="row" style="margin-top: 50px">
           <div class="col-lg-6">
             <center><span class="fa fa-twitter fa-4x" style="color:skyblue"></span></center>
@@ -47,7 +50,7 @@
           </div>
 
           <div class="col-lg-6 pull-right">
-              <center><span class="fa fa-file-text-o fa-4x"  style="color:skyblue"></span></center>
+              <center><span class="fa fa-book fa-4x"  style="color:skyblue"></span></center>
               <center><h1>CE QU'IL FAUT RETENIR</h1></center> 
               <center><i><h5>Aide mémoire pour participer</h5></i></center>
               <hr>
@@ -126,12 +129,23 @@
       <img src="img/visuel décennie.jpg" alt="" height="450" width="1140">
     </div>
 
-
-              <center><h1 style="margin-top:70px">PARTICIPER AU PLAN DE L’ÉTERNEL</h1>
-              <h5><i>Un ensemble d'informations pour faciliter votre implication</i></h5>
-              <hr>
-              <span class="fa fa-arrow-circle-down fa-4x"></span>
-            </center>
+    <br>
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <center><span class="fa fa-calendar fa-4x"  style="color:skyblue"></span></center>
+          <center><h1 >PARTICIPER AU PLAN DE L’ÉTERNEL</h1>
+          <h5><i>Un ensemble d'informations pour faciliter votre implication</i></h5>
+          <hr>
+          <span class="fa fa-arrow-circle-down fa-4x"></span>
+        </center>
+        </div>
+          
+      </div>
+      
+    </div>
+          
         
       
 </div>
