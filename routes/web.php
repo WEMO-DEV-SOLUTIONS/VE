@@ -68,6 +68,8 @@ Route::post('creationCS', 'inscriptionController@creationCS')->name('creationCom
 
 Route::post('id', 'inscriptionController@id')->name('addId');
 
+Route::post('pay', 'inscriptionController@Makepayment')->name('Makepayment');
+
 /****************** Login routes ************************************/
 
 Route::get('/connexion', function () {
@@ -92,7 +94,6 @@ Route::get('/connexion', function () {
  Route::get('comite soutien', 'AdminController@comiteSoutien')->name('comiteSoutien')->middleware('auth');
 
  Route::get('paiement', 'AdminController@payment')->name('payment')->middleware('auth');
-
 
 
 /*************************  Auth Routes ********************************************/
@@ -126,3 +127,16 @@ Route::get('/forum/opentopic/{id}',function ($id){
 
 
 
+/************************** Others  ******************************************* */
+
+Route::get('/more-a-retenir', function () {
+    return view('more1');
+})->name('more-a-retenir');
+
+Route::get('/more-a-retenir2', function () {
+    return view('more2');
+})->name('more-a-retenir2');
+
+// Route::get('/more-a-retenir3', function () {
+//     return view('more3');
+// })->name('more-a-retenir3');

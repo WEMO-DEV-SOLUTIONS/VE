@@ -2,6 +2,205 @@
 /*======================================
 //--//-->   STYLES GENERALES
 ======================================*/
+.circle {
+  padding: 13px 20px;
+  border-radius: 50%;
+  background-color: #31baf0ee;
+  color: #fff;
+  max-height: 50px;
+  z-index: 2;
+}
+
+.how-it-works.row .col-2 {
+  align-self: stretch;
+}
+.how-it-works.row .col-2::after {
+  content: "";
+  position: absolute;
+  border-left: 3px solid #31baf0ee;
+  z-index: 1;
+}
+.how-it-works.row .col-2.bottom::after {
+  height: 50%;
+  left: 50%;
+  top: 50%;
+}
+.how-it-works.row .col-2.full::after {
+  height: 100%;
+  left: calc(50% - 3px);
+}
+.how-it-works.row .col-2.top::after {
+  height: 50%;
+  left: 50%;
+  top: 0;
+}
+
+
+.timeline div {
+  padding: 0;
+  height: 40px;
+}
+.timeline hr {
+  border-top: 3px solid #31baf0ee;
+  margin: 0;
+  top: 17px;
+  position: relative;
+}
+.timeline .col-2 {
+  display: flex;
+  overflow: hidden;
+}
+.timeline .corner {
+  border: 3px solid #31baf0ee;
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+.timeline .top-right {
+  left: 50%;
+  top: -50%;
+}
+.timeline .left-bottom {
+  left: -50%;
+  top: calc(50% - 3px);
+}
+.timeline .top-left {
+  left: -50%;
+  top: -50%;
+}
+.timeline .right-bottom {
+  left: 50%;
+  top: calc(50% - 3px);
+}
+
+
+.moreImg1
+{
+ 
+  margin-left: 690px;
+  margin-top: -396px;
+
+}
+
+#advanced-features {
+  overflow: hidden;
+}
+
+#advanced-features .features-row {
+  padding: 60px 0 30px 0;
+}
+
+#advanced-features h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #000;
+}
+
+#advanced-features h3 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: italic;
+  color: #999;
+}
+
+#advanced-features p {
+  line-height: 24px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+#advanced-features i {
+  color: #666666;
+  font-size: 64px;
+  transition: 0.5s;
+  float: left;
+  padding: 0 15px 0px 0;
+  line-height: 1;
+}
+
+#advanced-features i:before {
+  background:rgba(14, 83, 185, 0.8);
+  background: linear-gradient(45deg,rgba(14, 83, 185, 0.8) 0%, rgba(14, 83, 185, 0.8) 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#advanced-features .advanced-feature-img-right {
+  max-width: 100%;
+  float: right;
+  padding: 0 0 30px 30px;
+}
+
+#advanced-features .advanced-feature-img-left {
+  max-width: 100%;
+  float: left;
+  padding: 0 30px 30px 0;
+}
+
+@media (max-width: 768px) {
+  #advanced-features .advanced-feature-img-right, #advanced-features .advanced-feature-img-left {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  #advanced-features .advanced-feature-img-right, #advanced-features .advanced-feature-img-left {
+    max-width: 100%;
+    float: none;
+    padding: 0 0 30px 0;
+  }
+}
+
+/* Call To Action Section
+--------------------------------*/
+#call-to-action {
+  overflow: hidden;
+  background: linear-gradient(rgba(14, 83, 185, 0.8), rgba(0, 0, 0, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#call-to-action .cta-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#call-to-action .cta-text {
+  color: #fff;
+}
+
+@media (min-width: 769px) {
+  #call-to-action .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+#call-to-action .cta-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 25px;
+  transition: background 0.5s;
+  margin: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  color: #fff;
+}
+
+#call-to-action .cta-btn:hover {
+  background:rgba(0, 0, 0, 0.8);
+  border: 2px solid rgba(14, 83, 185, 0.8);
+}
+
+
+
 #announce
 {
   margin-top:-100px;
@@ -21,7 +220,8 @@
 {
   margin-top:-50px;
   margin-left:-15px;
-  opacity: 0.7;
+  margin-right: -13px;
+  
 }
 #affiche
 {
@@ -101,6 +301,14 @@ body {
   color: #000000;
   text-align: justify;
  font-size: 14pt;
+
+/* background-color: rgba(221, 216, 194)  ; */
+
+
+ 
+ 
+ 
+/*#bec3c6*/
 }
 
 h1,
@@ -170,10 +378,15 @@ a:hover {
 }
 
 .text-brand {
-  color: #fcf8f8;
+  color: #ffffff;
   font-size: 2rem;
   font-weight: 600;
 }
+
+a.text-brand:hover
+{
+ color:black;
+} 
 
 .color-a {
   color: #000000;
@@ -615,8 +828,8 @@ a:hover {
   backface-visibility: hidden;
   box-shadow: 1px 2px 15px rgba(100, 100, 100, 0.3);
   margin-top:40px;
-  margin-left:40px;
-  margin-right: 40px;
+  margin-left:105px;
+  margin-right: 105px;
 
 }
 

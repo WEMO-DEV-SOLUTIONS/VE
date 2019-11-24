@@ -8,9 +8,6 @@
   <br>
   <br>
   <br>
-  <br>  
-  <br>  
-  <br>
   <section class="blog_area single-post-area section_gap">
     <div class="container">
         <div class="row">
@@ -20,31 +17,87 @@
                     <div class="col-lg-12">
                         <div class="quotes">
                            
-                            <h4>souhaitez-vous  apporter votre soutien a l'organisation de la ceremonie ?</h4>
+                            <h2>souhaitez-vous  apporter votre soutien a l'organisation de la ceremonie ?</h2>
                             <br>
-                            <strong>Vous pouvez le faire a travers :</strong>
+                            <strong>Vous pouvez le faire a travers les modes de paiement suivant:</strong>
                             <br>
                             <p>
-                                un dépôt bancaire dans le compte SCB n° <strong>10002 00031 90001013725 15</strong>   ou
-                                 un virement de compte à compte au RIB :  <br>
-                            <br>
-                                Un versement dans la liste de collecte de fonds disponible au sein 
-                                du comité de soutien où vous etes inscrits. (si vous n'etes pas encore inscrit 
-                                <a href="{{'subscribeTocomity'}}">cliquez ici</a> ) <br>
-                            <br>
-                                un transfert mobile Money dans le compte de la cérémonie 
-                                (réf du compte à ajouter ) (lorsqu’ils sont domiciliés au Cameroun 
-                                ou dans un pays du réseau MTN). <br>
-                            <br>
-                            <strong>Pour ceux qui possèdent  une carte bancaire électronique vous pouvez le faire via:<br>
-                                Visa, Mastercard, etc.,</strong> 
-                            </p>
+                                <ul>
+                                    <li> Un dépôt bancaire dans le compte SCB n° <strong>10002 00031 90001013725 15</strong>   ou
+                                        un virement de compte à compte au RIB :  <br></li>
+
+                                    <li>
+                                            Un versement dans la liste de collecte de fonds disponible au sein 
+                                            du comité de soutien où vous etes inscrits. (si vous n'etes pas encore inscrit 
+                                            <a href="{{'subscribeTocomity'}}">cliquez ici</a> ) <br>
+                                    </li>
+
+                                    <li>
+                                            Un transfert mobile Money dans le compte de la cérémonie 
+                                            (réf du compte à ajouter ) (lorsqu’ils sont domiciliés au Cameroun 
+                                            ou dans un pays du réseau MTN). <br>
+                                    </li>
+
+                                    <li>
+                                        Par carte bancaire: Visa,Mastercard.. etc
+                                    </li>
+                                </ul>
+                                
                         </div>
+                        <br>
 
-                        <h4>Vous pouvez egalement remplir le formulaire suivant si vous ete deja inscrit 
-                        dans un comite de soutien</h4>
+                        <h2>Tranches Montant de souscription</h2>
 
-                        <form>
+                        <form method="POST" action="{{route('Makepayment')}}">
+
+                        <ul class="list">
+                           <div class="row">
+                               <div class="col">
+                                <label for="">5.000</label>
+                                <input type="radio" name="amount1" id=""> <br>
+                                <label for="">5.000</label>
+                                <input type="radio" name="amount1" id=""> <br>
+                                <label for="">5.000</label>
+                                <input type="radio" name="amount1" id=""> <br>
+                                <label for="">5.000</label>
+                                <input type="radio" name="amount1" id=""> <br>
+                               </div>
+
+                               <div class="col">
+                                    <label for="">5.000</label>
+                                    <input type="radio" name="amount1" id=""> <br>
+                                    <label for="">5.000</label>
+                                    <input type="radio" name="amount1" id=""> <br>
+                                    <label for="">5.000</label>
+                                    <input type="radio" name="amount1" id=""> <br>
+                                    <label for="">5.000</label>
+                                    <input type="radio" name="amount1" id=""> <br>
+                                   </div>
+
+                                   <div class="col">
+                                        <label for="">5.000</label>
+                                        <input type="radio" name="amount1" id=""> <br>
+                                        <label for="">5.000</label>
+                                        <input type="radio" name="amount1" id=""> <br>
+                                        <label for="">5.000</label>
+                                        <input type="radio" name="amount1" id=""> <br>
+                                        <label for="">5.000</label>
+                                        <input type="radio" name="amount1" id=""> <br>
+                                       </div>
+
+                           </div>
+                            <span>Autres: Veuillez saisir la somme de votre participation: <br>
+                                    <div class="form-group col-lg-12">
+                                            <input type="text" class="form-control" name="amount2">
+                                          </div>
+                            </span>
+                        </ul>
+                        <span> 
+                            
+                            <center><strong>NB:  </strong>Date de paiement au plus tard : <strong>15 Novembre 2019</strong> </span></center>
+
+                            <br>
+                    
                             <div class="form-row">
                               <div class="form-group col-md-6">
                                 <label for="inputEmail4">Nom</label>
@@ -113,7 +166,8 @@
                     <aside class="single_sidebar_widget popular_post_widget">
                       
                     
-                        <iframe src="https" frameborder="0"></iframe>
+                        <iframe src="http://127.0.0.8/M3EEHNK%20TECH/site/" frameborder="0" width="400" 
+                        height="1000"></iframe>
                     </aside>
                 
                 </div>

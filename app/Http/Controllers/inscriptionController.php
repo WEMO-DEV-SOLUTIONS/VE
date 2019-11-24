@@ -204,6 +204,11 @@ class inscriptionController extends Controller
       
     }
 
+    public function Makepayment(Request $resquest)
+    {
+        
+    }
+
 
 
 
