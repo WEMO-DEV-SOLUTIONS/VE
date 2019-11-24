@@ -20,8 +20,7 @@ class Admin extends Migration
             $table->string('E-mail');
             $table->string('Password');
             $table->time('Niveau_securite');
-            $table->timestamps('created_at'); 
-            $table->timestamps('updated_at');   
+            $table->timestamps(); 
         });
     }
 

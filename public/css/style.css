@@ -118,7 +118,7 @@ a {
 }
 
 a:hover {
-  color: #31baf0ee;
+  color: #080808ee;
   text-decoration: none;
 }
 
@@ -170,7 +170,7 @@ a:hover {
 }
 
 .text-brand {
-  color: #000000;
+  color: #fcf8f8;
   font-size: 2rem;
   font-weight: 600;
 }
@@ -180,7 +180,7 @@ a:hover {
 }
 
 .color-b {
-  color: #31baf0ee;
+  color: #000608ee;
 }
 
 .color-d {

@@ -23,9 +23,8 @@ class Particpants extends Migration
             $table->string('telephone');
             $table->string('profession');
             $table->string('categorie');
-            $table->timestamps('created_at');
-            $table->timestamps('updated_at');
-            $table->int('idComite_soutien');
+            $table->timestamps();
+            $table->integer('idComite_soutien');
         });
     }
 

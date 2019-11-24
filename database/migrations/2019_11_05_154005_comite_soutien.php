@@ -22,10 +22,9 @@ class ComiteSoutien extends Migration
             $table->time('heure');
             $table->string('rencontre');
             $table->date('date_debut');
-            $table->timestamps('created_at');
             $table->string('code_comité'); 
             $table->string('chef_groupe');   
-            $table->timestamps('updated_at');   
+            $table->timestamps();   
         });
     }
 

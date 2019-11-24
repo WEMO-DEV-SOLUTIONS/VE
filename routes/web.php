@@ -11,6 +11,8 @@
 |
 */
 
+use Illuminate\Support\Facades\Route;
+
 Route::get('/', function () {
     return view('accueil');
 })->name('home');
@@ -73,7 +75,6 @@ Route::get('/connexion', function () {
 })->name('connexion');
 
 
-
 /****************************Admin routes *******************/
 // Route::get('/dashboard', function () {
 //     return view('admin.dashboard');
@@ -86,13 +87,13 @@ Route::get('/connexion', function () {
 
  Route::get('dashboard', 'AdminController@index')->name('dashboard')->middleware('auth');
 
- Route::get('participants', 'AdminController@getParticipants')->name('participants');
+ Route::get('participants', 'AdminController@getParticipants')->name('participants')->middleware('auth');
 
- Route::get('comite soutien', 'AdminController@comiteSoutien')->name('comiteSoutien');
+ Route::get('comite soutien', 'AdminController@comiteSoutien')->name('comiteSoutien')->middleware('auth');
 
- Route::get('paiement', 'AdminController@payment')->name('payment');
+ Route::get('paiement', 'AdminController@payment')->name('payment')->middleware('auth');
 
- 
+
 
 /*************************  Auth Routes ********************************************/
 
@@ -100,5 +101,28 @@ Route::get('/connexion', function () {
 Route::post('login', 'authController@Login')->name('login');
 
 Route::get('logout', 'authController@logout')->name('logout');
+
+/* Route du forum */
+Route::resource('forum/categories','Forum\CategoryController');
+Route::resource('forum/topics','Forum\TopicController');
+Route::resource('forum/messages','Forum\MessageController');
+/*Route::resource('forum/faq.index','Forum\MessageController'); */
+/*route pour fermer un message du forum*/
+Route::get('/forum/closetopic/{id}',function ($id){
+    $topic = \App\forumTopic::where('id',$id)->first();
+    $topic->update([
+        'close'=>1
+    ]);
+    return back()->with('success'.'sujet fermer');
+})->name('close_topic');
+Route::get('/forum/opentopic/{id}',function ($id){
+    $topic = \App\forumTopic::where('id',$id)->first();
+    $topic->update([
+        'close'=>0
+    ]);
+    return back()->with('success'.'sujet fermer');
+})->name('open_topic');
+
+
 
 
