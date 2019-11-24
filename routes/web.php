@@ -104,3 +104,16 @@ Route::post('login', 'authController@Login')->name('login');
 Route::get('logout', 'authController@logout')->name('logout');
 
 
+/************************** Others  ******************************************* */
+
+Route::get('/more-a-retenir', function () {
+    return view('more1');
+})->name('more-a-retenir');
+
+Route::get('/more-a-retenir2', function () {
+    return view('more2');
+})->name('more-a-retenir2');
+
+// Route::get('/more-a-retenir3', function () {
+//     return view('more3');
+// })->name('more-a-retenir3');

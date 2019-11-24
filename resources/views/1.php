@@ -5,7 +5,7 @@
 
   <!--/ Property Single Star /-->
   <section class="property-single nav-arrow-b">
-    <div class="container" style="background-color:#bec3c665  ;">
+    <div class="container">
       <div class="row">
         <div class="col-sm-12">
             <br>
@@ -25,10 +25,8 @@
                          style="margin-top:-10px
                         "> </div>
 
-                    <strong>
-                        <center style="background-color:#6969692d;margin-left: -15px;margin-right: -15px;margin-top:-149px">Cérémonie de consécration des nations 
-                            <br> A  L'ETERNEL <br> <em style="font-size:20pt">comme  nations éthiques - Cameroon 2019</em>  </center>  </h1>
-                    </strong> 
+                    <center style="background-color:#696969;margin-left: -15px;margin-right: -15px;">Cérémonie de consécration des nations 
+                    <br> A  L'ETERNEL <br> <em style="font-size:20pt">comme  nations éthiques - Cameroon 2019</em>  </center>  </h1>
                   </div>
                 </div>
               </div>
@@ -44,8 +42,7 @@
 
         <div class="row" style="margin-top: 50px">
           <div class="col-lg-6">
-            <center><img src="img/icone colombe copie.png" alt=""></span></center>
-            <br>
+            <center><span class="fa fa-twitter fa-2x" style="color:skyblue"></span></center>
             <center><h2>L'APPEL DE L’ÉTERNEL</h2></center>
             <center><i><h5>Comprendre ce plan de Dieu</h5></i></center>
             <hr>
@@ -53,14 +50,12 @@
                 La cérémonie de consécration des nations à l’Eternel comme nations éthiques,
                  est une requête du Dieu vivant, qui s’inscrit dans un plan global de l’Eternel
                  pour toutes les nations de la terre...
-                 <a href="{{route('more-a-retenir2')}}"> <strong>Lire plus</strong></a>
+                 <a href=""> <strong>Lire plus</strong></a>
               </p>
           </div>
 
-          <div class="col-lg-6 pull-right" style="margin-top:-5px">
+          <div class="col-lg-6 pull-right">
               <center><span class="fa fa-file-text-o fa-2x"  style="color:skyblue"></span></center>
-              <br>
-              <br>
               <center><h2>CE QU'IL FAUT RETENIR</h2></center>
               <center><i><h5>Aide mémoire pour participer</h5></i></center>
               <hr>
@@ -68,7 +63,7 @@
                   L'Éternel appelle toutes les nations de la terre à s’établir dans sa
                   lumière afin de devenir des nations éthiques. Il appelle les femmes et
                    les hommes de toutes les nations...
-                   <a href="{{route('more-a-retenir')}}"> <strong>Lire plus</strong></a>
+                   <a href=""> <strong>Lire plus</strong></a>
                  </p>
             </div>
 
@@ -120,9 +115,9 @@
       <div class="row">
         <div class="col-md-6">
           <div>
-              <center><img src="img/icogroupe.png" alt=""></center>
+              <center><span class="fa fa-users fa-2x"  style="color:skyblue"></span></center>
               <br>
-              <center > <h2 >LES COMMUNAUTÉS APPELÉES</h2></center>
+              <center> <h2>LES COMMUNAUTÉS APPELÉES</h2></center>
               <center> <h6><i>Les groupes avec lesquels l’éternel bâtit des nations éthiques</i></h6><center>
             <hr>
             <div class="card-img">
@@ -136,7 +131,7 @@
         </div>
         <div class="col-sm-6">
             <div class="card-img">
-              <img src="img/qu'est ce nation éthique.png" alt="" height="430" width="553">
+              <img src="img/qu'est ce nation éthique.png" alt="" height="430">
             </div>
         </div>
 
@@ -147,11 +142,11 @@
    <br>
   <div class="card-img">
     <br>
-      <img src="img/visuel décennie.jpg" alt="" height="470" width="1140" style="margin-left:-15px">
+      <img src="img/visuel décennie.jpg" alt="" height="470" width="1140">
     </div>
     <br>
                 
-              <center><img src="img/icone participation copie.png" alt=""></center>
+
               <center><h2 style="margin-top:70px">PARTICIPER AU PLAN DE L’ÉTERNEL</h2>
               <h6><i>Un ensemble d'informations pour faciliter votre implication</i></h6>
               <hr>
