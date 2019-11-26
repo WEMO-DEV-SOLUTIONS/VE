@@ -15,8 +15,8 @@
                   <br>
                   <br>
                   <br>
-                
-                
+
+
 
                   <div   class="bg-video">
                     <h1 class="title" >
@@ -26,16 +26,16 @@
                         "> </div>
 
                     <strong>
-                        <center style="background-color:#6969692d;margin-left: -15px;margin-right: -15px;margin-top:-149px">Cérémonie de consécration des nations 
+                        <center style="background-color:#6969692d;margin-left: -15px;margin-right: -15px;margin-top:-149px">Cérémonie de consécration des nations
                             <br> A  L'ETERNEL <br> <em style="font-size:20pt">comme  nations éthiques - Cameroon 2019</em>  </center>  </h1>
-                    </strong> 
+                    </strong>
                   </div>
                 </div>
               </div>
               <br>
         </div>
-       
-                  
+
+
 
         <div class="bg-video" style="background-color:black;">
           <video src="video/video.mp4" height="450" width="1000" style="margin-left: 80px;"  controls ></video>
@@ -150,7 +150,7 @@
       <img src="img/visuel décennie.jpg" alt="" height="470" width="1140" style="margin-left:-15px">
     </div>
     <br>
-                
+
               <center><img src="img/icone participation copie.png" alt=""></center>
               <center><h2 style="margin-top:70px">PARTICIPER AU PLAN DE L’ÉTERNEL</h2>
               <h6><i>Un ensemble d'informations pour faciliter votre implication</i></h6>
@@ -164,7 +164,7 @@
 
     <section class="section-agents section-t8" style="margin-top:-60px;margin-left:70px">
 
-      <div class="row">
+      <div class="row" style="margin-right: -58px; margin-left: 18px;">
 
         <div class="col-sm-3 " style="margin-bottom:25px">
             <div class="card-img-d">
