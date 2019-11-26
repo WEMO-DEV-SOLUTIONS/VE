@@ -137,6 +137,6 @@ Route::get('/more-a-retenir2', function () {
     return view('more2');
 })->name('more-a-retenir2');
 
-// Route::get('/more-a-retenir3', function () {
-//     return view('more3');
-// })->name('more-a-retenir3');
+Route::get('/more-a-retenir3', function () {
+  return view('more3');
+ })->name('more-a-retenir3');

@@ -17,7 +17,7 @@ class CreateForumMessagesTable extends Migration
             $table->bigIncrements('id');
             $table->longText('content');
             $table->BigInteger('user_id');
-            $table->BigInteger('user_id');
+            // $table->BigInteger('user_id');
             $table->BigInteger('topic_id');
             $table->integer('close')->default(0);
             $table->timestamps();

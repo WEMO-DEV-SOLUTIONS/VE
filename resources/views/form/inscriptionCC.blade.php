@@ -9,7 +9,7 @@
   <br>
  
   <section class="blog_area single-post-area section_gap">
-    <div class="container">
+    <div class="container" style="background-color:#bec3c665  ;">
         <div class="row">
             <div class="col-lg-8 posts-list">
                 <div class="single-post row">
@@ -166,7 +166,7 @@
                     <aside class="single_sidebar_widget search_widget">
 
 
-                        <div class="card" style="border: none;width: 27rem;">
+                        <div class="card" style="border: none;width: 23rem;">
                             <div class="card-header"   style="background-color:#31baf0ee">
                              <br>
                             </div>
@@ -180,7 +180,7 @@
                         
                     
 
-                        <img src="img/visuel ce qu'il ft retenir.png" alt="" height="250" width="440">
+                        <img src="img/visuel ce qu'il ft retenir.png" alt="" height="250" width="366">
                     </aside>
                    
                     <aside class="single_sidebar_widget popular_post_widget">
@@ -251,7 +251,7 @@
                              de l’Eternel <br>
                         </div>
                         
-                          <img src="img/visuel ce qu'il ft retenir.png" alt="" height="250" width="440">
+                          <img src="img/visuel ce qu'il ft retenir.png" alt="" height="250" width="366">
                           <br>
                           <br>
                 </aside>

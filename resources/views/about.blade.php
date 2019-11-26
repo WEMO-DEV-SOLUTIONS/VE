@@ -3,6 +3,10 @@
 @section('content')
 <br>
   <div class="click-closed"></div>
+
+  <div class="container" style="background-color:#bec3c665  ;">
+
+ 
  
   <div class="jumbotron">
     <center><h2>A PROPOS  DE</h2></center>
@@ -181,9 +185,10 @@
             </div>
           </div>
         </div> -->
-      </section><!-- #advanced-features -->
+      </section>
+      <!-- #advanced-features -->
   
-
+    </div>
 
   @endsection
   

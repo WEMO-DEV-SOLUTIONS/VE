@@ -8,7 +8,7 @@
   <!--/ Form Search Star /-->
 
   <section class="blog_area single-post-area section_gap">
-    <div class="container">
+    <div class="container" style="background-color:#bec3c665  ;">
         <div class="row">
             <div class="col-lg-6 posts-list">
                 <div class="single-post row">

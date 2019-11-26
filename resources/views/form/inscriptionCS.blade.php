@@ -8,7 +8,7 @@
   <br>
   <br>
    <section class="blog_area single-post-area section_gap">
-    <div class="container">
+    <div class="container" style="background-color:#bec3c665  ;">
         <div class="row">
             <div class="col-lg-6 posts-list">
                 <div class="single-post row">
@@ -133,7 +133,7 @@
                 <div class="blog_right_sidebar">
                     <aside class="single_sidebar_widget search_widget">
                         
-                            <div class="card" style="border: none;width: 39rem;">
+                            <div class="card" style="border: none;width: 35rem;">
                                     <div class="card-header"   style="background-color:#31baf0ee">
                                      <br>
                                     </div>
@@ -148,7 +148,7 @@
                    
                     <aside class="single_sidebar_widget popular_post_widget">
 
-                            <img src="img/comités de soutien.png" alt="" height="300" width="650">
+                            <img src="img/comités de soutien.png" alt="" height="300" width="575">
 
                      
                         <a  href="#collapse1"  data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse1">
