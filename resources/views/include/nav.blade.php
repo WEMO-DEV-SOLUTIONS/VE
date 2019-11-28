@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-trans navbar-expand-lg ">
+<nav class="navbar navbar-default navbar-trans navbar-expand-lg " style="margin-left: 49px; margin-right: 49px;">
     <div class="container">
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -7,7 +7,7 @@
         <span></span>
       </button>
       <a class="navbar-brand text-brand" href="{{'home'}}">Ceremonie de consecration</span></a>
-     
+
       <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -45,7 +45,7 @@
             </div>
           </li> --}}
 
-        
+
           <li class="nav-item">
             <a class="nav-link" href="{{'contact'}}">Contact</a>
           </li>

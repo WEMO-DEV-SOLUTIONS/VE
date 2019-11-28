@@ -47,7 +47,7 @@ Route::get('/subscribeToceremonie', function () {
 })->name('ceremoniSubscribe');
 
 
-Route::get('subscribeTocomity', 'indexController@index')->name('comitySubscribe');
+Route::get('/subscribeTocomity', 'indexController@index')->name('comitySubscribe');
 
 Route::get('/createCommity', function () {
     return view('form.creationCS');
@@ -140,3 +140,4 @@ Route::get('/more-a-retenir2', function () {
 Route::get('/more-a-retenir3', function () {
   return view('more3');
  })->name('more-a-retenir3');
+

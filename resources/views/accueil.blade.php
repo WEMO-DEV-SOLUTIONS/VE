@@ -68,7 +68,7 @@
                   L'Éternel appelle toutes les nations de la terre à s’établir dans sa
                   lumière afin de devenir des nations éthiques. Il appelle les femmes et
                    les hommes de toutes les nations...
-                   <a href="{{route('more-a-retenir')}}"> <strong>Lire plus</strong></a>
+                   <a href="{{route('more-a-retenir3')}}"> <strong>Lire plus</strong></a>
                  </p>
             </div>
 

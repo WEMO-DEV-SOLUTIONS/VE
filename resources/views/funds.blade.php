@@ -16,7 +16,7 @@
 
                     <div class="col-lg-12">
                         <div class="quotes">
-                           
+
                             <h2>souhaitez-vous  apporter votre soutien a l'organisation de la ceremonie ?</h2>
                             <br>
                             <strong>Vous pouvez le faire a travers les modes de paiement suivant:</strong>
@@ -27,14 +27,14 @@
                                         un virement de compte à compte au RIB :  <br></li>
 
                                     <li>
-                                            Un versement dans la liste de collecte de fonds disponible au sein 
-                                            du comité de soutien où vous etes inscrits. (si vous n'etes pas encore inscrit 
+                                            Un versement dans la liste de collecte de fonds disponible au sein
+                                            du comité de soutien où vous etes inscrits. (si vous n'etes pas encore inscrit
                                             <a href="{{'subscribeTocomity'}}">cliquez ici</a> ) <br>
                                     </li>
 
                                     <li>
-                                            Un transfert mobile Money dans le compte de la cérémonie 
-                                            (réf du compte à ajouter ) (lorsqu’ils sont domiciliés au Cameroun 
+                                            Un transfert mobile Money dans le compte de la cérémonie
+                                            (réf du compte à ajouter ) (lorsqu’ils sont domiciliés au Cameroun
                                             ou dans un pays du réseau MTN). <br>
                                     </li>
 
@@ -42,7 +42,7 @@
                                         Par carte bancaire: Visa,Mastercard.. etc
                                     </li>
                                 </ul>
-                                
+
                         </div>
                         <br>
 
@@ -92,12 +92,12 @@
                                           </div>
                             </span>
                         </ul>
-                        <span> 
-                            
+                        <span>
+
                             <center><strong>NB:  </strong>Date de paiement au plus tard : <strong>15 Novembre 2019</strong> </span></center>
 
                             <br>
-                    
+
                             <div class="form-row">
                               <div class="form-group col-md-6">
                                 <label for="inputEmail4">Nom</label>
@@ -110,7 +110,7 @@
                             </div>
 
                             <div class="form-row">
-                                <div class="form-group col-md-4">
+                                <div class="form-group col-md-6">
                                         <label for="inputState">Mode de paiement</label>
                                         <select name="mode_pay" class="form-control">
                                           <option selected>MTN MOMO</option>
@@ -119,7 +119,7 @@
                                           <option>Depot en compte</option>
                                         </select>
                                 </div>
-                          
+
                         </div>
 
                             <div class="form-row">
@@ -147,33 +147,33 @@
                                 <br>
                             <button type="submit" class="btn btn-primary btn-lg btn-block">Enregistrer</button>
                           </form>
-                        
+
                     </div>
 
-                   
+
 
                 </div>
-                
-               
-                
+
+
+
             </div>
             <div class="col-lg-4">
                 <div class="blog_right_sidebar">
                     <aside class="single_sidebar_widget search_widget">
-                      
+
                     </aside>
-                   
+
                     <aside class="single_sidebar_widget popular_post_widget">
-                      
-                    
-                        <iframe src="http://127.0.0.8/M3EEHNK%20TECH/site/" frameborder="0" width="400" 
+
+
+                        <iframe src="http://127.0.0.8/M3EEHNK%20TECH/site/" frameborder="0" width="400"
                         height="1000"></iframe>
                     </aside>
-                
+
                 </div>
             </div>
         </div>
     </div>
 </section>
-  
+
   @endsection

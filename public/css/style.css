@@ -76,7 +76,7 @@
 
 .moreImg1
 {
- 
+
   margin-left: 690px;
   margin-top: -396px;
 
@@ -221,7 +221,7 @@
   margin-top:-50px;
   margin-left:-15px;
   margin-right: -13px;
-  
+
 }
 #affiche
 {
@@ -301,13 +301,12 @@ body {
   color: #000000;
   text-align: justify;
  font-size: 14pt;
+    background-color: rgba(253, 247, 231);
 
-/* background-color: rgba(221, 216, 194)  ; */
 
 
- 
- 
- 
+
+
 /*#bec3c6*/
 }
 
@@ -386,7 +385,7 @@ a:hover {
 a.text-brand:hover
 {
  color:black;
-} 
+}
 
 .color-a {
   color: #000000;
