@@ -51,18 +51,16 @@
             <!--second section-->
             <div class="row align-items-center justify-content-end how-it-works d-flex">
                 <div class="col-6 text-right">
-                    <h3>La présente phase</h3>
-                    <p>En la présente phase, L’Eternel donne la capacité mentale et spirituelle permettant à
-                        toutes les personnes
-                        dans les nations, qui veulent manifester leur appartenance à son nom et participer
+                    <h3>Le groupe Serviteurs de Dieu pour nations consacrées</h3>
+                    <p>2-	IL réunit des hommes et des femmes déjà consacrés au service de Dieu,
+                        qui veulent travailler ensemble pour préparer la consécration du Cameroun à l’Éternel
+                        comme nation éthique.
                         <a  href="#collapse2"  data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse2">
                             <strong>Lire plus</strong>
                         </a>
                     <div class="collapse" id="collapse2">
-                        à son dessein de bâtir des nations selon son cœur ou nations éthiques,
-                        ou nations fondées sur des valeurs morales d’y parvenir. Ce don sera effectif,
-                        lors de la cérémonie de consécration prévue, à travers le don de son alliance
-                        de miséricorde.
+                        Il réunit en outre des serviteurs de Dieu de toutes les nationalités,
+                        qui veulent inscrire leur pays dans ce plan de l’Éternel.
                     </div>
                     </p>
                 </div>
@@ -88,21 +86,23 @@
                     <div class="circle font-weight-bold">3</div>
                 </div>
                 <div class="col-6">
-                    <h3>L'alliance de miséricorde de l’Éternel</h3>
-                    <p>L’Eternel par son alliance de miséricorde, permet aux personnes, aux familles,
-                        aux jeunes, aux femmes, aux leaders, à ses serviteurs et à tous ceux qui se
+                    <h3>Le groupe « Familles consacrées à l’Eternel »</h3>
+                    <p>Il rassemble des hommes, des femmes, des jeunes, qui entendent l'appel de l’Éternel
+                        et veulent travailler ensemble pour la consécration de la nation à Dieu à travers des familles consacrées.
                         <a  href="#collapse3"  data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse3">
                             <strong>Lire plus</strong>
                         </a>
                     <div class="collapse" id="collapse3">
-                        seront préparés à cet effet, dans toutes les catégories
-                        de la vie sociale,
-                        d’être régénérés par son esprit.
-                        Ceci afin qu’ils passent d’une vie sans espérance
-                        dans un monde rongé par le péché et le mal à un
-                        monde où, les fils et filles de lumière ont son
-                        autorité pour ramener l’espérance et donner un
-                        avenir à ses enfants, au sein de nations éthiques.
+                        Il rassemble des hommes, des femmes, des jeunes,
+                        qui entendent l'appel de l’Éternel et veulent travailler ensemble pour la
+                        consécration de la nation à Dieu à travers des familles consacrées.
+                        Ces familles à travers leurs leaders(ceux/celles qui en prennent l'engagement) ,
+                        font le choix d'amener leurs autres membres à Dieu - (comme Josué ,
+                        qui a proclamé: "moi et ma maison nous servirons l’Éternel"),
+                        de travailler dans l'alliance de miséricorde de l’Éternel pour renverser
+                        l'iniquité au sein de leurs familles et rebâtir celles-ci selon les valeurs
+                        spirituelles qui caractérisent les enfants de lumière ( l'amour, la paix, le pardon, la charité, la solidarité, la justice, etc. ). Afin que les familles soient des piliers de la nation éthique.
+
                     </div>
                     </p>
                 </div>
@@ -122,13 +122,12 @@
 
             <div class="row align-items-center justify-content-end how-it-works d-flex">
                 <div class="col-6 text-right">
-                    <h3>La repentance et la consécration à Dieu</h3>
-                    <p>Mais ils/elles doivent au préalable pour cela, accepter de rejeter et rejeter
-                        la confusion actuelle et le péché par la repentance. Ils /elles doivent
-                        accepter de se convertir  par la consécration à son nom, la consécration
-                        de leur vie à faire sa volonté.
-
-                    </p>
+                    <h3>Le groupe "Jeunes consacrés à l’Éternel"</h3>
+                    <p>Il rassemble des jeunes gens et jeunes filles de toutes communautés et nations,
+                        qui entendent l'appel de l’Éternel et veulent se consacrer à lui,
+                        en vue de bâtir ensemble la nation éthique,
+                        par leurs valeurs morales et leur créativité,
+                        et contribuer ainsi à la paix et au progrès pour tous.</p>
                 </div>
                 <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
                     <div class="circle font-weight-bold">4</div>
@@ -152,20 +151,18 @@
                     <div class="circle font-weight-bold">5</div>
                 </div>
                 <div class="col-6">
-                    <h3>L'alliance de miséricorde de l’Éternel</h3>
-                    <p>L’Eternel par son alliance de miséricorde, permet aux personnes, aux familles,
-                        aux jeunes, aux femmes, aux leaders, à ses serviteurs et à tous ceux qui se
-                        seront préparés à cet effet, dans toutes les catégories de la vie sociale,
-                        d’être régénérés par son esprit.
-                        <a  href="#collapse3"  data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse3">
+                    <h3>Le groupe " Leaders consacrés à l’Éternel"</h3>
+                    <p>Il rassemble des hommes et des femmes de toutes les nations,
+                        des leaders au sein de divers types de communautés (culturelles, sociologiques, professionnelles,...)
+                        qui veulent bâtir la nation éthique avec l’Éternel,
+                        <a  href="#collapse5"  data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse5">
                             <strong>Lire plus</strong>
                         </a>
-                    <div class="collapse" id="collapse3">
-                        Ceci afin qu’ils passent d’une vie sans espérance
-                        dans un monde rongé par le péché et le mal à un
-                        monde où, les fils et filles de lumière ont son
-                        autorité pour ramener l’espérance et donner un
-                        avenir à ses enfants, au sein de nations éthiques.
+                    <div class="collapse" id="collapse5">
+                        dans leurs différents milieux d’appartenance,
+                        leur pays, au-delà. Ils se mobilisent et travaillent ensemble,
+                        pour la réalisation de son plan dès cette étape,
+                        qui est la consécration (l'engagement à faire sa volonté).
                     </div>
                     </p>
                 </div>

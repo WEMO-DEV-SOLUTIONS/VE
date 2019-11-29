@@ -108,6 +108,7 @@ Route::resource('forum/categories','Forum\CategoryController');
 Route::resource('forum/topics','Forum\TopicController');
 Route::resource('forum/messages','Forum\MessageController');
 /*Route::resource('forum/faq.index','Forum\MessageController'); */
+
 /*route pour fermer un message du forum*/
 Route::get('/forum/closetopic/{id}',function ($id){
     $topic = \App\forumTopic::where('id',$id)->first();

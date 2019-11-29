@@ -129,7 +129,7 @@
               <p>
                   Les familles  - Les jeunes   - Les leaders  - Les femmes
                   (dans LA DÉCENNIE D'IMPACT SPIRITUEL DES FEMMES)  - Les serviteurs de Dieu...
-                 <a href=""> <strong>Lire plus</strong></a>
+                 <a href="{{route('more-a-retenir3')}}"> <strong>Lire plus</strong></a>
                 </p>
             </div>
           </div>
