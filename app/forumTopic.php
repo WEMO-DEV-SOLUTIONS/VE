@@ -31,4 +31,5 @@ class forumTopic extends Model
     public function category(){
         return $this->belongsTo(forumCategory::class,'forum_category_id','id');
     }
+
 }

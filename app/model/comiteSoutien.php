@@ -2,10 +2,16 @@
 
 namespace App\model;
 
+use App\Http\Middleware\Authenticate;
+use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Notifications\Notifiable;
 
-class comiteSoutien extends Model
+class comiteSoutien extends Authenticatable
 {
-    protected $fillable = ['idComite_soutien','nom_comite','categorie','lieu','heure','jour rencontre',
-    'date_debut','created_at','code_comité','chef_groupe','updated_at'];
+    use Notifiable;
+
+    protected $guarded;
+
+
 }

@@ -1,55 +1,61 @@
-@extends('layout.forum')
+@extends('admin.include.layout_admin')
 
 @section('content')
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container-fluid">
 
         <div class="row">
 
-            <div class="col-lg-12">
-                <!-- Page Heading/Breadcrumbs -->
-                <h1 class="mt-4 mb-3">
-                    Liste des sujets
-                    <a href="#new_topic" class="btn btn-primary" data-toggle="modal" >
-                        nouveau sujet
-                    </a>
-                </h1>
 
+            <div class="col-lg-6">
+                <h2>Forum</h2>
+                <p>Bienvenue dans le forum</p>
+            </div>
+
+            <div class="col-lg-6 text-right">
+                <a href="#new_topic" class="btn btn-primary" data-toggle="modal" >
+                    Ajouter un sujet
+                </a>
             </div>
 
             <div class="col-lg-12">
 
-
-                <table class="table table-hover col-lg-12">
-                    <thead>
-                    <tr>
-                        <th>nom</th>
-                        <th>description</th>
-                        <th>Categorie</th>
-                        <th>Utilisateur</th>
-                        <th>action</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    @foreach($topics as $item)
-                        <tr>
-                            <td>{{$item->name}}</td>
-                            <td>{{$item->content}}</td>
-                            <td>{{$item->user->name}}</td>
-                            <td>{{$item->category->name}}</td>
-                            <td>
-                                <form action="{{route('topics.destroy',$item->id)}}" method="post">
-                                    @csrf @method('DELETE')
-                                    <a href="{{route('topics.show',$item->id)}}" class="btn btn-primary"  > Consulter </a>
-                                    <a href="#edit_category{{$item->id}}" class="btn btn-primary" data-toggle="modal" >modifier</a>
-                                    <button type="submit" class="btn btn-primary" onclick="return confirm('l\'element vas etre supprimer')" >Supprimer</button>
-                                </form>
-                            </td>
-                        </tr>
+                @foreach($categories as $category)
+                    <div class="card mb-4">
+                        <div class="card-header " style="background-color: #20a5fd;">
+                            <h2 class="text-white m-0"><?= $category->name ?></h2>
+                        </div>
+                        <div class="list-group">
+                            @foreach($category->topics as $item)
+                                <div class="list-group-item">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+                                            <h3><a href="{{route('topics.show',$item->id)}}">{{$item->name}}</a></h3>
+                                            <p>{{$item->content}}</p>
+                                        </div>
+                                        <div class="col-lg-3 text-right">
+                                            <div>
+                                                <form action="{{route('topics.destroy',$item->id)}}" method="post">
+                                                    @csrf @method('DELETE')
+                                                    @if(auth()->check()  OR
+                                                    !empty(\Illuminate\Support\Facades\DB::table('comite_soutiens')
+                                                                                ->where('idComite_soutien',$item->user_id)
+                                                                                ->where('idComite_soutien',session('comite_user.idComite_soutien') )
+                                                                                ->count()))
+                                                        <a href="#edit_category{{$item->id}}" class="btn btn-primary" data-toggle="modal" >Modifier </a>
+                                                        <button type="submit" class="btn btn-danger" onclick="return confirm('l\'element vas etre supprimer')" > <i class="fa fa-exclamation-triangle"></i> Supprimer</button>
+                                                    @endif
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            @endforeach
+                        </div>
+                    </div>
                     @endforeach
-                    </tbody>
-                </table>
+
 
                 @foreach($topics as $item)
                     <div class="modal fade " id="edit_category{{$item->id}}"  role="dialog" aria-labelledby="exampleModalLabel"  aria-modal="true">
@@ -70,7 +76,7 @@
                                             <input name="name" type="text" class="form-control" value="{{$item->name}}">
                                         </div>
                                         <div class="form-group">
-                                            <label for="">content</label>
+                                            <label for="">contenu</label>
                                             <textarea name="content" id="" cols="30" rows="10" class="form-control">{{$item->content}}</textarea>
                                         </div>
                                         <div class="form-group">
@@ -82,7 +88,7 @@
                                                 @endforeach
                                             </select>
                                         </div>
-                                        <button type="submit" class="btn btn-primary" >editer</button>
+                                        <button type="submit" class="btn btn-primary" >Editer</button>
                                     </form>
                                 </div>
                             </div>
@@ -90,6 +96,10 @@
                     </div>
                 @endforeach
 
+            </div>
+
+            <div class="col-lg-12">
+                {{$categories->links()}}
             </div>
 
         </div>

@@ -5,11 +5,10 @@
 
 @extends('layout/appLayout')
 
-@section('content') 
-
+@section('content')
+    <br>
 <div class="">
-  <div class="container"  style="background-color:#bec3c665  ;">
-      <br>
+  <div class="container"  style="background-color:white ;margin-top:2px">
       <br>
    <center><h2>L'APPEL DE L’ÉTERNEL</h2></center> 
    <br>
@@ -31,10 +30,10 @@
                                    manières en différents lieux du globe. Il a été mis en œuvre,
                                   en plusieurs étapes précédentes successives au Cameroun, depuis de nombreuses années.
                                   <a  href="#collapse1"  data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse1">
-                       Lire plus
+                      
                     </a>
                             </div>
-                     </p>
+                  </p>
       </div>
     </div>
     <!--path between 1-2-->
@@ -177,11 +176,10 @@
 
 
 
-
+  @endsection
 
 </div>
 
 
 
 
-@endsection

@@ -13,7 +13,7 @@ class Particpants extends Migration
      */
     public function up()
     {
-        Schema::create('participant', function (Blueprint $table) {
+        Schema::create('participants', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('nom');
             $table->string('prenom');
@@ -24,7 +24,7 @@ class Particpants extends Migration
             $table->string('profession');
             $table->string('categorie');
             $table->timestamps();
-            $table->integer('idComite_soutien');
+            $table->integer('idComite_soutien')->nullable();
         });
     }
 

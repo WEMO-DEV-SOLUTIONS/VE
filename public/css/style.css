@@ -301,7 +301,7 @@ body {
   color: #000000;
   text-align: justify;
  font-size: 14pt;
-    background-color: rgba(253, 247, 231);
+  background-color:#d8dbdd
 
 
 
@@ -378,7 +378,7 @@ a:hover {
 
 .text-brand {
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 25px;
   font-weight: 600;
 }
 
@@ -820,7 +820,7 @@ a.text-brand:hover
 
 .navbar-default {
   transition: all .5s ease-in-out;
-  background-color: #31baf0ee;
+  background-color: #2c8bea;
   padding-top: -18px;
   padding-bottom: -18px;
   -webkit-backface-visibility: hidden;
@@ -828,7 +828,7 @@ a.text-brand:hover
   box-shadow: 1px 2px 15px rgba(100, 100, 100, 0.3);
   margin-top:40px;
   margin-left:105px;
-  margin-right: 105px;
+  margin-right: 104px;
 
 }
 
@@ -1918,6 +1918,7 @@ footer .credits {
 
 .btn {
   transition: .5s ease;
+  border-radius: 0px;
 }
 
 .btn.btn-a,

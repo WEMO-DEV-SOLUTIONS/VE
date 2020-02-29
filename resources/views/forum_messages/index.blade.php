@@ -1,4 +1,4 @@
-@extends('layout.forum')
+@extends('admin.include.layout_admin')
 
 @section('content')
 
@@ -15,8 +15,8 @@
             </div>
 
             <div class="col-lg-6">
-                <span class="badge badge-primary">Autheur : </span>
-                <span class="badge badge-primary">Category : </span>
+                <span class="badge badge-primary">Auteur : </span>
+                <span class="badge badge-primary">Categorie : </span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium beatae deserunt
                     dicta earum eligendi explicabo facilis illo impedit ipsam, maxime nisi odit,
                     officia optio quasi, reprehenderit temporibus vero voluptatem!</p>

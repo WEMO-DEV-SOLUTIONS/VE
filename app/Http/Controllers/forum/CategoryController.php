@@ -16,7 +16,7 @@ class CategoryController extends Controller
     public function index()
     {
         return view('forum_category.index')->with([
-            'categories'=> forumCategory::all()
+            'categories'=> forumCategory::paginate(20)
         ]);
     }
 

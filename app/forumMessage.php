@@ -9,6 +9,7 @@ class forumMessage extends Model
     protected $fillable = [
         'content',
         'user_id',
+        'topic_id',
         'close',
     ];
 

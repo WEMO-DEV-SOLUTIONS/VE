@@ -39,7 +39,7 @@
   <!-- Template Main Javascript File -->
   <script src="main.js"></script>
 
-
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('img/logo.png')}}" />
 
 </head>
 
