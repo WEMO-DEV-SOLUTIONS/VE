@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-trans navbar-expand-lg " style="height:50px;margin-right: 103px;margin-left: 104px;>
+<nav class="navbar navbar-default navbar-trans navbar-expand-lg " style="height:50px;margin-right: 103px;margin-left: 104px;">
     <div class="container">
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
