@@ -115,7 +115,7 @@
                <div class="row col-lg-2 mt-4  container"  style="padding-left: 5px;">
                   <div class="blog_right_sidebar bg-white">
 
-                      <aside class="single_sidebar_widget popular_post_widget " style="font-size: 14px">
+                      <aside class="single_sidebar_widget popular_post_widget " style="font-size: 14px;border-radius: 1px;width: 23.5rem;">
 
                           <img src="{{ asset('img/comités de soutien.png') }}" alt="" height="200" width="380" style="margin-left: -1px;">
                           <a  href="#collapse1"  data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse1">
