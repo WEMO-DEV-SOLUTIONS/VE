@@ -27,7 +27,7 @@ class NewsTableSeeder extends Seeder
                 'content' => 'Contenu news 2',
                 'created_at' => now()
         ];
-        if ( empty( DB::table('news')->count() ) ){
+        if (empty( DB::table('news')->count() ) ){
             DB::table("news")->insert($news_data);
         }
     }

@@ -64,11 +64,14 @@ class ComiteSoutiensTableSeeder extends Seeder
             ],
 
         ];
+        
         foreach ($data as $datum){
+
             $exist_comite_soutiens = DB::table('comite_soutiens')
                 ->OrWhere('nom_comite',$datum['nom_comite'])
                 ->OrWhere('code_comite',$datum['code_comite'])
                 ->OrWhere('chef_groupe',$datum['chef_groupe'])->count();
+
             if ( empty($exist_comite_soutiens) ){
                 DB::table('comite_soutiens')->insert($datum);
             }

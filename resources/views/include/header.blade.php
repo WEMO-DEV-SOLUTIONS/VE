@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Ceremonie de Consecration</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Nations pour l'Eternel</title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
   <meta content="" name="keywords">
   <meta content="" name="description">
 

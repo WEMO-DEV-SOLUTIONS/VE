@@ -117,7 +117,7 @@
       </div>
 
 
-  <section class="section-agents section-t8" style="background-color:white;margin-top:5px; width:1140px;margin-left:-15px;height:420px">
+    <section class="section-agents section-t8" style="background-color:white;margin-top:5px; width:1140px;margin-left:-15px;height:420px">
     <div class="container">
       <div class="row" >
         <div class="col-md-6" style="margin-top:-80px">
@@ -178,6 +178,7 @@
       </strong>
 
   </div>
+    </div>
     </div>
 
   </section>
