@@ -20,7 +20,7 @@ class TopicController extends Controller
     {
         return view('forum_topic.index')->with([
             'topics'=>forumTopic::all(),
-            'categories'=>forumCategory::all()
+            'categories'=>forumCategory::with('topics')->paginate(6)
         ]);
     }
 
@@ -43,7 +43,7 @@ class TopicController extends Controller
     public function store(Request $request)
     {
         $request->merge([
-            'user_id'=> 1 // Auth::user()->id
+            'user_id'=> Auth::user()->id ?? session('comite_user.idComite_soutien')
         ]);
         $this->validate($request,forumTopic::rules());
         forumTopic::create($request->all());
@@ -60,7 +60,7 @@ class TopicController extends Controller
     {
         return view('forum_topic.show')->with([
             'topic'=> $topic,
-            'messages'=>forumMessage::all()
+            'messages' => forumMessage::all()->where('topic_id', '=', $topic->id)
         ]);
     }
 
@@ -86,7 +86,7 @@ class TopicController extends Controller
     public function update(Request $request, forumTopic $topic)
     {
         $request->merge([
-            'user_id'=> 1 // Auth::user()->id
+            'user_id'=>  Auth::user()->id ?? session('comite_user.idComite_soutien')
         ]);
         $this->validate($request,forumTopic::rules());
         $topic->update($request->all());

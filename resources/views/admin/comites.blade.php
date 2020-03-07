@@ -1,5 +1,5 @@
 
-@extends('layout/adminLayout')
+@extends('admin.include.layout_admin')
 @section('content')
 
 	<!-- begin #page-loader -->
@@ -10,9 +10,7 @@
 	<div id="page-container" class="fade in page-sidebar-fixed page-header-fixed">
 
  
-		
-		<!-- begin #content -->
-		<div id="content" class="content">
+
 			<!-- begin breadcrumb -->
 			<ol class="breadcrumb float-xl-right">
 				<li class="breadcrumb-item"><a href="javascript:;">Comités</a></li>
@@ -44,7 +42,7 @@
 						<!-- begin panel-body -->
 						<div class="panel-body">
 							<table id="data-table-buttons" class="table table-striped table-bordered table-td-valign-middle">
-								
+
 								<thead>
 									<tr>
 										<th width="1%"></th>
@@ -58,31 +56,31 @@
                                         <th class="text-nowrap">Code</th>
                                         <th class="text-nowrap">Administrateur</th>
 										<th class="text-nowrap"></th>
-										
+
 									</tr>
 								</thead>
-								
-								
+
+
 								<tbody>
 
 								@foreach ($listeCS as $key => $comite)
-									
-								
+
+
 									<tr class="gradeA">
 										<td width="1%" class="f-s-600 text-inverse">{{$key+1}}</td>
 										<td>{{$comite->nom_comite}}</td>
 										<td>{{$comite->created_at}}</td>
 										<td>{{$comite->categorie}}</td>
-										<td>{{$comite->Lieu}}</td>
-										<td>{{$comite->Heure}}</td>
-                                        <td>{{$comite->Jour_rencontre}}</td>
-										<td>{{$comite->Date_debut}}</td>
-										<td>{{$comite->Code_comite}}</td>
+										<td>{{$comite->lieu}}</td>
+										<td>{{$comite->heure}}</td>
+                                        <td>{{$comite->rencontre}}</td>
+										<td>{{$comite->date_debut}}</td>
+										<td>{{$comite->code_comite}}</td>
 										<td>{{$comite->chef_groupe}}</td>
                                         <td>
 											<a href="#modal-alert" class="btn btn-sm btn-danger" data-toggle="modal"><i class="fa fa-trash"></i></a>
 										</td>
-										
+
 										<div class="modal fade" id="modal-alert">
 											<div class="modal-dialog">
 												<div class="modal-content">
@@ -111,6 +109,39 @@
 
 								</tbody>
 							</table>
+                            <div class="panel panel-inverse">
+                                <!-- begin panel-heading -->
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">Liste Des Contributions des Comites</h4>
+                                    <div class="panel-heading-btn">
+                                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></a>
+                                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i class="fa fa-redo"></i></a>
+                                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
+                                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
+                                    </div>
+                                </div>
+                            <div class="panel-body">
+                                <table id="data-table-buttons" class="table table-striped table-bordered table-td-valign-middle">
+                                <thead class="bg-dark text-white">
+                                <tr>
+                                    <th width="1%"></th>
+                                    <th class="text-nowrap">Nom comite</th>
+                                    <th class="text-nowrap">Contribution</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                               @foreach($montants as $key => $montant)
+                                <tr class="gradeA">
+                                    <td width="1%" class="f-s-600 text-inverse">{{$key+1}}</td>
+                                    <td>{{ $montant->nom_comite  }}</td>
+                                    <td> {{ $montant->sum }}</td>
+
+                                </tr>
+                                   @endforeach
+                                </tbody>
+                            </table>
+                            </div>
+                            </div>
 						</div>
 						<!-- end panel-body -->
 					</div>
@@ -125,8 +156,6 @@
 		<!-- begin scroll to top btn -->
 		<a href="javascript:;" class="btn btn-icon btn-circle btn-success btn-scroll-to-top fade" data-click="scroll-top"><i class="fa fa-angle-up"></i></a>
 		<!-- end scroll to top btn -->
-		
-	</div>
 	<!-- end page container -->
 
 	

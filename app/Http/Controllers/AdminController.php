@@ -2,33 +2,42 @@
 
 namespace App\Http\Controllers;
 
+use App\model\comiteSoutien;
+use App\model\paiement;
+use App\model\participants;
+use App\Souscriptions;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class AdminController extends Controller
 {
     public function index()
     {
-        $Nparticipants = \App\model\participants::all()->count();
-        $NcomiteSoutien = \App\model\comiteSoutien::all()->count();
-        $Npaiement = \App\model\paiement::all()->sum('Montant');
-        $ParticipantWithNocomity = \App\model\participants::all()->where('idComite_soutien', 0)->count();
-        $prevision = \App\model\paiement::all()->sum('Montant');
+        $Nparticipants = participants::all()->count();
+        $NcomiteSoutien = comiteSoutien::all()->count();
+        $ParticipantWithNocomity = participants::all()->where('idComite_soutien', 0)->count();
+        $paiements = paiement::sum('montant');
+        $souscription = Souscriptions::sum('montant');
+
 
         return view('admin.dashboard',['Nparticipants' => $Nparticipants , 'NcomiteSoutien' => $NcomiteSoutien ,
-         'Npaiement' => $Npaiement , 'listePwc' => $ParticipantWithNocomity]);
+         'listePwc' => $ParticipantWithNocomity, 'montant' => $paiements, 'Previsions' => $souscription]);
     }
 
     public function getParticipants()
     {
-        $participants = \App\model\participants::all();
+        $participants = participants::all();
          return view('admin.participants')->with('listeP', $participants);
         // return view('admin.participants' ,  compact($participants) );
     }
 
     public function comiteSoutien()
     {
-        $comites = \App\model\comiteSoutien::all();
-         return view('admin.comites')->with('listeCS', $comites);
+        $comites = comiteSoutien::all();
+        $montants = paiement::groupBy('nom_comite')
+            ->selectRaw('nom_comite, sum(montant) as sum')
+            ->get();
+         return view('admin.comites', compact('montants'))->with('listeCS', $comites);
         // return view('admin.participants' ,  compact($participants) );
     }
 

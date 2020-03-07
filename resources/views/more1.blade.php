@@ -1,22 +1,15 @@
 @extends('layout/appLayout')
 
-@section('content') 
-
+@section('content')
+    <br>
 <div class="">
-  <div class="container"  style="background-color:#bec3c665  ;">
-      <br>
-      <br>
-   <center><h1>
-        CEREMONIE DE CONSECRATION DES NATIONS <br>
-        A LA LUMIERE  DE L’ETERNEL- CAMEROON 2019
-</h1></center> 
+  <div class="container"  style="background-color:white ;margin-top:2px">
+    <br> 
 
-   <br>
-
-   <center>
-    
-        <h2>CE QU’IL FAUT RETENIR</h2> 
-</center>
+    <center>
+      
+      <h2>CE QU’IL FAUT RETENIR</h2> 
+    </center>
 
     <!--first section-->
     <div class="row align-items-center how-it-works d-flex">
@@ -24,8 +17,8 @@
         <div class="circle font-weight-bold">1</div>
       </div>
       <div class="col-6">
-        <h3>APPEL:</h3>
-                <p> L’Eternel appelle toutes les nations de la terre à s’établir dans sa lumière afin de 
+        <h3>Appel</h3>
+                <p style="text-align:left"> L’Eternel appelle toutes les nations de la terre à s’établir dans sa lumière afin de 
                         devenir des nations éthiques. 
                             <a  href="#collapse1"  data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse1">
                                    <strong>Lire plus</strong> 
@@ -56,8 +49,8 @@
     <!--second section-->
     <div class="row align-items-center justify-content-end how-it-works d-flex">
       <div class="col-6 text-right">
-            <h3>INSCRIPTION :</h3>
-            <p> Elle s’effectuera  en principe, du 12 septembre au 30 novembre 2019. Tous les participants à la  cérémonie
+            <h3>Inscription </h3>
+            <p style="text-align:right"> Elle s’effectuera  en principe, du 12 septembre au 30 novembre 2019. Tous les participants à la  cérémonie
                     de consécration, doivent être enregistrés au préalable, soit dans un comité de soutien (physique ou virtuel) à l’événement, 
                     soit directement sur toutes les plateformes numériques ayant un lien avec la cérémonie de consécration
                         <a  href="#collapse2"  data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse2">
@@ -91,8 +84,8 @@
         <div class="circle font-weight-bold">3</div>
       </div>
       <div class="col-6">
-            <h3>CONDITIONS D’INSCRIPTION :</h3>
-                    <p>Peut s’inscrire pour prendre part à la cérémonie, tout homme, femme, jeune, quel que soit son pays, sa religion. 
+            <h3>Conditions d'inscription </h3>
+                    <p style="text-align:left">Peut s’inscrire pour prendre part à la cérémonie, tout homme, femme, jeune, quel que soit son pays, sa religion. 
                             Il ou elle doit accepter de se purifier par la repentance, de se sanctifier, de se consacrer à l’Eternel, afin de recevoir  
                                 <a  href="#collapse3"  data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse3">
                                        <strong>Lire plus</strong> 
@@ -119,8 +112,8 @@
 
           <div class="row align-items-center justify-content-end how-it-works d-flex">
                 <div class="col-6 text-right">
-            <h3>PRIORITE : </h3>
-                        <p>MToutefois, la participation à la cérémonie de consécration sera accordée en priorité à ceux qui se sont
+            <h3>Priorité </h3>
+                        <p style="text-align:right">Toutefois, la participation à la cérémonie de consécration sera accordée en priorité à ceux qui se sont
                                 à la fois inscrits pour la cérémonie et 
                                dans un comité de soutien à l’événement, où ils auront pris part aux activités préparatoires prévues.
                                     
@@ -148,7 +141,7 @@
                       <div class="circle font-weight-bold">5</div>
                     </div>
                     <div class="col-6">
-                          <h3>PREPARATION :</h3>
+                          <h3>Préparation </h3>
                                   <p>La préparation à la cérémonie est spirituelle et matérielle. La préparation spirituelle est 
                                         effectuée au sein des comités de soutien, qui se constituent librement autour d’un 
                                         leader(le leader se constitue tel volontairement) en regroupant des personnes ayant l’un 
@@ -185,7 +178,7 @@
 
                       <div class="row align-items-center justify-content-end how-it-works d-flex">
                             <div class="col-6 text-right">
-                        <h3>DATES A RETENIR ET INFORMATIONS COMPLEMENTAIRES : </h3>
+                        <h3 style="text-align:right">Dates et informations complémentaires </h3>
                                     <p>
                                  
                                                      Les inscriptions à la cérémonie seront closes dès que le nombre  d’inscrits couvrira 

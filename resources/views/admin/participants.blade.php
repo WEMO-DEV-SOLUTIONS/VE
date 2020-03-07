@@ -1,4 +1,5 @@
-@extends('layout/adminLayout')
+@extends('admin.include.layout_admin')
+
 @section('content')
 
 	<!-- begin #page-loader -->
@@ -8,8 +9,6 @@
 	<!-- begin #page-container -->
 	<div id="page-container" class="fade in page-sidebar-fixed page-header-fixed">
 
-		<!-- begin #content -->
-		<div id="content" class="content">
 			
 			<!-- begin page-header -->
 			<h2 class="page-header">Liste des Participants</h2>
@@ -64,14 +63,14 @@
 
 									<tr class="gradeA">
 										<td width="1%" class="f-s-600 text-inverse">{{$key + 1}}</td>
-										<td>{{$participant->Nom}}</td>
+										<td>{{$participant->nom}}</td>
 										<td>{{$participant->prenom}}</td>
 										<td>{{$participant->email}}</td>
-										<td>{{$participant->Pays}}</td>
-										<td>{{$participant->Ville}}</td>
+										<td>{{$participant->pays}}</td>
+										<td>{{$participant->ville}}</td>
 										<td>{{$participant->telephone}}</td>
-										<td>{{$participant->Profession}}</td>
-										<td>{{$participant->Categorie}}</td>
+										<td>{{$participant->profession}}</td>
+										<td>{{$participant->categorie}}</td>
 										<td>{{$participant->created_at}}</td>
                                         <td>
 											<a href="#modal-alert" class="btn btn-sm btn-danger" data-toggle="modal"><i class="fa fa-trash"></i></a>
@@ -121,8 +120,6 @@
 		<!-- begin scroll to top btn -->
 		<a href="javascript:;" class="btn btn-icon btn-circle btn-success btn-scroll-to-top fade" data-click="scroll-top"><i class="fa fa-angle-up"></i></a>
 		<!-- end scroll to top btn -->
-		
-	</div>
 	<!-- end page container -->
 
 	@endsection

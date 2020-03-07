@@ -2,14 +2,23 @@
 
 namespace App\Http\Controllers;
 
+use App\model\comiteSoutien;
+use Illuminate\Contracts\View\Factory;
 use Illuminate\Http\Request;
+use Illuminate\View\View;
 
 class indexController extends Controller
 {
+    /**
+     * @param Request $request
+     * @return Factory|View
+     */
     public function index(Request $request)
     {
-        $comites = \App\model\comiteSoutien::all();
+        $comites  = comiteSoutien::all();
 
-        return view('form.inscriptionCS')->with('comites',$comites);
+        return view('form.inscriptionCS', compact('comites'));
     }
+
+    
 }

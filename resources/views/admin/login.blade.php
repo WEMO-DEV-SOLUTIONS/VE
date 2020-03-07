@@ -9,7 +9,7 @@
 	<!-- begin login-cover -->
 	<div class="login-cover">
 		<div class="login-cover-image"  data-id="login-cover-image"></div>
-		<img src="img/calltoactionbg.jpg" alt="">
+		<img src="{{ asset('img/img1.jpg') }}" alt="" style="width: 100%; height: 100%;">
 		<div class="login-cover-bg">
 			
 		</div>
@@ -48,22 +48,15 @@
 					</div>
 					<div class="login-buttons">
 						<button type="submit" class="btn btn-primary btn-block btn-lg">Connexion</button> <br>
-						<a href="{{route('home')}}"><button type="submit" class="btn btn-secondary btn-block btn-sm">Revenir au site</button></a>
 					</div>
-				</form>
-			</div>
-			<!-- end login-content -->
+                </form>
+                <a href="{{route('home')}}"><button type="submit" class="btn btn-secondary btn-block btn-sm">Revenir au site</button></a>
+            </div>
+                    <!-- end login-content -->
 		</div>
 		<!-- end login -->
 		
 	
 	</div>
 	<!-- end page container -->
-	
-	<!-- ================== BEGIN BASE JS ================== -->
-	
-</body>
-
-
-</html>
 @endsection

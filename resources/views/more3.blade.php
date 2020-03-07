@@ -4,15 +4,14 @@
 <!------ Include the above in your HEAD tag ----------> --}}
 
 @extends('layout/appLayout')
-
 @section('content')
+    <br>
 
     <div class="">
-        <div class="container"  style="background-color:#bec3c665  ;">
+        <div class="container"  style="background-color:white ;margin-top:2px">
             <br>
-            <br>
-            <center><h2>DESCRIPTION DES GROUPES DE LA PAGE FACEBOOK/ NATIONS CONSACREES A DIEU</h2></center>
-            <br>
+            <center><h2>LES COMMUNAUTES APPELEES</h2></center> 
+   <br>
             <!--first section-->
             <div class="row align-items-center how-it-works d-flex">
                 <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
@@ -20,7 +19,7 @@
                 </div>
                 <div class="col-6">
                     <h3>La Décennie d’impact spirituel de femmes</h3>
-                    <p>Ce groupe mobilise des femmes qui veulent  participer  au mouvement social et spirituel qu’est la Décennie d’impact spirituel des femmes.  Il est constitué  par des femmes de toutes communautés et nations, qui s’engagent à servir Dieu dans leurs familles,  leurs foyers, dans leurs différentes communautés et dans toutes les sphères de la vie sociale, en amenant à la vie la nation éthique, par leurs valeurs morales et par  leur comportement au cours de la décennie.
+                    <p>Ce groupe mobilise des femmes qui veulent  participer  au mouvement social et spirituel, qu’est la Décennie d’impact spirituel des femmes.  Il est constitué  par des femmes de toutes communautés et nations, qui s’engagent à servir Dieu dans leurs familles,  leurs foyers, dans leurs différentes communautés et dans toutes les sphères de la vie sociale, en amenant à la vie la nation éthique, par leurs valeurs morales et par  leur comportement au cours de la décennie.
 
 
                         <a  href="#collapse1"  data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse1">
@@ -29,9 +28,7 @@
                     <div class="collapse" id="collapse1">
                         Il rassemble des femmes, des jeunes filles, des mères, des leaders féminins consacrés à Dieu et travaillant ensemble; en vue de renverser les fondations spirituelles, mentales et matérielles, à l'origine de la destruction du tissu moral et social de nos sociétés.
                         il a pour finalité, de fonder la paix, le progrès humain et social sur la construction de nations éthiques.
-                        <a  href="#collapse1"  data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse1">
-                            Lire plus
-                        </a>
+
                     </div>
                     </p>
                 </div>
@@ -52,7 +49,7 @@
             <div class="row align-items-center justify-content-end how-it-works d-flex">
                 <div class="col-6 text-right">
                     <h3>Le groupe Serviteurs de Dieu pour nations consacrées</h3>
-                    <p>2-	IL réunit des hommes et des femmes déjà consacrés au service de Dieu,
+                    <p>Il réunit des hommes et des femmes déjà consacrés au service de Dieu,
                         qui veulent travailler ensemble pour préparer la consécration du Cameroun à l’Éternel
                         comme nation éthique.
                         <a  href="#collapse2"  data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse2">

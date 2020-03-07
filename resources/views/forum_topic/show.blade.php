@@ -1,5 +1,11 @@
- @extends('layout.forum')
-
+<?php
+if ( empty(auth()->user()->name)  ){
+    $layout = 'gestion_participants.layout_admin_p';
+}else{
+    $layout = 'admin.include.layout_admin';
+}
+?>
+@extends($layout)
 @section('content')
 
     <!-- Page Content -->
@@ -11,75 +17,81 @@
             <div class="col-lg-12 mt-4">
                 <div class="card">
 
-                    <div class="card-header">
-                        <h3>
+                    <div class="card-header" style="background-color: #20a5fd;">
+                        <h3 class="text-white">
                             {{ $topic->name }}
                             @if($topic->close==0)
-                                <span class="badge badge-dark">sujet ouvert</span>
+                                <span class="badge badge-dark">Sujet ouvert</span>
                             @else
-                                <span class="badge badge-dark">sujet fermer</span>
+                                <span class="badge badge-dark">Sujet fermer</span>
                             @endif
                         </h3>
                     </div>
                     <div class="card-header">
-                        @if(  1 /*auth()->user()->id*/ == $topic->user_id )
+                        @if( auth()->user()->id ?? session('comite_user.nom_comite') )
                             @if($topic->close==0)
-                                <a href="{{route('close_topic',$topic->id)}}" class="btn btn-dark">fermer le sujet</a>
+                                <a href="{{route('close_topic',$topic->id)}}" class="btn btn-dark">Fermer le sujet</a>
                             @else
-                                <a href="{{route('open_topic',$topic->id)}}" class="btn btn-dark">ouvrir le sujet</a>
+                                <a href="{{route('open_topic',$topic->id)}}" class="btn btn-dark">Ouvrir le sujet</a>
                             @endif
                         @endif
                     </div>
                     <div class="card-body">
-                        <p>{{ $topic->content }}</p>
-                    </div>
-                    <div class="card-footer">
-                        autheur :
-                        <span class="badge badge-primary">
-                            {{ $topic->user->name }}
-                        </span>
-                        category:
-                        <span class="badge badge-primary">
-                             {{ $topic->category->name }}
-                        </span>
+                        <div class="col-lg-12">    <p>{{ $topic->content }}</p> </div>
+                        <div class="col-lg-12">
+                            <p>
+                                Auteur :
+                                <span class="badge badge-primary">{{ $topic->user->name ?? session('comite_user.nom_comite') }}</span>
+                                Categorie:
+                                <span class="badge badge-primary">{{ $topic->category->name }}</span>
+                            </p>
+                        </div>
                     </div>
 
                 </div>
 
-                <h3 class="mt-4">Liste de messages :</h3>
+                <h3 class="mt-4">Liste des messages :</h3>
                 @foreach($messages as $message)
                 <div class="card mt-4" >
-                    <div class="card-header">
-                        <form action="{{ route('messages.destroy',$message->id)  }}" method="post">
-                            @csrf
-                            @method('DELETE')
-                            <button type="submit" class="btn btn-primary" onclick="return confirm('l\'element vas etre supprimer')">Supprimer</button>
-                        </form>
-                    </div>
-                    <div class="card-body">{{ $message->content  }} </div>
-                    <div class="card-footer">
-                        autheur :
+                    <div class="card-body">
+                        {!!   nl2br($message->content ) !!}
+                        <br>
+                        <br>
                         <span class="badge badge-primary">
-                            {{ $message->user->name  }} - ( {{ $message->user->email  }} )
+                                @if( $message->author_type == "chef_comite" )
+                                  <b>Par {{ \Illuminate\Support\Facades\DB::table('comite_soutiens')->where('idComite_soutien',$message->user->id)->first()->chef_groupe   }} </b>
+                                @else
+                                 <b>Par {{ $message->user->name  }} </b>
+                                @endif
                         </span>
+
+                        <div class="mt-3">
+                            <form action="{{ route('messages.destroy',$message->id)  }}" method="post">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('l\'element vas etre supprimer')"> <i class="fa fa-exclamation-triangle"></i> Supprimer</button>
+                            </form>
+                        </div>
                     </div>
+
                 </div>
                 @endforeach
 
                 <div class="card mt-4" >
                     <div class="card-header">
-                        <h3>repondre au sujet :</h3>
+                        <h3>Répondre au sujet :</h3>
                     </div>
                     <div class="card-body">
 
                         <form action="{{route('messages.store')}}" method="post">
                             @csrf
                             <div class="form-group">
+                                <input type="hidden" name="topic_id" VALUE="{{ $topic->id }}">
                                 <textarea name="content" id="" cols="30" rows="10" class="form-control"></textarea>
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-primary">
-                                    repondre
+                                    Répondre
                                 </button>
                             </div>
                         </form>
