@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 if ( empty(auth()->user()->name)  ){
     $layout = 'gestion_participants.layout_admin_p';
@@ -6,6 +7,9 @@ if ( empty(auth()->user()->name)  ){
 }
 ?>
 @extends($layout)
+=======
+@extends('admin.include.layout_admin')
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
 
 @section('content')
 

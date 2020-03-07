@@ -38,8 +38,12 @@ class MessageController extends Controller
     public function store(Request $request)
     {
         $request->merge([
+<<<<<<< HEAD
             'user_id' => auth()->user()->id ?? session('comite_user.idComite_soutien'),
             'author_type' => !empty(auth()->user()->id) ? "admin" : "chef_comite"
+=======
+            'user_id'=> auth()->user()->id ?? session('comite_user.idComite_soutien')
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
         ]);
         $this->validate($request,forumMessage::rules());
         forumMessage::create($request->all());

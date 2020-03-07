@@ -10,6 +10,17 @@
       <change afterPath="$PROJECT_DIR$/.idea/dictionaries/DaniPro.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change afterPath="$PROJECT_DIR$/VE/.idea/VE.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VE/.idea/dictionaries/DaniPro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VE/.idea/laravel-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VE/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VE/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VE/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VE/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VE/resources/views/admin/paiments.blade.php" afterDir="false" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
       <change afterPath="$PROJECT_DIR$/app/Http/Controllers/NewsController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Http/Controllers/chef_comitInscriptionparticipantController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Http/Controllers/showParticipantsController.php" afterDir="false" />
@@ -85,6 +96,112 @@
       <change beforePath="$PROJECT_DIR$/.idea/VE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VE.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/VE/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/app/Http/Controllers/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/app/Http/Controllers/authController.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/app/Http/Controllers/authController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/app/Http/Controllers/inscriptionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/app/Http/Controllers/inscriptionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/app/model/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/app/model/Admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/VE/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/VE/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/database/migrations/2019_11_05_153648_particpants.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/database/migrations/2019_11_05_153648_create_particpants_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/database/migrations/2019_11_05_154005_comite_soutien.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/database/migrations/2019_11_05_154005_create_comite_soutien_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/database/migrations/2019_11_05_154233_paiement.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/database/migrations/2019_11_05_154233_create_paiements_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/database/migrations/2019_11_12_112859_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/database/migrations/2019_11_12_112859_create_admin_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/VE/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/calendar.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/calendar.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/chart-apex.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/chart-apex.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/chart-d3.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/chart-d3.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/chart-flot.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/chart-flot.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/chart-js.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/chart-js.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/chart-morris.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/chart-morris.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/coming-soon.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/coming-soon.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/dashboard-v2.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/dashboard-v2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/dashboard-v3.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/dashboard-v3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/email-compose.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/email-compose.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/email-inbox.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/email-inbox.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/form-editable.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/form-editable.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/form-multiple-upload.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/form-multiple-upload.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/form-plugins.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/form-plugins.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/form-slider-switcher.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/form-slider-switcher.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/form-summernote.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/form-summernote.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/form-wizards-validation.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/form-wizards-validation.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/form-wizards.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/form-wizards.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/gallery-v2.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/gallery-v2.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/gallery.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/gallery.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/login-v2.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/login-v2.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/map-google.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/map-google.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/map-vector.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/map-vector.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/page-with-two-sidebar.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/page-with-two-sidebar.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/profile.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/profile.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/render.highlight.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/render.highlight.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/table-manage-autofill.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/table-manage-autofill.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/table-manage-buttons.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/table-manage-buttons.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/table-manage-colreorder.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/table-manage-colreorder.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/table-manage-combine.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/table-manage-combine.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/table-manage-default.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/table-manage-default.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/table-manage-fixed-columns.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/table-manage-fixed-columns.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/table-manage-fixed-header.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/table-manage-fixed-header.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/table-manage-keytable.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/table-manage-keytable.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/table-manage-responsive.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/table-manage-responsive.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/table-manage-rowreorder.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/table-manage-rowreorder.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/table-manage-scroller.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/table-manage-scroller.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/table-manage-select.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/table-manage-select.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/timeline.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/timeline.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/ui-modal-notification.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/ui-modal-notification.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/ui-tree.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/ui-tree.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/demo/widget.demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/demo/widget.demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/js/theme/default.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/js/theme/default.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/lib/animate/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/lib/animate/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/lib/animate/animate.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/lib/animate/animate.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/lib/easing/easing.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/lib/easing/easing.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/lib/ionicons/fonts/ionicons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/lib/ionicons/fonts/ionicons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/plugins2/bootstrap-daterangepicker/daterangepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/plugins2/bootstrap-daterangepicker/daterangepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/plugins2/bootstrap-daterangepicker/daterangepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/plugins2/bootstrap-daterangepicker/daterangepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/plugins2/bootstrap-select/dist/css/bootstrap-select.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/plugins2/bootstrap-select/dist/css/bootstrap-select.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/plugins2/bootstrap-select/dist/js/bootstrap-select.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/plugins2/bootstrap-select/dist/js/bootstrap-select.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/plugins2/pdfmake/build/vfs_fonts.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/plugins2/pdfmake/build/vfs_fonts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/public/plugins2/smartwizard/dist/js/jquery.smartWizard.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/public/plugins2/smartwizard/dist/js/jquery.smartWizard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/js/components/ExampleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/js/components/ExampleComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/sass/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/accueil.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/accueil.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/admin/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/admin/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/admin/article.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/admin/article.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/admin/comites.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/admin/comites.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/admin/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/admin/include/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/admin/include/head.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/admin/include/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/admin/include/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/admin/include/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/admin/include/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/admin/listeadmin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/admin/listeadmin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/admin/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/admin/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/admin/participants.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/admin/participants.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/form/brlln" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/form/brlln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/form/creationCS.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/form/creationCS.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/form/inscriptionCC.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/form/inscriptionCC.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/form/inscriptionCS.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/form/inscriptionCS.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/funds.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/funds.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/include/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/include/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/include/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/include/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/include/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/include/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/layout/adminLayout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/layout/adminLayout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/layout/appLayout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/layout/appLayout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/layout/loginLayout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/layout/loginLayout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/resources/views/partials/error.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/resources/views/partials/error.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/VE/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/VE/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VE/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/VE/yarn.lock" afterDir="false" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/authController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/authController.php" afterDir="false" />
@@ -102,9 +219,13 @@
       <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_05_153648_particpants.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_11_05_153648_particpants.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_05_154005_comite_soutien.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_11_05_154005_comite_soutien.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_05_154233_paiement.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_11_05_154233_paiement.php" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_23_184503_create_forum_topics_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_11_23_184503_create_forum_topics_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_23_184536_create_forum_messages_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_11_23_184536_create_forum_messages_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_23_190707_add_forum_keys.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_11_23_190707_add_forum_keys.php" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_23_184536_create_forum_messages_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_11_23_184536_create_forum_messages_table.php" afterDir="false" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
       <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/img/stack-of-books-vintage-books-book-books.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/img1.jpg" afterDir="false" />
@@ -129,7 +250,10 @@
       <change beforePath="$PROJECT_DIR$/resources/views/include/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/include/footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/include/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/include/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/include/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/include/nav.blade.php" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/resources/views/layout/forum.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/forum.blade.php" afterDir="false" />
+=======
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
       <change beforePath="$PROJECT_DIR$/resources/views/more1.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/more1.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/more2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/more2.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/more3.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/more3.blade.php" afterDir="false" />
@@ -247,6 +371,20 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="MySQL for 5.1 - valeurseternelles@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
+<<<<<<< HEAD
+=======
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - valeurseternelles@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - valeurseternelles@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="valeurseternelles: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
     </expand>
     <select />
   </component>
@@ -259,42 +397,72 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/resources/views/forum_topic/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
               <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/forum/TopicController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-564">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/resources/views/News/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-line="7" selection-end-column="17" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/forum/MessageController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/include/layout_admin.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="26">
               <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NewsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="49" column="11" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/resources/views/forum_category/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
               <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+=======
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_16_135733_create_news_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/resources/views/layout/appLayout.blade.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -304,42 +472,92 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
               <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+=======
+        <entry file="file://$PROJECT_DIR$/resources/views/forum_topic/show.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="53" column="169" selection-start-line="53" selection-start-column="169" selection-end-line="53" selection-end-column="169" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/chef_comitInscriptionparticipantController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="10" column="48" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="48" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/forum/CategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
               <caret line="84" column="64" selection-start-line="84" selection-start-column="64" selection-end-line="84" selection-end-column="64" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_05_154005_comite_soutien.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="16" column="51" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="51" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/resources/views/forum_messages/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
               <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+=======
+        <entry file="file://$PROJECT_DIR$/database/seeds/NewsTableSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding>
+                <element signature="e#7#38#0#PHP" expanded="true" />
+              </folding>
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/resources/views/forum_topic/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="780">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/model/comiteSoutien.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/forum/MessageController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
               <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+=======
+        <entry file="file://$PROJECT_DIR$/database/seeds/ComiteSoutiensTableSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="51" />
+              <folding>
+                <element signature="e#7#38#0#PHP" expanded="true" />
+              </folding>
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
             </state>
           </provider>
         </entry>
@@ -363,8 +581,11 @@
       <find>&quot;12435&quot;</find>
       <find>input</find>
       <find>new</find>
+<<<<<<< HEAD
       <find>mak</find>
       <find>contri</find>
+=======
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
     </findStrings>
     <replaceStrings>
       <replace>4-02-2020</replace>
@@ -384,12 +605,19 @@
       <list>
         <option value="$PROJECT_DIR$/database/seeds/comiteSoutiensTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/Souscriptions.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/database/migrations/2019_12_16_135734_create_souscription_table.php" />
+=======
+        <option value="$PROJECT_DIR$/database/migrations/2019_11_05_154005_comite_soutien.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_12_16_135734_create_souscription_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_11_23_184536_create_forum_messages_table.php" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
         <option value="$PROJECT_DIR$/database/seeds/ForumTablesSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/PaiementsTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/ParticipantsTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/ForumCategoriesTablesSeeder.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/database/seeds/ForumTopicsTablesSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/NewsTablesSeeder.php" />
@@ -425,6 +653,20 @@
         <option value="$PROJECT_DIR$/resources/views/forum_topic/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/forum_topic/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/forum/CategoryController.php" />
+=======
+        <option value="$PROJECT_DIR$/database/seeds/ForumMessagesTablesSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/ForumTopicsTablesSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/ComiteSoutiensTableSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" />
+        <option value="$PROJECT_DIR$/resources/views/News/index.blade.php" />
+        <option value="$PROJECT_DIR$/database/seeds/NewsTablesSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/NewsTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/forum/MessageController.php" />
+        <option value="$PROJECT_DIR$/app/model/comiteSoutien.php" />
+        <option value="$PROJECT_DIR$/resources/views/forum_topic/show.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_12_16_135733_create_news_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/NewsController.php" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
       </list>
     </option>
   </component>
@@ -528,11 +770,19 @@
       <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
     </include_path>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1102" />
     <option name="y" value="187" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="22" />
+    <option name="width" value="974" />
+    <option name="height" value="1057" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
   </component>
   <component name="ProjectId" id="1U1oG5LJsBjIb9UPjcLny89TX73" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -543,8 +793,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
+=======
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -574,9 +827,13 @@
               <item name="ve" type="b2602c69:ProjectViewProjectNode" />
               <item name="ve" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
               <item name="forum" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
             </path>
             <path>
               <item name="ve" type="b2602c69:ProjectViewProjectNode" />
@@ -592,6 +849,7 @@
             <path>
               <item name="ve" type="b2602c69:ProjectViewProjectNode" />
               <item name="ve" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -628,11 +886,20 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="forum_topic" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="seeds" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -642,11 +909,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+<<<<<<< HEAD
     <property name="DatabaseDriversLRU" value="mysql&#10;oracle&#10;sqlserver&#10;hsqldb" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
+=======
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -659,7 +933,11 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+=======
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -748,6 +1026,7 @@
       <workItem from="1581924241803" duration="3666000" />
       <workItem from="1581945737904" duration="2908000" />
       <workItem from="1582727045975" duration="3688000" />
+<<<<<<< HEAD
       <workItem from="1582993920605" duration="17968000" />
       <workItem from="1583022974685" duration="153000" />
       <workItem from="1583165861393" duration="2258000" />
@@ -756,11 +1035,18 @@
       <workItem from="1583277416155" duration="1965000" />
       <workItem from="1583375158864" duration="1361000" />
       <workItem from="1583579209637" duration="16555000" />
+=======
+      <workItem from="1582993920605" duration="17351000" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="44193000" />
+=======
+    <option name="totallyTimeSpent" value="17351000" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -772,6 +1058,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
@@ -808,6 +1095,43 @@
       <window_info anchor="right" id="Database" order="7" weight="0.14925373" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+=======
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="DB Browser" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" weight="0.32995737" />
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17537314" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Gradle View" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Quick Notes" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -880,6 +1204,7 @@
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1582746465793" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/model/paiement.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -928,12 +1253,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="51" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/Souscriptions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VE/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="311" column="20" selection-start-line="311" selection-start-column="20" selection-end-line="311" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/ForumTablesSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
           <folding>
             <element signature="e#7#38#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/resources/views/admin/contribution.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1003,10 +1349,64 @@
           <caret line="115" column="10" selection-start-line="115" selection-start-column="10" selection-end-line="115" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_23_184536_create_forum_messages_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VE/vendor/laravel/framework/src/Illuminate/Database/Concerns/BuildsQueries.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="61" column="42" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/PaiementsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/ParticipantsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/ForumCategoriesTablesSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/ForumMessagesTablesSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/resources/views/gestion_participants/add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4339">
@@ -1039,10 +1439,51 @@
           <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
           <folding>
             <element signature="e#7#52#0#PHP" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/News/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/News/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/^IDMDownloads/Others/news-image.bin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14860" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UserTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/ForumTopicsTablesSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/resources/views/gestion_participants/inscriptionParticipants.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1169,11 +1610,128 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/news.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding>
+            <element signature="e#550#580#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="188" column="39" selection-start-line="188" selection-start-column="25" selection-end-line="188" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_16_135734_create_souscription_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_23_184443_create_forum_categories_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_23_184503_create_forum_topics_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_05_153648_particpants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_05_154233_paiement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/forum/TopicController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-564">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/ComiteSoutiensTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="51" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/comiteSoutien.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/NewsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_05_154005_comite_soutien.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/chef_comitInscriptionparticipantController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/forum_messages/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/forum/MessageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/forum_topic/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="182">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
@@ -1281,5 +1839,26 @@
         </settings>
       </state>
     </states>
+=======
+        <state relative-caret-position="450">
+          <caret line="53" column="169" selection-start-line="53" selection-start-column="169" selection-end-line="53" selection-end-column="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_16_135733_create_news_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NewsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="49" column="11" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
   </component>
 </project>

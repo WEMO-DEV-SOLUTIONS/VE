@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @extends('gestion_participants.layout_admin_p')
+=======
+@extends('admin.include.layout_admin')
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
 
 @section('content')
 
@@ -80,7 +84,11 @@
 														<div class="alert alert-danger m-b-0">
 															<i class="fa fa-exclamation-circle fa-7x"></i>
 															<h3>Etes-vous sûr?</h3>
+<<<<<<< HEAD
 															<h5>Vous allez supprimer ce Participant!</h5>
+=======
+															<h5>Vous allez supprimer cet élément!</h5>
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
 														</div>
 													</div>
 													<div class="modal-footer">

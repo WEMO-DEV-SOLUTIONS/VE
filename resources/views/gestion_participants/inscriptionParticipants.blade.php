@@ -29,7 +29,11 @@
                                    <input type="text"  name="comite" value="{{ session('comite_user.nom_comite') }}">
 
                                     <br>
+<<<<<<< HEAD
                                     <button type="submit" class="btn btn-primary">Inscrire </button>
+=======
+                                    <button type="submit" class="btn btn-primary">S'inscrire </button>
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
                                   </form>
 
                         </div>

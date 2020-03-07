@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @extends('gestion_participants.layout_admin_p')
+=======
+@extends('admin.include.layout_admin')
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
 
 @section('content')
 
@@ -67,7 +71,11 @@ paiements
 										<td>{{$paiement->email}}</td>
 										<td>{{$paiement->numero}}</td>
 										<td>{{$paiement->Date_paiement}}</td>
+<<<<<<< HEAD
 										<td>{{ number_format($paiement->montant)}} FCFA</td>
+=======
+										<td>{{ number_format($paiement->Montant)}} FCFA</td>
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
 										<td>{{$paiement->nom_comite}}</td>
 										<td>{{$paiement->mode_paiement}}</td>
                                         <td>
