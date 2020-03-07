@@ -157,21 +157,12 @@
 
 							@foreach ($paiement ?? '' as $key => $participant)
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
 									<tr class="gradeA">
 										<td>{{$participant->nom}}</td>
 										<td>{{$participant->prenom}}</td>
 										<td>{{$participant->email}}</td>
 										<td>{{$participant->numero}}</td>
-<<<<<<< HEAD
 										<td>{{$participant->montant}}</td>
-=======
-										<td>{{$participant->Montant}}</td>
->>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
                                         <td>{{$participant->Date_paiement}}</td>
                                         <td>{{$participant->t_versement}}</td>
                                         <td>
@@ -206,11 +197,7 @@
 									@endforeach
                             <tr>
                                 <td>TOTAL</td>
-<<<<<<< HEAD
                                 <td><b>{{ $total }} </b>FCFA</td>
-=======
-                                <td><b>{{ $total }}</b></td>
->>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
                             </tr>
 
 								</tbody>
