@@ -54,12 +54,8 @@ class ComiteSoutiensTableSeeder extends Seeder
                 'lieu'=> "Awae",
                 'ville'=> "Yaounde",
                 'rencontre'=> "Lundi",
-<<<<<<< HEAD
                 'date_debut'=> "2020-02-4",
                 'heure' => "15:20",
-=======
-                'date_debut'=> "2020-02-4 15:10",
->>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
                 'code_comite'=> "XXX3",
                 'chef_groupe'=> "johndoe3@gmail.com",
                 'password'=> bcrypt("12435"),
@@ -71,12 +67,8 @@ class ComiteSoutiensTableSeeder extends Seeder
                 'lieu'=> "Awae",
                 'ville'=> "Yaounde",
                 'rencontre'=> "Lundi",
-<<<<<<< HEAD
                 'date_debut'=> "2020-02-4",
                 'heure' => "15:20",
-=======
-                'date_debut'=> "2020-02-4 15:10",
->>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
                 'code_comite'=> "XXX4",
                 'chef_groupe'=> "johndoe4@gmail.com",
                 'password'=> bcrypt("12435"),

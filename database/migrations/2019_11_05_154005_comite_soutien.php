@@ -21,10 +21,7 @@ class ComiteSoutien extends Migration
             $table->string('ville');
             $table->string('rencontre');
             $table->date('date_debut');
-<<<<<<< HEAD
             $table->time('heure');
-=======
->>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
             $table->string('code_comite');
             $table->string('chef_groupe');
             $table->string('password');
