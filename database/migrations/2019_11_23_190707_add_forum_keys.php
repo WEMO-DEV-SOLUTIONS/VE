@@ -13,19 +13,24 @@ class AddForumKeys extends Migration
      */
     public function up()
     {
-        /*
-         * Schema::table('forum_topics', function (Blueprint $table) {
+
+        Schema::table('forum_topics', function (Blueprint $table) {
             $table->foreign('user_id')
                 ->references('id')
-                ->on('users');
+                ->on('users')
+            ->onDelete('CASCADE');
             $table->foreign('forum_category_id')
                 ->references('id')
-                ->on('forum_categories');
+                ->on('forum_categories')
+                ->onDelete('CASCADE');
         });
+
         Schema::table('forum_messages', function (Blueprint $table) {
-            $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('user_id')
+                ->references('id')
+                ->on('users')
+                ->onDelete('CASCADE');
         });
-        */
     }
 
     /**

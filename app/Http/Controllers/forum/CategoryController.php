@@ -43,7 +43,7 @@ class CategoryController extends Controller
             'description' =>'required',
         ]);
         forumCategory::create($request->all());
-        return  back()->with('success','Category de forum enregistrer avec succes');
+        return  back()->with('success','Categorie de forum enregistrer avec succes');
     }
 
     /**
@@ -82,7 +82,7 @@ class CategoryController extends Controller
             'description' =>'required',
         ]);
         $category->update($request->all());
-        return  back()->with('success','Category de forum enregistrer avec succes');
+        return  back()->with('success','Categorie de forum Mise à jour avec succes');
     }
 
     /**
@@ -94,6 +94,6 @@ class CategoryController extends Controller
     public function destroy(forumCategory $category)
     {
         $category->delete();
-        return  back()->with('success','Category de forum enregistrer avec succes');
+        return  back()->with('success','Categorie de forum Supprimer avec succes');
     }
 }

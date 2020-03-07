@@ -17,8 +17,9 @@ class CreateForumTopicsTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->longText('content');
-            $table->BigInteger('user_id');
-            $table->BigInteger('forum_category_id');
+            $table->unsignedBigInteger('user_id');
+            $table->unsignedBigInteger('forum_category_id');
+            $table->integer('close')->default(0);
             $table->timestamps();
         });
     }

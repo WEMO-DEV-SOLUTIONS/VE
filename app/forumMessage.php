@@ -11,6 +11,7 @@ class forumMessage extends Model
         'user_id',
         'topic_id',
         'close',
+        'author_type',
     ];
 
     static function rules(){

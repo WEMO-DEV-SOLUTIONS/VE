@@ -20,7 +20,11 @@ class NewsController extends Controller
      */
     public function index()
     {
+<<<<<<< HEAD
+        $news = News::all()->where('auteur', '=', auth()->user()->name ?? session('comite_user.nom_comite') );
+=======
         $news = News::all()->where('auteur', '=', auth()->user()->name ?? session('comite_user.nom_comite'));
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
         return view('News.index', compact('news'));
     }
 

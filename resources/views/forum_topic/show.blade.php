@@ -1,5 +1,16 @@
+<<<<<<< HEAD
+<?php
+if ( empty(auth()->user()->name)  ){
+    $layout = 'gestion_participants.layout_admin_p';
+}else{
+    $layout = 'admin.include.layout_admin';
+}
+?>
+@extends($layout)
+=======
  @extends('admin.include.layout_admin')
 
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
 @section('content')
 
     <!-- Page Content -->
@@ -48,9 +59,17 @@
                 @foreach($messages as $message)
                 <div class="card mt-4" >
                     <div class="card-body">
+<<<<<<< HEAD
+                        {!!   nl2br($message->content ) !!}
+                        <br>
+                        <br>
+                        <span class="badge badge-primary">
+                                @if( $message->author_type == "chef_comite" )
+=======
                         {{ $message->content  }}
                         <span class="badge badge-primary">
                                 @if( !empty(\Illuminate\Support\Facades\DB::table('comite_soutiens')->where('idComite_soutien',$message->user->id)->first()->chef_groupe ) )
+>>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
                                   <b>Par {{ \Illuminate\Support\Facades\DB::table('comite_soutiens')->where('idComite_soutien',$message->user->id)->first()->chef_groupe   }} </b>
                                 @else
                                  <b>Par {{ $message->user->name  }} </b>
