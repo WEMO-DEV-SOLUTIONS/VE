@@ -1,9 +1,4 @@
-<?php
-if ( empty(auth()->user()->name)  ){
-    $layout = 'gestion_participants.layout_admin_p';
-}else{
-    $layout = 'admin.include.layout_admin';
-}
+@extends('layout/loginLayout')
 
 @section('content')
 
