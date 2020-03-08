@@ -4,7 +4,7 @@ if ( empty(auth()->user()->name)  ){
 }else{
     $layout = 'admin.include.layout_admin';
 }
-
+?>
 @section('content')
 
 	<!-- begin #page-loader -->
