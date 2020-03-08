@@ -20,37 +20,29 @@ class ComiteSoutiensTableSeeder extends Seeder
                 'lieu'=> "Awae",
                 'ville'=> "Yaounde",
                 'rencontre'=> "Lundi",
-<<<<<<< HEAD
                 'date_debut'=> "2020-02-4",
                 'heure' => "15:20",
-=======
-                'date_debut'=> "2020-02-4 15:10",
->>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
                 'code_comite'=> "XXX1",
                 'chef_groupe'=> "johndoe1@gmail.com",
                 'password'=> bcrypt("12435"),
                 'created_at'=> now(),
             ],
             [
-                'nom_comite'=> 'Justice2',
+                'nom_comite'=> 'Paix',
                 'categorie'=> 'comite de soutiens virtuel',
                 'lieu'=> "Awae",
                 'ville'=> "Yaounde",
                 'rencontre'=> "Lundi",
-<<<<<<< HEAD
                 'date_debut'=> "2020-02-4",
                 'heure' => "15:20",
-=======
-                'date_debut'=> "2020-02-4 15:10",
->>>>>>> 4900b5239fcd83105346cc0babab3df0bf430e1f
                 'code_comite'=> "XXX2",
                 'chef_groupe'=> "johndoe2@gmail.com",
                 'password'=> bcrypt("12435"),
                 'created_at'=> now(),
             ],
             [
-                'nom_comite'=> 'Justice3',
-                'categorie'=> 'comite de soutiens virtuel',
+                'nom_comite'=> 'Vérité',
+                'categorie'=> 'comite de soutiens Physique',
                 'lieu'=> "Awae",
                 'ville'=> "Yaounde",
                 'rencontre'=> "Lundi",
@@ -62,7 +54,7 @@ class ComiteSoutiensTableSeeder extends Seeder
                 'created_at'=> now(),
             ],
             [
-                'nom_comite'=> 'Justice4',
+                'nom_comite'=> 'Amour',
                 'categorie'=> 'comite de soutiens virtuel',
                 'lieu'=> "Awae",
                 'ville'=> "Yaounde",
@@ -74,7 +66,32 @@ class ComiteSoutiensTableSeeder extends Seeder
                 'password'=> bcrypt("12435"),
                 'created_at'=> now(),
             ],
-
+            [
+                'nom_comite'=> 'Lumière',
+                'categorie'=> 'comite de soutiens virtuel',
+                'lieu'=> "Awae",
+                'ville'=> "Yaounde",
+                'rencontre'=> "Lundi",
+                'date_debut'=> "2020-02-4",
+                'heure' => "15:20",
+                'code_comite'=> "XXX5",
+                'chef_groupe'=> "johndoe5@gmail.com",
+                'password'=> bcrypt("12435"),
+                'created_at'=> now(),
+            ],
+            [
+                'nom_comite'=> 'Misericorde',
+                'categorie'=> 'comite de soutiens virtuel',
+                'lieu'=> "Awae",
+                'ville'=> "Yaounde",
+                'rencontre'=> "Lundi",
+                'date_debut'=> "2020-02-4",
+                'heure' => "15:20",
+                'code_comite'=> "XXX6 ",
+                'chef_groupe'=> "johndoe6@gmail.com",
+                'password'=> bcrypt("12435"),
+                'created_at'=> now(),
+            ]
         ];
         
         foreach ($data as $datum){

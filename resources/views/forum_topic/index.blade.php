@@ -4,7 +4,7 @@ if ( empty(auth()->user()->name)  ){
 }else{
     $layout = 'admin.include.layout_admin';
 }
-
+?>
 @extends($layout)
 
 @section('content')
