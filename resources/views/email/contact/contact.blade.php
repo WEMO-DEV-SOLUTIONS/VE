@@ -1,5 +1,5 @@
 @component('mail::message')
-# Introduction
+ #{{ $data['subject'] }}
 
 The body of your message. 
 

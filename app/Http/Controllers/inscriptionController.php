@@ -344,7 +344,6 @@ class inscriptionController extends Controller
            'subject' => 'required',
            'email' => 'required'
         ]);
-
        Mail::to('nationspourlEternel@gmail.com')->send(new ContactMail($data));
        return redirect()->back()->with('success', 'Votre mail a été envoyer avec success');
    }
