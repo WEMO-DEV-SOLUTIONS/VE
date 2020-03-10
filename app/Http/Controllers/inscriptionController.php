@@ -235,18 +235,18 @@ class inscriptionController extends Controller
             return back()->with('danger', 'Entre votre code ou votre nom');
         }
 
-        if($ValidPay)
+        if($ValidPay && empty($Valide) )
         {
 
             return redirect()->route('soutienFinancier')->with('valid', $ValidPay);
         }
-        elseif (empty($code_paiement)) {
-            if ($Valid) {
+       
+            elseif ($Valid && empty($Validepay) ) {
                 return redirect()->route('soutienFinancier')->with('valid', $Valid);
             } else {
                 return redirect()->back()->with('danger', 'Paiment non enregistre');
             }
-        }
+        
     }
 
     public function makePayment(Request $request)
