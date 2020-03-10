@@ -117,7 +117,7 @@
 
                       <aside class="single_sidebar_widget popular_post_widget " style="font-size: 14px;border-radius: 1px;width: 23.5rem;">
 
-                          <img src="{{ asset('img/comités de soutien.png') }}" alt="" height="200" width="380" style="margin-left: -1px;">
+                          <img src="{{ asset('img/soutien.png') }}" alt="" height="200" width="380" style="margin-left: -1px;">
                           <a  href="#collapse1"  data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse1">
                               <strong> <center> <h5 class="mt-4" style="padding-left: auto;">
                         <b>INFORMATIONS D'INSCRIPTION DANS UN COMITE DE SOUTIEN</b></h5></center> </strong>

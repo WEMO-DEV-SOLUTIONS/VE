@@ -25,7 +25,7 @@
 
                      </div>
                      <br>
-                            <img src="{{ asset('img/le comité de soutien new 2.png') }}" alt="" height="" width="550">
+                            <img src="{{ asset('img/soutiennew.png') }}" alt="" height="" width="550">
                          {{-- changer limage --}}
                       <br>
                       <br>
