@@ -28,12 +28,12 @@
     <section class="contact bg-white">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12"> 
                     <div class="row">
                         <div class="col-md-7">
                             <form class="form-a contactForm" action="{{ route('send') }}" method="post" role="form">
                                 @csrf
-                                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                                <div id="sendmessage">Votre Message a été envoyer. Merci !</div>
                                 <div id="errormessage"></div>
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
@@ -50,7 +50,7 @@
                                     </div>
                                     <div class="col-md-12 mb-3">
                                         <div class="form-group">
-                                            <input type="url" name="subject" class="form-control form-control-lg form-control-a" placeholder="Sujet" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+                                            <input type="text" name="subject" class="form-control form-control-lg form-control-a" placeholder="Sujet" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
                                             <div class="validation"></div>
                                         </div>
                                     </div>
