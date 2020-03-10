@@ -14,7 +14,7 @@
     <link href="{{ asset('template/vendor/bootstrap/css/bootstrap.min.css')  }}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="{{ asset('template/css/modern-business.css')  }}" rel="stylesheet">
+    <link href="{{ asset('template/css/modern-business.css')  }}" rel="stylesheet"> 
 
 </head>
 

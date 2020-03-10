@@ -138,7 +138,7 @@
 
         <div class="col-sm-6"  style="margin-top:-127px">
             <div class="card-img">
-              <img src="img/qu'est ce nation éthique.png" alt="" height="419" width="553">
+              <img src="img/ethique.png" alt="kokoko" height="419" width="553">
             </div>
         </div>
 

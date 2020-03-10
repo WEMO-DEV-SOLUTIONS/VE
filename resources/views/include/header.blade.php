@@ -25,10 +25,6 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
-    <style>
-
-    </style>
-
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/popper/popper.min.js"></script>
@@ -43,6 +39,8 @@
   <script src="main.js"></script>
 
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('img/logo.png')}}" />
+
+    
 
 </head>
 
