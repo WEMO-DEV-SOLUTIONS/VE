@@ -16,6 +16,7 @@ use App\model\paiement;
 use App\News;
 use App\Souscriptions;
 use Illuminate\Support\Facades\Route;
+
 Route::get('/layout', function (){
     return view('admin.include.layout_admin');
 });
@@ -187,4 +188,8 @@ Route::get('/newslater',  function (){
     return view('news', compact('news'));
 })->name('newslater');
 Route::resource('news', 'NewsController');
+
+Route::get("/home-test",function (){
+    return view('tests.accueil');
+});
 
