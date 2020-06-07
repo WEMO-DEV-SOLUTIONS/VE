@@ -1,5 +1,5 @@
 
-<footer class="container-fluid" style="width:1140px;margin-left: 104px;background-image: linear-gradient(white,#b0d2f2);margin-top: 69px;padding-bottom: 1px;">
+<footer class="container" style="width:1140px;background-image: linear-gradient(white,#b0d2f2);margin-top: 69px;padding-bottom: 1px;">
     <div class="container">
       <div class="row">
           <div class="col-md-4 my-auto" >

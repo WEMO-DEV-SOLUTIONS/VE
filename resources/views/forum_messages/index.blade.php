@@ -12,7 +12,7 @@ if ( empty(auth()->user()->name)  ){
 
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container-fluid">
 
         <div class="row">
 

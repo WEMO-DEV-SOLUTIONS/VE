@@ -9,7 +9,7 @@ if ( empty(auth()->user()->name)  ){
 @section('content')
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container-fluid">
 
         <div class="row">
 

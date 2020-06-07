@@ -39,7 +39,7 @@
 
 
         <div class="bg-video" style="background-color:#b3a2a2;">
-          <video src="video/video.mp4" height="450" width="1000" style="margin-left: 80px;"  controls ></video>
+          <video src="video/video.mp4"  style="width: 100%"  controls ></video>
         </div>
       <a href="https://nationspourleternel.com/home?status=www.valeurseternel.org VE"> <i class="fa fa-share"></i></a>
 

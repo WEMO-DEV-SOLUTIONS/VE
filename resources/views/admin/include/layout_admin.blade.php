@@ -112,7 +112,7 @@
 <!-- begin #header -->
 <div id="header" class="header navbar-default">
     <!-- begin navbar-header -->
-    <div class="navbar-header">
+    <div class="navbar-brand">
 
         <h3 style="margin-top:12px; margin-left:2px;"><b>Nations pour l'eternel</b></h3>
 
@@ -121,14 +121,7 @@
 
     <!-- begin header-nav -->
     <ul class="navbar-nav navbar-right">
-        <li class="navbar-form">
-            <form action="#" method="POST" name="search">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Recherche" />
-                    <button type="submit" class="btn btn-search"><i class="fa fa-search"></i></button>
-                </div>
-            </form>
-        </li>
+
 
         <li class="dropdown navbar-user">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -136,7 +129,6 @@
             </a>
             <div class="dropdown-menu dropdown-menu-right">
                 <a href="{{route('logout')}}" class="dropdown-item">Deconnexion</a>
-                <div class="dropdown-divider"></div>
             </div>
         </li>
     </ul>
@@ -147,24 +139,17 @@
 <!-- begin #sidebar -->
 <div id="sidebar" class="sidebar">
     <!-- begin sidebar scrollbar -->
-    <div data-scrollbar="true" data-height="100%">
-        <!-- begin sidebar user -->
-        <ul class="nav">
-            <li class="nav-profile">
-                <a href="javascript:;" data-toggle="nav-profile">
-                    <div class="cover with-shadow"></div>
-                    <div class="info">
+    <div data-scrollbar="true" >
 
-                      {{ auth()->user()->email ?? session('comite_user.chef_groupe') }}
-
-                    </div>
-                </a>
-            </li>
-
-        </ul>
         <!-- end sidebar user -->
         <!-- begin sidebar nav -->
         <ul class="nav">
+            <li class="has-sub active">
+                <a>
+                    <i class="fa fa-user-circle"></i>
+                    <span><h4>{{ auth()->user()->email ?? session('comite_user.chef_groupe') }}</h4></span>
+                </a>
+            </li>
             <li class="nav-header">Navigation</li>
             @if (auth()->user())
 

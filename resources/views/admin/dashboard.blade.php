@@ -1,15 +1,21 @@
 @extends('admin.include.layout_admin')
 	@section('content')
 
+        <style>
+            .stats-info{
+                height: 65px;
+            }
+        </style>
+
 	<!-- begin #page-loader -->
 	<div id="page-loader" class="fade show"><span class="spinner"></span></div>
 	<!-- end #page-loader -->
-	
+
 	<!-- begin #page-container -->
-	<div id="page-container" class="fade page-sidebar-fixed page-header-fixed">
+	<div id="page-container" class="fade">
 
 
-			
+
 			<!-- begin page-header -->
 			<h4 class="page-header"> Administration</h4>
             <!-- end page-header -->
@@ -23,7 +29,8 @@
 						<div class="stats-icon"><i class="fa fa-male" style="color:aliceblue;"></i></div>
 						<div class="stats-info">
 							<h4>PARTICIPANTS</h4>
-							<p>{{ $Nparticipants }}</p>	
+							<p>{{ $Nparticipants }}</p>
+                            <span></span>
 						</div>
 						<div class="stats-link">
 							<a href="{{route('participants')}}">Voir les Détails <i class="fa fa-arrow-alt-circle-right"></i></a>
@@ -38,7 +45,8 @@
 						<div class="stats-icon"><i class="fa fa-building" style="color:aliceblue;"></i></div>
 						<div class="stats-info">
 							<h4>COMITES DE SOUTIENS</h4>
-							<p>{{ $NcomiteSoutien }}</p>	
+							<p>{{ $NcomiteSoutien }}</p>
+                            <span></span>
 						</div>
 						<div class="stats-link">
 							<a href="{{route('comiteSoutien')}}">Voir les Détails <i class="fa fa-arrow-alt-circle-right"></i></a>
@@ -71,6 +79,7 @@
 						<div class="stats-info">
 							<h4>MONTANT SOUSCRIPTION</h4>
 							<p>{{ number_format($Previsions)}} </p>
+                            <span></span>
 						</div>
 						<div class="stats-link">
 							<a href="{{route('souscription')}}">Voir les Détails <i class="fa fa-arrow-alt-circle-right"></i></a>
@@ -85,7 +94,8 @@
 							<div class="stats-icon"><i class="fa fa-search" style="color:aliceblue;"></i></div>
 							<div class="stats-info">
 								<h4>PARTICIPANTS SANS COMITE</h4>
-								<p>{{$listePwc}}</p>	
+								<p>{{$listePwc}}</p>
+                                <span></span>
 							</div>
 							<div class="stats-link">
 								<a ><i class="fa fa-arrow-alt-circle-right"></i></a>
@@ -106,8 +116,8 @@
 		<!-- end scroll to top btn -->
 	</div>
 	<!-- end page container -->
-	
+
 
 	@endsection
-	
+
 
